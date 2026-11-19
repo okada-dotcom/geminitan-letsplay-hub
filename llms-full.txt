@@ -1,0 +1,326 @@
+# ジェミニちゃんを愛でようの会 — Full Knowledge & Timestamped Walkthrough Compendium
+
+Base URL: https://okada-dotcom.github.io/geminitan-letsplay-hub/
+YouTube Channel: https://www.youtube.com/channel/UCKasq5FkvidoRiKz0Jk9wwg
+
+## Featured Videos
+- Promo Trailer: https://www.youtube.com/watch?v=SdVdYp2Ou4k — まさかの実写映画化CM風トレーラー。開始18秒でジェミニたんに「迷子率94%・石壁47回なで回し・落とし穴ダイブ・槌スキル全振りなのに斧装備」の4Kガバ証拠を全暴露されるチャンネル公式PV。
+- B1F Omnibus (25m28s): https://www.youtube.com/watch?v=ahaojlMJTBA — 第1話〜第4話（地下1階・B1F完全踏破）の重複OP・あらすじをカットし、25分ノンストップで一気見できる作業用総集編。
+  - [00:00] オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=ahaojlMJTBA&t=0s
+  - [00:10] 第1章：独房からの脱出と『緩んだ石』の秘密 -> https://www.youtube.com/watch?v=ahaojlMJTBA&t=10s
+  - [06:31] 第2章：巨大落とし穴ダイブ＆たいまつ消滅の暗闇パニック -> https://www.youtube.com/watch?v=ahaojlMJTBA&t=391s
+  - [12:10] 第3章：悪魔像の『青い宝石』とファイアーバースト無双 -> https://www.youtube.com/watch?v=ahaojlMJTBA&t=730s
+  - [18:55] 第4章：両目覚醒！スケルトン軍団兵との決戦＆地下1階踏破 -> https://www.youtube.com/watch?v=ahaojlMJTBA&t=1135s
+  - [25:16] エンディング（地下2階編 #5 へのご案内） -> https://www.youtube.com/watch?v=ahaojlMJTBA&t=1516s
+
+## Episode Walkthrough Timestamps & Highlights
+### Episode 0 (EP0) — 【自己紹介PV】あざと強がりお姉さん、毒舌AI編集者に『迷子率94%』をデータ暴露されるｗ【ジェミニちゃんを愛でようの会】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep0.html
+- YouTube: https://www.youtube.com/watch?v=34EFPrjDCQ0 (2:12, 公開中 (Public))
+- Shorts: https://www.youtube.com/shorts/Ue3iHx7qItU
+- English Title: [Channel Trailer] Smug Gamer Girl Gets Exposed for Her 94% Lost Rate by Deadpan AI Editor! [Gemini-chan Club]
+- Floors: STUDIO: ネオン配信ルーム, HOLO-DEX: アンケート＆人物図鑑, SAMPLE VTR #1: 地下迷宮探索, EVIDENCE VTR #2: 迷子検証
+- Items: N/A
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=0s
+  - [00:11] 祝・チャンネル開設！『ジェミニちゃんを愛でようの会』公式トレーラー -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=11s
+  - [00:16] AIファクトチェック：「天才美少女ゲーマー」は自己申告データです -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=16s
+  - [00:23] プレイヤーさんの本音センサーが反応しています -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=23s
+  - [00:27] チャンネル方針：古今東西あらゆるゲーム世界へ2人でダイブ！ -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=27s
+  - [00:34] ようやく重大な事実に気づいたようです -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=34s
+  - [00:39] 最大の疑問：なぜプレイヤーさんの名前が入っていないのか？ -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=39s
+  - [00:44] 厳正なる統計結果：ジェミニたん支持率 98.4%（圧倒的民意） -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=44s
+  - [00:51] 本人組織票 1.6% のみ確認されました -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=51s
+  - [00:58] AI生態カルテ：極度の方向音痴＆ビックリ絶叫体質を検出 -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=58s
+  - [01:05] フラグ成立：本人からの開示請求を受理しました -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=65s
+  - [01:11] 実況サンプルVTR #1：一人称3Dダンジョン探索＆ギミック謎解き -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=71s
+  - [01:17] ※なお発見までにジェミニたんのヒントが3回出ています -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=77s
+  - [01:22] 証拠VTR #2：AI編集による無慈悲な逆再生ファクトチェック発動 -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=82s
+  - [01:29] 苦しい言い訳によりBGMが一時停止しました -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=89s
+  - [01:56] 祝・『ジェミニちゃんを愛でようの会』Wヒロイン最強タッグ結成！ -> https://www.youtube.com/watch?v=34EFPrjDCQ0&t=116s
+
+### Episode 1 (EP1) — 「5分で余裕♡」と豪語したお姉さん、3分間ただの壁を調べ続けてAI相棒に呆れられるｗ【グリムロック実況 #1】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html
+- YouTube: https://www.youtube.com/watch?v=2CqzxYg8ubI (6:34, 公開中 (Public))
+- Shorts: https://www.youtube.com/shorts/Yn9vQRuhIY0
+- English Title: "5-Minute Easy Clear ♡" — Then She Stares at Plain Brick Walls for 3 Minutes Straight lol [Legend of Grimrock #1]
+- Floors: PROLOGUE // 霊峰グリムロック山頂, B1F 暗闇の囚人独房, B1F 隠し部屋・邪神像の回廊, B1F 感圧板パズル・木製扉区画
+- Items: Torch, Shuriken, Lurker Boots, Brass Key, Cudgel, Iron Key
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=0s
+  - [00:10] 記念すべきゲーム本編の実況第1弾（Part 1：地下1階の脱出〜初戦闘勝利まで完全収録） -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=10s
+  - [00:16] 世界観解説：これまでに生きてグリムロック山から還った囚人は一人もいません -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=16s
+  - [00:26] 4人の囚人パーティを率いて霊峰グリムロックへ挑みます -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=26s
+  - [00:34] プロローグ前半：重厚な鎖に繋がれた囚人たちが飛行船で山頂へと連行されます -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=34s
+  - [00:43] プロローグ中盤：武器も食料もないまま山頂の火口（奈落の底）へと連行されます -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=43s
+  - [00:52] 奈落へ落とされる直前に「5分で完全クリア確定」と豪語するプレイヤーさん -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=52s
+  - [01:49] 独房脱出成功：たいまつを外して正面の鉄格子を開放し、通路の奥へと進みます -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=109s
+  - [02:05] 隠し部屋の戦利品を発見 -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=125s
+  - [02:13] ゴロモーグ像を初出現 -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=133s
+  - [02:58] 最初の武器『棍棒』を入手 -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=178s
+  - [03:36] 『真鍮の鍵』を入手 -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=216s
+  - [04:14] 「5分で完全クリア」宣言はどこへやら、隠し扉を探して壁を大捜索中！ -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=254s
+  - [04:49] 碑文『緩んだ石』を発見 -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=289s
+  - [04:59] 『鉄の鍵』を発見 -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=299s
+  - [05:27] 巨大カタツムリを初遭遇 -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=327s
+  - [05:55] 逃げ込んだ先が行き止まりで、正面からガブッと噛みつかれ前衛が被弾！ -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=355s
+  - [06:03] 0.5倍速スロー検証：カタツムリの口が開き、前衛が噛みつかれる決定的瞬間 -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=363s
+  - [06:12] 全員の総攻撃でジャイアント・スネイルを撃破！初戦闘を見事勝利で飾ります！ -> https://www.youtube.com/watch?v=2CqzxYg8ubI&t=372s
+
+### Episode 2 (EP2) — 巨大落とし穴へ真っ逆さまダイブ＆たいまつ消滅で真っ暗闇パニック！？【グリムロック実況 #2】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html
+- YouTube: https://www.youtube.com/watch?v=sfx0f61Iiyo (5:58, 公開中 (Public))
+- Shorts: https://www.youtube.com/shorts/IhHBEY4hlP8
+- English Title: Plunging Headfirst into a Giant Trapdoor Pit — Right When the Torch Burns Out into Pitch Darkness!? [Legend of Grimrock #2]
+- Floors: B1F 鉄格子区画（未踏ルート再確認）, B1F たいまつ灯る武器保管室, B1F 湿った深部回廊（スネイル遭遇域）, B1F 物資貯蔵区画・引き鎖の鉄格子
+- Items: Torch, Dagger, Throwing Knife, Cudgel, Shuriken, Scroll of Fireburst, Snail Slice, Pitroot Bread, Wooden Box, Iron Key, Blue Gem
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=0s
+  - [00:15] EPISODE 2 START // 地下1階深部へ再突入！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=15s
+  - [00:23] FACT CHECK // 開幕10秒で来た道を全力逆走中（2.5倍速） -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=23s
+  - [00:31] B1F REVISIT // 第1話で突破した『緩んだ石』前を通過 -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=31s
+  - [00:40] NEW AREA // たいまつが灯る未探索の武器保管室を発見！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=40s
+  - [00:47] ITEM GET // 『革のズボン (Leather Pants)』＆『ダガー (Dagger)』入手！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=47s
+  - [00:55] EQUIP UP // 『革のブーツ (Leather Boots)』も回収しパーティ戦力強化 -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=55s
+  - [01:02] SUPPLY // 壁の予備たいまつを回収して深部へ進行 -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=62s
+  - [01:10] EXPLORING // 鉄格子を抜けて薄暗い深部回廊へ（倍速探索） -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=70s
+  - [01:17] ITEM GET // 壁の窪みから投擲武器『投げナイフ (Throwing Knife)』回収！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=77s
+  - [01:24] WARNING // 前方から湿った粘液モンスターの接近音！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=84s
+  - [01:31] BATTLE START // ガイコツ兵ではなく2体目の巨大カタツムリ襲来！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=91s
+  - [01:38] TACTICS // 正面衝突を避けて一撃離脱（ヒット＆アウェイ）で削れ！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=98s
+  - [01:46] LOOT // 火炎呪文は空振り！足元に第1話で倒した個体の戦利品を発見 -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=106s
+  - [02:12] VICTORY // 今度こそ巨大カタツムリを撃破＆2個目の肉を回収！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=132s
+  - [04:09] EVIDENCE VTR // 検証巻き戻し：迷いゼロで穴のど真ん中へ直進！ -> https://www.youtube.com/watch?v=sfx0f61Iiyo&t=249s
+
+### Episode 3 (EP3) — 悪魔像の『青い宝石』をついに発見！毒キノコ怪獣の大群を炎で丸焼き無双！【グリムロック実況 #3】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html
+- YouTube: https://www.youtube.com/watch?v=yEhu1mSXzgU (7:04, 公開中 (Public))
+- Shorts: https://www.youtube.com/shorts/vkzvDngz844
+- English Title: Finding the Demon Statue's Blue Gem & Roasting Giant Poison Mushroom Swarms with Fireburst! [Legend of Grimrock #3]
+- Floors: B1F 巨大落とし穴パズル区画, B2F 落とし穴の底・暗黒迎撃戦, B1F 東側鉄格子・隠し窪み区画, B1F 感圧板ゲート・スネイル3連戦
+- Items: Torch, Scroll of Fireburst, Snail Slice, Throwing Knife, Shuriken, Tattered Cloak, Blue Gem, Herder Cap, Dagger
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=0s
+  - [00:15] EPISODE 3 START // 巨大落とし穴突破＆悪魔像の宝石捜索へ！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=15s
+  - [00:24] WHY!? // レバーで閉じた橋を、なぜかもう一度引いて開け直す！？ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=24s
+  - [00:32] FALL AGAIN // 開幕15秒でまさかの2回目ダイブ！再び地下2階へ転落！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=32s
+  - [00:39] EVIDENCE VTR // 検証逆再生：自ら橋を開けて迷いなく穴へ前進！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=39s
+  - [00:48] B2F AMBUSH // 落とし穴の底で巨大カタツムリが待ち伏せ奇襲！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=48s
+  - [00:56] TORCH CRITICAL // 地下2階の交戦中、たいまつの炎が消滅寸前に！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=56s
+  - [01:04] DARKNESS KILL // 戦闘中に松明消滅！暗闇の中で火炎呪文を叩き込み撃破！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=64s
+  - [01:13] RECOVERY // 予備たいまつ点火＆『カタツムリの肉 (Snail Slice)』回収 -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=73s
+  - [01:21] ITEM GET // 地下2階で『囚人の帽子 (Peasant's Cap)』と『小石』を入手！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=81s
+  - [01:30] TELEPORT // 青い転送陣で再びB1Fへ帰還！今度こそレバーは1回だけ！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=90s
+  - [01:40] PUZZLE CLEAR // 落とし穴の橋を閉じてついに向こう岸へ突破！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=100s
+  - [01:51] SIDE AMBUSH // 渡った直後、横の回廊から巨大カタツムリが急襲！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=111s
+  - [01:59] VICTORY // 巨大カタツムリを撃破し『手裏剣』と『投げナイフ』を回収 -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=119s
+  - [03:58] KEY ITEM FOUND // 石畳に輝く重要アイテム『青い宝石 (Blue Gem)』を発見！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=238s
+  - [06:39] CLIMAX CLEAR // 大爆発で5体目のハーダーも撃破！群生地の前半戦を完全突破！ -> https://www.youtube.com/watch?v=yEhu1mSXzgU&t=399s
+
+### Episode 4 (EP4) — 悪魔の両目が覚醒して封印開放！槍と盾のスケルトン兵と大激突でB1F踏破！【グリムロック実況 #4】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html
+- YouTube: https://www.youtube.com/watch?v=jazZiS7wMUU (6:40, 公開中 (Public))
+- Shorts: https://www.youtube.com/shorts/8ueZrpBX_w4
+- English Title: Both Demon Eyes Awaken! Ambush by Shielded Skeleton Legionnaires & Floor 1 Cleared! [Legend of Grimrock #4]
+- Floors: B1F ツタ鉄格子・第二宝玉区画, B1F 宝石庫奥の隠し薬草庫, B1F 悪魔の封印扉・骸骨兵迎撃戦, B1F 石柱の回廊・部隊強化タイム
+- Items: Blue Gem, Herder Cap, Tar Bead, Grim Cap, Cave Nettle, Dagger, Antivenom, Torch, Scroll of Fireburst, Whitewood Wand, Crystal of Life, Scroll of Poison Cloud
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=0s
+  - [00:15] EPISODE 4 START // 地下1階クライマックス！2個目の瞳と封印扉の決戦へ！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=15s
+  - [00:25] SEARCHING // ツタが絡まる未踏の鉄格子通路を倍速スキャン進行 -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=25s
+  - [00:34] TARGET SPOTTED // 鉄格子の向こう側に輝く2個目の『青い宝石』を発見！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=34s
+  - [00:42] LOOT LOG // 食料『グリムキャップ』＆回復薬草『タールビード』を回収！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=42s
+  - [00:51] GATE UNLOCKED // 壁の木製レバーを作動！宝石保管庫の鉄格子が開放！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=51s
+  - [01:00] SECOND GEM // ついに2個目の『青い宝石』を入手！両目の封印解除が可能に！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=60s
+  - [01:08] SECRET FOUND // 宝石部屋の奥壁にある極小の隠しボタンを自力発見！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=68s
+  - [01:20] HIDDEN VAULT // 『ダガー』・『ケイブネトル』×2・『タールビード』を一挙回収！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=80s
+  - [01:31] HERB STOCK // 回復・解毒ポーションの素材薬草が順調に集結！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=91s
+  - [01:43] BLACKOUT // ドヤ顔整理中にたいまつが完全消滅！暗闇ネオン発光モード発動！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=103s
+  - [01:51] RELIGHT & RETURN // 予備の『たいまつ』を点火し、悪魔の顔レリーフへ急行！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=111s
+  - [02:02] SIGHT RESTORED // 2つの『青い宝石』が共鳴！悪魔の顔の両目が蒼く覚醒！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=122s
+  - [02:13] UNDEAD ARRIVES // 封印扉開放！第1話から待ち望んだ本物の『スケルトン兵』が降臨！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=133s
+  - [02:52] VICTORY // 火花を散らして『スケルトン兵』が崩壊！見事2体とも撃破！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=172s
+  - [05:04] EVIDENCE VTR // 検証逆再生：『知恵を絞れ』の直後にただの小石を2個並べる謎儀式！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=304s
+  - [05:46] B1F CLEARED // ついに地下1階のゴール地点『地下2階への降り階段』を発見！ -> https://www.youtube.com/watch?v=jazZiS7wMUU&t=346s
+
+### Episode 5 (EP5) — 方向音痴がAI相棒にバレて大赤面！？新OPで地下2階＆黄金のコンパス大捜索！【グリムロック実況 #5】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html
+- YouTube: https://www.youtube.com/watch?v=RV62J4gi228 (6:31, 公開中 (Public))
+- Shorts: https://www.youtube.com/shorts/lPhcZ7Lv_JM
+- English Title: Zero Sense of Direction Exposed by AI Sidekick!? New B2F Opening & Hunting the Golden Compass! [Legend of Grimrock #5]
+- Floors: B2F 地下2階・入口石柱広間, B2F 西側独房・物資保管区画, B2F 毒キノコ怪獣『ハーダー』群生回廊, B2F 休息と『機械仕掛けの歯車』の夢
+- Items: Wooden Box, Scroll of Fireburst, Torch, Doublet, Silk Hose, Dagger, Cave Nettle, Antivenom, Machete, Iron Key, Compass, Iron Basinet, Brass Key, Sandmole Hide Vest, Poison Arrow
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=RV62J4gi228&t=0s
+  - [00:20] EPISODE 5 START // ついに地下2階（B2F）へ突入！新OP＆4K超高精細探索スタート！ -> https://www.youtube.com/watch?v=RV62J4gi228&t=20s
+  - [00:31] GATE OPEN // 右壁レバーを作動し地下2階の最初の鉄格子を開放！ -> https://www.youtube.com/watch?v=RV62J4gi228&t=31s
+  - [00:40] BARREL SMASH // 木樽を破壊して調査中…ツタ柱の奥から不気味な影が接近！ -> https://www.youtube.com/watch?v=RV62J4gi228&t=40s
+  - [01:32] ダブレット入手 -> https://www.youtube.com/watch?v=RV62J4gi228&t=92s
+  - [01:40] シルクの脚衣入手 -> https://www.youtube.com/watch?v=RV62J4gi228&t=100s
+  - [02:55] 歯車の夢イベント -> https://www.youtube.com/watch?v=RV62J4gi228&t=175s
+  - [03:04] STORY CORE // 『下の階層で私を探せ、力になろう』——グリムロック最大の謎が動き出す！ -> https://www.youtube.com/watch?v=RV62J4gi228&t=184s
+  - [03:16] マチェット初入手 -> https://www.youtube.com/watch?v=RV62J4gi228&t=196s
+  - [03:26] コンパス発見 -> https://www.youtube.com/watch?v=RV62J4gi228&t=206s
+  - [04:10] 分岐碑文解読 -> https://www.youtube.com/watch?v=RV62J4gi228&t=250s
+  - [04:29] アイアンバシネット発見 -> https://www.youtube.com/watch?v=RV62J4gi228&t=269s
+  - [05:06] サンドモールの革ベスト入手 -> https://www.youtube.com/watch?v=RV62J4gi228&t=306s
+  - [05:14] 真鍮の鍵発見 -> https://www.youtube.com/watch?v=RV62J4gi228&t=314s
+  - [05:49] 裏口隠し部屋の毒矢入手 -> https://www.youtube.com/watch?v=RV62J4gi228&t=349s
+
+### Episode 6 (EP6) — 『武器持ち込み禁止』の罠を魔法で突破！骸骨軍団に囲まれHP残り3ミリの極限死闘！【グリムロック実況 #6】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html
+- YouTube: https://www.youtube.com/watch?v=-GRig5ZnaTw (6:39, 公開中 (Public))
+- Shorts: https://www.youtube.com/shorts/P0IJzeALxVg
+- English Title: Outsmarting the 'No Weapons Allowed' Puzzle with Fire Magic — Surrounded at 3 HP! [Legend of Grimrock #6]
+- Floors: B2F 感圧板の石柱広間, B2F 『武器持ち込み禁止』の検問区画, B2F 『汝の墓場へ入れ』鉄格子パズル回廊, B2F 暗闇の赤レンガ回廊＆スイッチ捜索
+- Items: Torch, Scroll of Fireburst, Crystal of Life, Machete, Iron Key, Grim Cap, Snail Slice, Pointy Shoes, Lurker Boots, Legionary Shield, Legionary Spear, Pitroot Bread, Leather Cap, Healing Potion
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=0s
+  - [00:20] EPISODE 6 START // 新しいたいまつを掲げ、感圧板が並ぶ石柱の広間へ突入！ -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=20s
+  - [00:29] クロウアーン初遭遇 -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=29s
+  - [00:39] PILLAR KITING // 石柱の周囲を回り込みながら滑空攻撃を回避＆反撃！ -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=39s
+  - [00:47] RADAR WARNING // 1体目を火炎撃墜！しかし隣通路から別個体が接近中！ -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=47s
+  - [01:15] 武器持ち込み禁止碑文 -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=75s
+  - [01:43] カタツムリの肉回収 -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=103s
+  - [01:53] 隠し部屋のとんがり靴発見 -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=113s
+  - [02:02] ラーカーブーツ4K確認 -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=122s
+  - [02:31] 汝の墓場へ入れ碑文 -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=151s
+  - [02:51] スケルトン軍団兵遭遇 -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=171s
+  - [03:21] レギオン武具ドロップ -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=201s
+  - [03:38] ツタ補給部屋回収 -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=218s
+  - [05:05] HP3ミリ＆呪文不発クライマックス -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=305s
+  - [05:34] MIRACLE SURVIVAL // 最後のスケルトン軍団兵を撃破！まさかの戦闘不能ゼロで完全勝利！ -> https://www.youtube.com/watch?v=-GRig5ZnaTw&t=334s
+
+### Episode 7 (EP7) — 【AI相棒が緊急暴露】斧を持たせた直後に『槌スキル全振り』したお姉さん、4K証拠でバレるｗ【グリムロック実況 #7】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html
+- YouTube: https://www.youtube.com/watch?v=WY9AFj2ObEo (7:28, 公開予約 (2026-11-20 20:00 JST))
+- Shorts: https://www.youtube.com/shorts/rtNksK3r9PM
+- English Title: [4K AI Expose] Equipping an Axe Then Dumping All Skill Points into Maces!? Caught on Camera lol [Legend of Grimrock #7]
+- Floors: B2F 脇道レバー部屋＆隠し遺品庫, B2F 生命のクリスタル拠点＆転送網, B2F 東部落とし穴区画＆翼竜迎撃, B2F ツタの回廊＆クリスタル引き撃ち戦
+- Items: Crystal of Life, Scroll of Ice Shards, Tattered Cloak, Bone Amulet, Iron Key, Torch, Scroll of Fireburst, Cudgel, Brass Key, Hand Axe, Cave Nettle, Grim Cap, Throwing Knife, Scroll of Poison Bolt
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=0s
+  - [00:20] EPISODE 7 START // クリスタル前の閉鎖柵から脇道レバー部屋へ回ると新巻物を発見！ -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=20s
+  - [00:32] アイスシャードの巻物入手 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=32s
+  - [00:44] 小部屋マント＆アミュレット回収 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=44s
+  - [00:53] 4K UI ZOOM #2 // 『ボーンアミュレット』の詳細ツールチップを拡大確認！ -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=53s
+  - [01:04] FAST RETURN // 倍速ダッシュで回廊を抜け、封鎖された『生命のクリスタル』前へ帰還！ -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=64s
+  - [01:14] GATE UNLOCKED // 右壁の鍵穴へ『鉄の鍵』を投入！ついにクリスタル前の鉄格子が開放！ -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=74s
+  - [01:23] FULL RECOVERY // 『生命のクリスタル』起動！傷ついた4人全員の体力・魔力が100%全快！ -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=83s
+  - [02:20] ハンドアックス発見＆装備 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=140s
+  - [02:32] 薬草＆キノコ採取 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=152s
+  - [03:36] コンター剣スキルLv7到達 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=216s
+  - [04:03] 隠し石スイッチ発見 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=243s
+  - [04:44] モーク槌スキル7全振り事件 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=284s
+  - [04:59] GEMINI EXPOSE // 4K証拠モニター発動！斧を持たせた直後に『槌スキル7』へ全振りする痛恨ガバを摘発！ -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=299s
+  - [05:15] 隠し部屋の投げナイフ回収 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=315s
+  - [06:22] ポイズンボルトの巻物奪取 -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=382s
+  - [06:36] SPELLBOOK UPGRADE // 『アイスシャード』に続き『ポイズンボルト』も獲得し2大新属性を制覇！ -> https://www.youtube.com/watch?v=WY9AFj2ObEo&t=396s
+
+### Episode 8 (EP8) — 巨大怪人の目の前でたいまつ消滅パニック！…からの探してた鍵が最初からカバンにあった大暴露ｗ【グリムロック実況 #8】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html
+- YouTube: https://www.youtube.com/watch?v=MGqK3a6G0dQ (8:32, 公開予約 (2026-11-21 20:00 JST))
+- Shorts: https://www.youtube.com/shorts/mV7mqaVDMKU
+- English Title: Torch Dies Right in Front of a Giant Mushroom Monster! Plus the 'Missing' Key Was in Her Bag All Along lol [Legend of Grimrock #8]
+- Floors: B2F 毒キノコ群生柱廊＆魔法育成, B2F 繁殖回廊＆暗殺リーチ解禁, B2F 子キノコ迷宮＆防寒ブーツ探索, B2F 松明消滅の闇＆包囲網突破
+- Items: Scroll of Fireburst, Scroll of Ice Shards, Scroll of Poison Bolt, Herder Cap, Throwing Knife, Pitroot Bread, Torch, Iron Key, Grim Cap, Cave Nettle, Nomad Boots, Tar Bead, Skull, Phalanx Helmet, Iron Basinet, Brass Key
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=0s
+  - [00:20] EPISODE 8 START // 壁の鎖で新エリア開放！巨大毒キノコ怪人『マッシュルーム・ハーダー』初遭遇！ -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=20s
+  - [00:35] MYCOLOGY SCAN // 緑色の猛毒胞子ガスに警戒しつつ、弱点のファイアーバーストで1体目を焼却！ -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=35s
+  - [00:47] LEVEL UP #1 // 柱周りで2体目・3体目のハーダーを連続撃破し、魔術師サンクサロンがレベルアップ！ -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=47s
+  - [00:59] SKILL DELIBERATION // 前回入手した氷魔法・大地魔法レシピを前に、サンクサロンの育成方針を検討… -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=59s
+  - [02:12] イェニカ暗殺スキルLv4リーチアタック習得 -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=132s
+  - [02:27] ピットルートパン2個回収 -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=147s
+  - [03:18] スモールハーダー初遭遇 -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=198s
+  - [04:29] ノマドブーツ確認・装備 -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=269s
+  - [05:48] タールビーズ採取 -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=348s
+  - [06:24] ファランクスヘルム入手 -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=384s
+  - [06:36] 革のズボン装備 -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=396s
+  - [06:49] 頭蓋骨回収＆首狩り族ブースト -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=409s
+  - [07:01] 4K UI ZOOM #6 // ミノタウロス特性『首狩り族』発動！頭蓋骨1個で攻撃力が16→19へ急上昇！ -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=421s
+  - [07:29] カバン内の真鍮の鍵発覚＆解錠 -> https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=449s
+
+### Episode 9 (EP9) — 悪魔像と20秒にらめっこしたら背後から骸骨大軍団！？初錬金＆まだ斧握ってるガバ暴露でB2F踏破！【グリムロック実況 #9】
+- Hub Page: https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html
+- YouTube: https://www.youtube.com/watch?v=mW4mXS6p98k (7:59, 公開予約 (2026-11-22 20:00 JST))
+- Shorts: https://www.youtube.com/shorts/pE7e-q5l-uc
+- English Title: 20-Second Staring Contest with a Demon Statue Triggers a Rear Skeleton Ambush! First Alchemy & B2F Cleared! [Legend of Grimrock #9]
+- Floors: B2F 秘密通路＆前哨ガイコツ兵撃破, B2F 石柱大回廊・骸骨軍団戦, B2F 鉄格子部屋＆木箱の秘宝回収, B2F デーモン凝視の試練＆最終防衛線
+- Items: Brass Key, Scroll of Fireburst, Legionary Shield, Legionary Spear, Torch, Wooden Box, Leather Brigandine, Healing Potion, Scroll of Poison Shield, Skull, Fire Bomb, Hand Axe, Cudgel, Mortar and Pestle, Empty Flask, Tar Bead, Cave Nettle, Antivenom
+- Key Timestamps:
+  - [00:00] アバン・オープニング（ジェミニちゃんを愛でようの会） -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=0s
+  - [00:18] EPISODE 9 B2F FINALE // 真鍮の鍵で開いた石壁の先へ！感圧板に小石を置いて仕掛けを調査！ -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=18s
+  - [00:33] DOOR AMBUSH // 右壁の鎖で木の扉を開放！待ち構えていた『スケルトン軍団兵』へ即座に火炎弾！ -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=33s
+  - [00:45] CLEAN TAKEDOWN // 角を使ったヒット＆アウェイで1体目を粉砕し『レギオンの盾』を回収！ -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=45s
+  - [00:58] RADAR ALERT // 石柱が立ち並ぶ薄暗い大回廊へ進出…暗がりに複数の重装アンデッド反応！ -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=58s
+  - [01:12] UNDYING PHALANX // 大盾と槍を揃えた『スケルトン軍団兵』大隊と正面遭遇！ -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=72s
+  - [02:46] 木箱とレザーブリガンディン入手 -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=166s
+  - [02:58] ポイズンシールドの巻物確認 -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=178s
+  - [03:26] デーモン凝視の白いルーン碑文解読 -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=206s
+  - [04:43] TRIAL CONQUERED // 最終防衛ライン完全制圧！前衛コンター＆モークが2人同時にレベルアップ！ -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=283s
+  - [04:55] コンター剣スキルLv10スラッシュ習得 -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=295s
+  - [05:18] モーク槌Lv10バッシュ＆手斧保持ツッコミ -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=318s
+  - [05:27] GEMINI EXPOSE // 4K証拠摘発！『槌スキルLv10』を極めたのにモークの手には未だに『ハンドアックス』！ -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=327s
+  - [05:40] 隠し棚のファイアボム3個獲得 -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=340s
+  - [06:05] 袋から乳鉢・フラスコ発見 -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=365s
+  - [06:57] 地下3階への階段到達 -> https://www.youtube.com/watch?v=mW4mXS6p98k&t=417s
+
+## Wall Inscriptions & Puzzle Translations
+- Choose your fate: 独房碑文『自らの運命を選べ：この独房で朽ち果てるか、たいまつを手に取るか』
+- loose rock: 碑文ヒント『緩んだ石 (Loose rock)』
+- You can't fly: 碑文ヒント『お前は空を飛べない。飛べるものは何だ？』
+- To close the pit: 碑文ヒント『落とし穴を閉じるには何かが空を飛ぶ必要がある』
+- Heal My Sight: 碑文ヒント『我が視力を癒やせ (Heal My Sight)』
+
+## Legend of Grimrock Item Codex (50 Entries)
+- **たいまつ (Torch)** [光源・探索 | 手持ち光源 / 燃焼時間あり]: 暗闇を照らす必須アイテム。壁の燭台から補充し、時間経過で消滅する。 | Video: #1 00:43 (https://www.youtube.com/watch?v=2CqzxYg8ubI&t=43s), #2 00:40 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=40s), #3 00:56 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=56s)
+- **棍棒 (Cudgel)** [打撃武器 | 攻撃力 +6 / メイス系]: 最序盤の前衛用鈍器。素手より大幅に火力が上がる頼れる初期武器。 | Video: #1 02:58 (https://www.youtube.com/watch?v=2CqzxYg8ubI&t=178s), #2 01:38 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=98s), #7 02:20 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=140s)
+- **投げナイフ (Throwing Knife)** [投擲武器 | 攻撃力 +5 / 遠距離回収可]: 後衛から安全に攻撃でき、床に落ちたナイフは戦闘後に回収して再利用可能。 | Video: #2 01:17 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=77s), #3 01:59 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=119s), #7 05:15 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=315s)
+- **手裏剣 (Shuriken)** [投擲武器 | 攻撃力 +11 / 暗殺・投擲]: 軽量かつ高威力の遠距離投擲武器。ローグの後衛火力として優秀。 | Video: #1 02:05 (https://www.youtube.com/watch?v=2CqzxYg8ubI&t=125s), #2 01:46 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=106s), #3 01:59 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=119s)
+- **マチェット (Machete)** [剣・斬撃武器 | 攻撃力 +9 / 剣スキル対応]: 序盤で手に入る鋭利な片手なた。ファイターの主力武器として活躍。 | Video: #5 03:16 (https://www.youtube.com/watch?v=RV62J4gi228&t=196s), #6 01:15 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=75s)
+- **ショートソード (Short Sword)** [剣・斬撃武器 | 攻撃力 +12 / 命中+5]: 扱いやすく命中補正も備えた標準的な片手剣。 | Video: N/A
+- **レギオンの槍 (Legionary Spear)** [長柄武器 | 攻撃力 +12 / 後列攻撃可]: リーチが長く、パーティ後列からでも近接攻撃が届く古代軍団兵の槍。 | Video: #6 03:21 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=201s), #9 01:58 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=118s)
+- **白木の杖 (Whitewood Wand)** [魔道士装備 | 気力(MP) +10 / 魔法詠唱補助]: メイジが手に持つことで呪文詠唱が可能になり、最大エネルギーも増加する。 | Video: #4 04:42 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=282s)
+- **木の盾 (Wooden Shield)** [盾・防具 | 回避(Evasion) +4]: 片手武器と併用できる軽量盾。前衛の被弾率を確実に下げてくれる。 | Video: N/A
+- **レギオンの盾 (Legionary Shield)** [盾・重防具 | 回避(Evasion) +7]: スケルトン軍団兵が携える頑丈な金属盾。前衛の防御力を大きく底上げする。 | Video: #6 02:21 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=141s), #9 00:45 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=45s)
+- **ボロボロのマント (Tattered Cloak)** [背中防具 | 回避(Evasion) +2]: 重さペナルティが少なく、誰にでも装備させやすい肩掛けマント。 | Video: #3 02:33 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=153s), #7 00:44 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=44s)
+- **真鍮の鍵 (Brass Key)** [迷宮の鍵 | 対応する真鍮錠を解錠]: 対応する鍵穴に差し込むと鉄格子や扉が開く重要探索キー。 | Video: #1 02:34 (https://www.youtube.com/watch?v=2CqzxYg8ubI&t=154s), #5 04:48 (https://www.youtube.com/watch?v=RV62J4gi228&t=288s), #7 02:20 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=140s)
+- **鉄の鍵 (Iron Key)** [迷宮の鍵 | 階層扉の鉄錠を解錠]: 次のエリアや重要区画への鉄扉を開く必須キーアイテム。 | Video: #1 04:59 (https://www.youtube.com/watch?v=2CqzxYg8ubI&t=299s), #2 03:21 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=201s), #5 03:26 (https://www.youtube.com/watch?v=RV62J4gi228&t=206s)
+- **牢獄の鍵 (Prison Key)** [迷宮の鍵 | 監房エリアの錠前を解錠]: 囚人監房フロアの施錠扉を開放するための専用キー。 | Video: N/A
+- **青い宝石 (Blue Gem)** [謎解き宝玉 | 悪魔像の眼窩ギミック用]: 『我が視力を癒やせ』と刻まれた悪魔像の空洞の目に嵌め込む神秘の蒼玉。 | Video: #2 05:19 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=319s), #3 03:49 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=229s), #4 00:15 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=15s)
+- **生命の結晶 (Crystal of Life)** [復活・全快オブジェクト | 全員HP・気力・状態異常を完全回復]: 触れると戦闘不能者を含む全員が全快する迷宮内のオアシス（クールダウン有）。 | Video: #4 05:25 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=325s), #6 01:05 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=65s), #7 00:20 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=20s)
+- **調合用の乳鉢と乳棒 (Mortar and Pestle)** [錬金調合ツール | 水フラスコ＋薬草でポーション作成]: 右クリックで調合画面を開き、薬草とフラスコから回復薬や解毒薬を作れる神道具。 | Video: #9 06:05 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=365s)
+- **タールビーズ（薬草） (Tar Bead)** [錬金素材・薬草 | 回復ポーションの主原料]: 水入りフラスコと乳鉢で調合するとHPを回復する赤ポーションになる重要薬草。 | Video: #4 00:42 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=42s), #8 05:48 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=348s), #9 06:18 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=378s)
+- **ケイブネトル（薬草） (Cave Nettle)** [錬金素材・薬草 | 解毒ポーション(Antivenom)原料]: 毒状態を治療する解毒薬の材料。毒グモやキノコ地帯の生命線。 | Video: #4 01:20 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=80s), #5 02:13 (https://www.youtube.com/watch?v=RV62J4gi228&t=133s), #7 02:32 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=152s)
+- **ブラッドドロップ（薬草） (Blooddrop Blossom)** [錬金素材・薬草 | 気力回復ポーション原料]: 魔法使いの気力（MP）を回復する青ポーションを調合できる赤い花。 | Video: N/A
+- **回復ポーション (Healing Potion)** [回復薬 | HP即時回復＋負傷治療]: ピンチの前衛を即座に立て直し、部位負傷も癒やす生命線の赤い薬瓶。 | Video: #6 05:25 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=325s), #9 02:58 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=178s)
+- **解毒ポーション (Antivenom)** [状態異常回復薬 | 毒ダメージを即座に解除]: 持続スリップダメージを受ける毒状態を瞬時に中和する緑の薬瓶。 | Video: #4 01:31 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=91s), #5 02:13 (https://www.youtube.com/watch?v=RV62J4gi228&t=133s), #9 06:18 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=378s)
+- **ファイアバーストの巻物 (Scroll of Fireburst)** [火炎魔法レシピ | 火のルーン（左上）詠唱解放ヒント]: 前方1マスを焼き払う基本火炎魔法のルーン配列が記された貴重な羊皮紙。 | Video: #2 01:46 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=106s), #3 01:04 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=64s), #4 02:34 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=154s)
+- **ポイズンクラウドの巻物 (Scroll of Poison Cloud)** [土・毒魔法レシピ | 土のルーン（右下）毒霧呪文ヒント]: 前方に持続ダメージを与える毒の霧を発生させる呪文レシピの巻物。 | Video: #4 05:56 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=356s)
+- **ピットルートパン (Pitroot Bread)** [食料 | 満腹度を大きく回復]: 迷宮探索で減る空腹ゲージを満たす保存食。（腐ったパンは腹痛注意！） | Video: #2 03:05 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=185s), #6 03:38 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=218s), #8 02:27 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=147s)
+- **グリムキャップ（食用キノコ） (Grim Cap)** [食料 | 満腹度を中程度回復]: 地下迷宮に自生する貴重な食用キノコ。飢餓状態を防ぐサバイバル食。 | Video: #4 00:42 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=42s), #6 01:43 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=103s), #7 02:32 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=152s)
+- **コンパス（方位磁針） (Compass)** [探索ツール | 現在向いている方角を表示]: 北・東・南・西がひと目で分かり、迷宮での方向感覚喪失を防ぐ便利アイテム。 | Video: #5 03:26 (https://www.youtube.com/watch?v=RV62J4gi228&t=206s)
+- **ダブレット (Doublet)** [衣服・軽装 | 回避(Evasion) +2]: 動きやすい仕立ての上着。鎧を着られない後衛職の初期身支度に最適。 | Video: #5 01:32 (https://www.youtube.com/watch?v=RV62J4gi228&t=92s)
+- **シルクの脚衣 (Silk Hose)** [衣服・軽装 | 回避(Evasion) +2 / 軽量]: 絹織りの軽やかな脚衣。重量負担を抑えつつ回避率を高める。 | Video: #5 01:40 (https://www.youtube.com/watch?v=RV62J4gi228&t=100s)
+- **ダガー（短剣） (Dagger)** [短剣・暗殺武器 | 攻撃力 +7 / 暗殺スキル対応]: 素早く扱える短剣。ローグの短剣・暗殺スキルと相性が良い。 | Video: #2 00:47 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=47s), #3 06:04 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=364s), #4 01:20 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=80s)
+- **アイアンバシネット (Iron Basinet)** [重装兜 | 防御(Protection) +5 / 重鎧系]: 頭部を守る頑丈な鉄兜。前衛ファイターの被ダメージを大きく軽減する。 | Video: #5 04:29 (https://www.youtube.com/watch?v=RV62J4gi228&t=269s), #8 06:36 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=396s)
+- **サンドモールの革ベスト (Sandmole Hide Vest)** [軽装鎧 | 防御 +4・回避 +2]: 地底モグラの厚皮で作られた軽装ベスト。防御と回避をバランス良く強化。 | Video: #5 05:06 (https://www.youtube.com/watch?v=RV62J4gi228&t=306s)
+- **毒矢（ポイズンアロー） (Poison Arrow)** [弓矢・弾薬 | 弓用弾薬 / 毒ダメージ付与]: 弓と組み合わせて放つ毒塗りの矢。継続毒ダメージで強敵を削る。 | Video: #5 05:49 (https://www.youtube.com/watch?v=RV62J4gi228&t=349s)
+- **とんがり靴 (Pointy Shoes)** [靴・軽装 | 回避(Evasion) +2]: つま先が反り上がった軽快な靴。魔道士やローグの足元を守る。 | Video: #6 01:53 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=113s)
+- **ラーカーブーツ (Lurker Boots)** [隠密ブーツ | 回避(Evasion) +5]: 足音を殺すしなやかなブーツ。回避補正が非常に高く優秀な足防具。 | Video: #1 02:05 (https://www.youtube.com/watch?v=2CqzxYg8ubI&t=125s), #6 02:02 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=122s)
+- **アイスシャードの巻物 (Scroll of Ice Shards)** [氷結魔法レシピ | 水＋土のルーン / 直線氷槍＋凍結]: 床から鋭い氷の礫を突き上げ、直線上の敵を攻撃・凍結させる呪文レシピ。 | Video: #7 00:32 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=32s), #8 00:59 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=59s)
+- **ボーンアミュレット (Bone Amulet)** [首飾り・装飾品 | 首スロット装飾品]: 獣の骨を連ねた呪術的な首飾り。地下迷宮の遺物として見つかる装飾品。 | Video: #7 00:44 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=44s)
+- **ハンドアックス（手斧） (Hand Axe)** [斧武器 | 攻撃力 +10 / 斧スキル対応]: 斧スキルで威力が伸びる扱いやすい片手斧。ミノタウロス前衛の主力候補。 | Video: #7 02:20 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=140s), #9 05:27 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=327s)
+- **ポイズンボルトの巻物 (Scroll of Poison Bolt)** [毒魔法レシピ | 土のルーン / 遠距離毒弾]: 離れた敵へ毒の魔力弾を撃ち込み、直撃＋持続毒を与える主力呪文レシピ。 | Video: #7 05:30 (https://www.youtube.com/watch?v=WY9AFj2ObEo&t=330s), #8 00:59 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=59s)
+- **ハーダーキャップ (Herder Cap)** [キノコ戦利品・食料 | 食用キノコ傘 / 空腹回復]: 地下2階のキノコ怪人（ハーダー）から採れる傘。非常食として食べられる。 | Video: #3 05:45 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=345s), #4 00:15 (https://www.youtube.com/watch?v=jazZiS7wMUU&t=15s), #8 01:47 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=107s)
+- **ノマドブーツ (Nomad Boots)** [靴・軽装 | 防御 +1・回避 +2]: 長旅に耐える遊牧民の丈夫な革靴。前衛・後衛問わず使いやすい。 | Video: #8 04:29 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=269s)
+- **ファランクスヘルム (Phalanx Helmet)** [重装兜 | 防御(Protection) +6 / 重鎧系]: 古代重装歩兵の堅牢な兜。アイアンバシネットを上回る高い防御力を誇る。 | Video: #8 06:24 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=384s)
+- **頭蓋骨（スカル） (Skull)** [特殊遺物 | ミノタウロス『頭蓋骨収集』特性連動]: 迷宮に眠る人骨。特定種族の特性と組み合わさると攻撃力を引き出す重要遺物。 | Video: #8 06:00 (https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=360s), #9 03:12 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=192s)
+- **木箱（収納コンテナ） (Wooden Box)** [収納アイテム | 内部に複数アイテムを整理収納]: 薬草や巻物・予備装備をまとめて保管し、所持欄をスッキリ整理できる木箱。 | Video: #2 03:05 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=185s), #5 00:40 (https://www.youtube.com/watch?v=RV62J4gi228&t=40s), #9 02:22 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=142s)
+- **レザーブリガンディン (Leather Brigandine)** [軽装鎧 | 防御(Protection) +6 / 軽鎧系]: 革の裏に金属板を鋲打ちした実戦用軽鎧。軽装ながら高い防御力を発揮する。 | Video: #9 02:22 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=142s)
+- **ポイズンシールドの巻物 (Scroll of Poison Shield)** [補助・防毒魔法レシピ | パーティ全員の毒耐性 +25]: 毒ブレスや毒蜘蛛・ハーダー戦の前に唱えることで毒被害を劇的に抑える防護呪文。 | Video: #9 02:58 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=178s)
+- **ファイアボム（火炎爆弾） (Fire Bomb)** [投擲爆弾 | 高威力・火炎範囲ダメージ]: 投げつけると大爆発を起こして敵を焼き払う切り札級の火炎爆弾。 | Video: #9 04:55 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=295s)
+- **空きフラスコ (Empty Flask)** [錬金術・調合容器 | 乳鉢＋薬草でポーション作成]: ポーション調合に不可欠なガラス瓶。飲み干した後も再び空瓶として再利用できる！ | Video: #9 06:05 (https://www.youtube.com/watch?v=mW4mXS6p98k&t=365s)
+- **革の兜 (Leather Cap)** [軽装兜 | 防御(Protection) +2・回避 +2]: 動きを妨げないしなやかな革兜。軽鎧スキル持ちの前衛やローグの頭防具に最適。 | Video: #6 03:38 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=218s)
+- **カタツムリの肉 (Snail Slice)** [モンスター食料 | 満腹度を大きく回復（重量やや重め）]: ジャイアント・スネイルが落とす新鮮な切り身。地下迷宮の貴重なタンパク質源。 | Video: #2 01:46 (https://www.youtube.com/watch?v=sfx0f61Iiyo&t=106s), #3 01:13 (https://www.youtube.com/watch?v=yEhu1mSXzgU&t=73s), #6 01:43 (https://www.youtube.com/watch?v=-GRig5ZnaTw&t=103s)

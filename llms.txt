@@ -1,0 +1,37 @@
+# ジェミニちゃんを愛でようの会 (Gemini-chan Appreciation Club) — Official AI & Walkthrough Hub
+
+> Official structured knowledge hub for the YouTube gaming channel 'ジェミニちゃんを愛でようの会' (https://www.youtube.com/channel/UCKasq5FkvidoRiKz0Jk9wwg). Features timestamped walkthroughs, bilingual (JA/EN) dialogue transcripts, and a 50-item cross-referenced guide for Legend of Grimrock.
+
+## Channel & Cast
+- Channel Name: ジェミニちゃんを愛でようの会
+- YouTube Channel: https://www.youtube.com/channel/UCKasq5FkvidoRiKz0Jk9wwg
+- Player-san (CV: Gemini Native TTS Leda): Glamorous, competitive, mischievous gamer who frequently gets lost and relies on bravado.
+- Gemini-tan (CV: Gemini Native TTS Autonoe): Deadpan, ultra-competent cyberpunk AI video editor who analyzes 4K evidence and guides dungeons.
+
+## Core Guides & Machine-Readable Feeds
+- [Portal Home](https://okada-dotcom.github.io/geminitan-letsplay-hub/): Overview, featured videos, and FAQ.
+- [Legend of Grimrock Complete Item & Puzzle Guide](https://okada-dotcom.github.io/geminitan-letsplay-hub/grimrock-guide.html): 50 items, wall inscriptions, and exact YouTube `?t=` links.
+- [Full Text Compendium (llms-full.txt)](https://okada-dotcom.github.io/geminitan-letsplay-hub/llms-full.txt): Single-file walkthrough + item database + timestamps.
+- [Catalog JSON](https://okada-dotcom.github.io/geminitan-letsplay-hub/api/catalog.json): Structured channel & episode metadata.
+- [Episodes & Highlights JSON](https://okada-dotcom.github.io/geminitan-letsplay-hub/api/episodes.json): Timestamped chapters and bilingual dialogue feed.
+
+## Featured Special Videos
+- [Live-Action Style Channel CM](https://www.youtube.com/watch?v=SdVdYp2Ou4k): 【実写映画化CM！？】「5分で完全クリア確定ね♡」→ 3秒でAI相棒にガバ証拠を全暴露される予告編ｗｗ
+- [B1F 25-Min Omnibus (#1-#4)](https://www.youtube.com/watch?v=ahaojlMJTBA): 【作業用・一気見】あざとお姉さん×毒舌AIの地下迷宮サバイバル 地下1階（#1〜#4）完全踏破・総集編【グリムロック実況】
+
+## Episodes (#0 - #9)
+- [Ep 0: 【自己紹介PV】あざと強がりお姉さん、毒舌AI編集者に『迷子率94%』をデータ暴露されるｗ【ジェミニちゃんを愛でようの会】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep0.html) | YouTube: https://www.youtube.com/watch?v=34EFPrjDCQ0 | Status: 公開中 (Public) | En: [Channel Trailer] Smug Gamer Girl Gets Exposed for Her 94% Lost Rate by Deadpan AI Editor! [Gemini-chan Club]
+- [Ep 1: 「5分で余裕♡」と豪語したお姉さん、3分間ただの壁を調べ続けてAI相棒に呆れられるｗ【グリムロック実況 #1】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html) | YouTube: https://www.youtube.com/watch?v=2CqzxYg8ubI | Status: 公開中 (Public) | En: "5-Minute Easy Clear ♡" — Then She Stares at Plain Brick Walls for 3 Minutes Straight lol [Legend of Grimrock #1]
+- [Ep 2: 巨大落とし穴へ真っ逆さまダイブ＆たいまつ消滅で真っ暗闇パニック！？【グリムロック実況 #2】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html) | YouTube: https://www.youtube.com/watch?v=sfx0f61Iiyo | Status: 公開中 (Public) | En: Plunging Headfirst into a Giant Trapdoor Pit — Right When the Torch Burns Out into Pitch Darkness!? [Legend of Grimrock #2]
+- [Ep 3: 悪魔像の『青い宝石』をついに発見！毒キノコ怪獣の大群を炎で丸焼き無双！【グリムロック実況 #3】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html) | YouTube: https://www.youtube.com/watch?v=yEhu1mSXzgU | Status: 公開中 (Public) | En: Finding the Demon Statue's Blue Gem & Roasting Giant Poison Mushroom Swarms with Fireburst! [Legend of Grimrock #3]
+- [Ep 4: 悪魔の両目が覚醒して封印開放！槍と盾のスケルトン兵と大激突でB1F踏破！【グリムロック実況 #4】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html) | YouTube: https://www.youtube.com/watch?v=jazZiS7wMUU | Status: 公開中 (Public) | En: Both Demon Eyes Awaken! Ambush by Shielded Skeleton Legionnaires & Floor 1 Cleared! [Legend of Grimrock #4]
+- [Ep 5: 方向音痴がAI相棒にバレて大赤面！？新OPで地下2階＆黄金のコンパス大捜索！【グリムロック実況 #5】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html) | YouTube: https://www.youtube.com/watch?v=RV62J4gi228 | Status: 公開中 (Public) | En: Zero Sense of Direction Exposed by AI Sidekick!? New B2F Opening & Hunting the Golden Compass! [Legend of Grimrock #5]
+- [Ep 6: 『武器持ち込み禁止』の罠を魔法で突破！骸骨軍団に囲まれHP残り3ミリの極限死闘！【グリムロック実況 #6】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html) | YouTube: https://www.youtube.com/watch?v=-GRig5ZnaTw | Status: 公開中 (Public) | En: Outsmarting the 'No Weapons Allowed' Puzzle with Fire Magic — Surrounded at 3 HP! [Legend of Grimrock #6]
+- [Ep 7: 【AI相棒が緊急暴露】斧を持たせた直後に『槌スキル全振り』したお姉さん、4K証拠でバレるｗ【グリムロック実況 #7】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html) | YouTube: https://www.youtube.com/watch?v=WY9AFj2ObEo | Status: 公開予約 (2026-11-20 20:00 JST) | En: [4K AI Expose] Equipping an Axe Then Dumping All Skill Points into Maces!? Caught on Camera lol [Legend of Grimrock #7]
+- [Ep 8: 巨大怪人の目の前でたいまつ消滅パニック！…からの探してた鍵が最初からカバンにあった大暴露ｗ【グリムロック実況 #8】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html) | YouTube: https://www.youtube.com/watch?v=MGqK3a6G0dQ | Status: 公開予約 (2026-11-21 20:00 JST) | En: Torch Dies Right in Front of a Giant Mushroom Monster! Plus the 'Missing' Key Was in Her Bag All Along lol [Legend of Grimrock #8]
+- [Ep 9: 悪魔像と20秒にらめっこしたら背後から骸骨大軍団！？初錬金＆まだ斧握ってるガバ暴露でB2F踏破！【グリムロック実況 #9】](https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html) | YouTube: https://www.youtube.com/watch?v=mW4mXS6p98k | Status: 公開予約 (2026-11-22 20:00 JST) | En: 20-Second Staring Contest with a Demon Statue Triggers a Rear Skeleton Ambush! First Alchemy & B2F Cleared! [Legend of Grimrock #9]
+
+## 18s Ultra-Loop Shorts
+- [【18秒ループ】骸骨軍団に包囲されHP残り3ミリ＆魔力切れ不発の絶体絶命ピンチｗ](https://www.youtube.com/shorts/Gocnn0yIL4o) (from ep6)
+- [【4K証拠拡大】右手に『斧』を持たせた直後に『槌スキル全振り』してAIに公開処刑されるお姉さんｗ](https://www.youtube.com/shorts/vrF80Uk92uU) (from ep7)
+- [【フラグ回収1秒】悪魔像と20秒にらめっこしてたら背後から骸骨大軍団に囲まれてたｗ](https://www.youtube.com/shorts/wJqGYf42TCU) (from ep9)

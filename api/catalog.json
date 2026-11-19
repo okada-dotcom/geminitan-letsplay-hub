@@ -1,0 +1,2139 @@
+{
+  "generated_at": "2026-11-19T22:28:25.228964+00:00",
+  "channel": {
+    "id": "UCKasq5FkvidoRiKz0Jk9wwg",
+    "name": "ジェミニちゃんを愛でようの会",
+    "url": "https://www.youtube.com/channel/UCKasq5FkvidoRiKz0Jk9wwg",
+    "hub_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub",
+    "cast": [
+      {
+        "name": "プレイヤーさん",
+        "voice": "Gemini Native TTS Leda",
+        "role": "操作・リアクション担当"
+      },
+      {
+        "name": "ジェミニたん",
+        "voice": "Gemini Native TTS Autonoe",
+        "role": "ナビゲート・4K証拠検証・動画編集担当"
+      }
+    ]
+  },
+  "special_videos": {
+    "promo": {
+      "key": "promo",
+      "video_id": "SdVdYp2Ou4k",
+      "short_video_id": "uHO-8LF5uNc",
+      "title": "【実写映画化CM！？】「5分で完全クリア確定ね♡」→ 3秒でAI相棒にガバ証拠を全暴露される予告編ｗｗ",
+      "short_title": "【実写CM解禁！？】「5分でクリア確定♡」→3秒でAIに論破されるお姉さんｗｗ #ゲーム実況 #AI実況 #Shorts",
+      "en_title": "[Live-Action Parody Trailer] '5-Min Clear Guaranteed!' — Exposed in 3 Seconds by Her Deadpan AI Editor!",
+      "summary": "まさかの実写映画化CM風トレーラー。開始18秒でジェミニたんに「迷子率94%・石壁47回なで回し・落とし穴ダイブ・槌スキル全振りなのに斧装備」の4Kガバ証拠を全暴露されるチャンネル公式PV。",
+      "chapters": [
+        {
+          "sec": 0,
+          "label": "壮大な実写映画風オープニング＆『5分でクリア確定』宣言"
+        },
+        {
+          "sec": 18,
+          "label": "ジェミニたん緊急割込：4K証拠による迷子率94%・ガバプレイ全暴露"
+        },
+        {
+          "sec": 38,
+          "label": "本編シリーズ（第1話〜B2F編）へのご案内"
+        }
+      ]
+    },
+    "omnibus_b1f": {
+      "key": "omnibus_b1f",
+      "video_id": "ahaojlMJTBA",
+      "title": "【作業用・一気見】あざとお姉さん×毒舌AIの地下迷宮サバイバル 地下1階（#1〜#4）完全踏破・総集編【グリムロック実況】",
+      "en_title": "[Full B1F Movie / 25-Min Omnibus] Legend of Grimrock Episodes #1-#4 Complete Floor 1 Survival!",
+      "summary": "第1話〜第4話（地下1階・B1F完全踏破）の重複OP・あらすじをカットし、25分ノンストップで一気見できる作業用総集編。",
+      "chapters": [
+        {
+          "sec": 0,
+          "label": "オープニング（ジェミニちゃんを愛でようの会）"
+        },
+        {
+          "sec": 10,
+          "label": "第1章：独房からの脱出と『緩んだ石』の秘密"
+        },
+        {
+          "sec": 391,
+          "label": "第2章：巨大落とし穴ダイブ＆たいまつ消滅の暗闇パニック"
+        },
+        {
+          "sec": 730,
+          "label": "第3章：悪魔像の『青い宝石』とファイアーバースト無双"
+        },
+        {
+          "sec": 1135,
+          "label": "第4章：両目覚醒！スケルトン軍団兵との決戦＆地下1階踏破"
+        },
+        {
+          "sec": 1516,
+          "label": "エンディング（地下2階編 #5 へのご案内）"
+        }
+      ]
+    }
+  },
+  "ultra_loop_shorts": [
+    {
+      "key": "loop_01",
+      "ep_key": "ep6",
+      "video_id": "Gocnn0yIL4o",
+      "title": "【18秒ループ】骸骨軍団に包囲されHP残り3ミリ＆魔力切れ不発の絶体絶命ピンチｗ"
+    },
+    {
+      "key": "loop_02",
+      "ep_key": "ep7",
+      "video_id": "vrF80Uk92uU",
+      "title": "【4K証拠拡大】右手に『斧』を持たせた直後に『槌スキル全振り』してAIに公開処刑されるお姉さんｗ"
+    },
+    {
+      "key": "loop_03",
+      "ep_key": "ep9",
+      "video_id": "wJqGYf42TCU",
+      "title": "【フラグ回収1秒】悪魔像と20秒にらめっこしてたら背後から骸骨大軍団に囲まれてたｗ"
+    }
+  ],
+  "episodes_summary": [
+    {
+      "key": "ep0",
+      "ep_num": 0,
+      "video_id": "34EFPrjDCQ0",
+      "youtube_url": "https://www.youtube.com/watch?v=34EFPrjDCQ0",
+      "short_url": "https://www.youtube.com/shorts/Ue3iHx7qItU",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep0.html",
+      "title": "【自己紹介PV】あざと強がりお姉さん、毒舌AI編集者に『迷子率94%』をデータ暴露されるｗ【ジェミニちゃんを愛でようの会】",
+      "en_title": "[Channel Trailer] Smug Gamer Girl Gets Exposed for Her 94% Lost Rate by Deadpan AI Editor! [Gemini-chan Club]",
+      "duration_sec": 132,
+      "status_label": "公開中 (Public)",
+      "floors": [
+        "STUDIO: ネオン配信ルーム",
+        "HOLO-DEX: アンケート＆人物図鑑",
+        "SAMPLE VTR #1: 地下迷宮探索",
+        "EVIDENCE VTR #2: 迷子検証",
+        "SAMPLE VTR #3: 強敵エンカウント",
+        "CLIMAX: 星空の配信スタジオ",
+        "OFFICIAL CHANNEL TRAILER"
+      ],
+      "items_found": []
+    },
+    {
+      "key": "ep1",
+      "ep_num": 1,
+      "video_id": "2CqzxYg8ubI",
+      "youtube_url": "https://www.youtube.com/watch?v=2CqzxYg8ubI",
+      "short_url": "https://www.youtube.com/shorts/Yn9vQRuhIY0",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html",
+      "title": "「5分で余裕♡」と豪語したお姉さん、3分間ただの壁を調べ続けてAI相棒に呆れられるｗ【グリムロック実況 #1】",
+      "en_title": "\"5-Minute Easy Clear ♡\" — Then She Stares at Plain Brick Walls for 3 Minutes Straight lol [Legend of Grimrock #1]",
+      "duration_sec": 394,
+      "status_label": "公開中 (Public)",
+      "floors": [
+        "PROLOGUE // 霊峰グリムロック山頂",
+        "B1F 暗闇の囚人独房",
+        "B1F 隠し部屋・邪神像の回廊",
+        "B1F 感圧板パズル・木製扉区画",
+        "B1F 行き止まり回廊（隠し扉捜索）",
+        "B1F 鉄扉の封鎖区画",
+        "B1F 湿った深部回廊（初戦闘エリア）"
+      ],
+      "items_found": [
+        "Torch",
+        "Shuriken",
+        "Lurker Boots",
+        "Brass Key",
+        "Cudgel",
+        "Iron Key"
+      ]
+    },
+    {
+      "key": "ep2",
+      "ep_num": 2,
+      "video_id": "sfx0f61Iiyo",
+      "youtube_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo",
+      "short_url": "https://www.youtube.com/shorts/IhHBEY4hlP8",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+      "title": "巨大落とし穴へ真っ逆さまダイブ＆たいまつ消滅で真っ暗闇パニック！？【グリムロック実況 #2】",
+      "en_title": "Plunging Headfirst into a Giant Trapdoor Pit — Right When the Torch Burns Out into Pitch Darkness!? [Legend of Grimrock #2]",
+      "duration_sec": 358,
+      "status_label": "公開中 (Public)",
+      "floors": [
+        "B1F 鉄格子区画（未踏ルート再確認）",
+        "B1F たいまつ灯る武器保管室",
+        "B1F 湿った深部回廊（スネイル遭遇域）",
+        "B1F 物資貯蔵区画・引き鎖の鉄格子",
+        "B1F 巨大落とし穴パズル区画",
+        "B2F 落とし穴の底・転送陣の間",
+        "B1F 暗黒回廊（たいまつ消滅危機）",
+        "B1F 片目の悪魔レリーフ回廊"
+      ],
+      "items_found": [
+        "Torch",
+        "Dagger",
+        "Throwing Knife",
+        "Cudgel",
+        "Shuriken",
+        "Scroll of Fireburst",
+        "Snail Slice",
+        "Pitroot Bread",
+        "Wooden Box",
+        "Iron Key",
+        "Blue Gem"
+      ]
+    },
+    {
+      "key": "ep3",
+      "ep_num": 3,
+      "video_id": "yEhu1mSXzgU",
+      "youtube_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU",
+      "short_url": "https://www.youtube.com/shorts/vkzvDngz844",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+      "title": "悪魔像の『青い宝石』をついに発見！毒キノコ怪獣の大群を炎で丸焼き無双！【グリムロック実況 #3】",
+      "en_title": "Finding the Demon Statue's Blue Gem & Roasting Giant Poison Mushroom Swarms with Fireburst! [Legend of Grimrock #3]",
+      "duration_sec": 424,
+      "status_label": "公開中 (Public)",
+      "floors": [
+        "B1F 巨大落とし穴パズル区画",
+        "B2F 落とし穴の底・暗黒迎撃戦",
+        "B1F 東側鉄格子・隠し窪み区画",
+        "B1F 感圧板ゲート・スネイル3連戦",
+        "B1F 鉄格子奥の宝物保管庫",
+        "B1F 悪魔の顔レリーフ前",
+        "B1F ツタ鉄格子・ハーダー群生地"
+      ],
+      "items_found": [
+        "Torch",
+        "Scroll of Fireburst",
+        "Snail Slice",
+        "Throwing Knife",
+        "Shuriken",
+        "Tattered Cloak",
+        "Blue Gem",
+        "Herder Cap",
+        "Dagger"
+      ]
+    },
+    {
+      "key": "ep4",
+      "ep_num": 4,
+      "video_id": "jazZiS7wMUU",
+      "youtube_url": "https://www.youtube.com/watch?v=jazZiS7wMUU",
+      "short_url": "https://www.youtube.com/shorts/8ueZrpBX_w4",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+      "title": "悪魔の両目が覚醒して封印開放！槍と盾のスケルトン兵と大激突でB1F踏破！【グリムロック実況 #4】",
+      "en_title": "Both Demon Eyes Awaken! Ambush by Shielded Skeleton Legionnaires & Floor 1 Cleared! [Legend of Grimrock #4]",
+      "duration_sec": 400,
+      "status_label": "公開中 (Public)",
+      "floors": [
+        "B1F ツタ鉄格子・第二宝玉区画",
+        "B1F 宝石庫奥の隠し薬草庫",
+        "B1F 悪魔の封印扉・骸骨兵迎撃戦",
+        "B1F 石柱の回廊・部隊強化タイム",
+        "B1F 歯車紋章『鉄の大扉』周辺",
+        "B1F 生命のクリスタル＆B2F階段前"
+      ],
+      "items_found": [
+        "Blue Gem",
+        "Herder Cap",
+        "Tar Bead",
+        "Grim Cap",
+        "Cave Nettle",
+        "Dagger",
+        "Antivenom",
+        "Torch",
+        "Scroll of Fireburst",
+        "Whitewood Wand",
+        "Crystal of Life",
+        "Scroll of Poison Cloud"
+      ]
+    },
+    {
+      "key": "ep5",
+      "ep_num": 5,
+      "video_id": "RV62J4gi228",
+      "youtube_url": "https://www.youtube.com/watch?v=RV62J4gi228",
+      "short_url": "https://www.youtube.com/shorts/lPhcZ7Lv_JM",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+      "title": "方向音痴がAI相棒にバレて大赤面！？新OPで地下2階＆黄金のコンパス大捜索！【グリムロック実況 #5】",
+      "en_title": "Zero Sense of Direction Exposed by AI Sidekick!? New B2F Opening & Hunting the Golden Compass! [Legend of Grimrock #5]",
+      "duration_sec": 391,
+      "status_label": "公開中 (Public)",
+      "floors": [
+        "B2F 地下2階・入口石柱広間",
+        "B2F 西側独房・物資保管区画",
+        "B2F 毒キノコ怪獣『ハーダー』群生回廊",
+        "B2F 休息と『機械仕掛けの歯車』の夢",
+        "B2F コンパス発見＆中央大扉ルート",
+        "B2F ツタ碑文の分岐路＆隠し兜部屋",
+        "B2F 東側独房エリア＆裏口の隠し部屋"
+      ],
+      "items_found": [
+        "Wooden Box",
+        "Scroll of Fireburst",
+        "Torch",
+        "Doublet",
+        "Silk Hose",
+        "Dagger",
+        "Cave Nettle",
+        "Antivenom",
+        "Machete",
+        "Iron Key",
+        "Compass",
+        "Iron Basinet",
+        "Brass Key",
+        "Sandmole Hide Vest",
+        "Poison Arrow"
+      ]
+    },
+    {
+      "key": "ep6",
+      "ep_num": 6,
+      "video_id": "-GRig5ZnaTw",
+      "youtube_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw",
+      "short_url": "https://www.youtube.com/shorts/P0IJzeALxVg",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+      "title": "『武器持ち込み禁止』の罠を魔法で突破！骸骨軍団に囲まれHP残り3ミリの極限死闘！【グリムロック実況 #6】",
+      "en_title": "Outsmarting the 'No Weapons Allowed' Puzzle with Fire Magic — Surrounded at 3 HP! [Legend of Grimrock #6]",
+      "duration_sec": 399,
+      "status_label": "公開中 (Public)",
+      "floors": [
+        "B2F 感圧板の石柱広間",
+        "B2F 『武器持ち込み禁止』の検問区画",
+        "B2F 『汝の墓場へ入れ』鉄格子パズル回廊",
+        "B2F 暗闇の赤レンガ回廊＆スイッチ捜索",
+        "B2F スケルトン軍団兵・極限包囲戦"
+      ],
+      "items_found": [
+        "Torch",
+        "Scroll of Fireburst",
+        "Crystal of Life",
+        "Machete",
+        "Iron Key",
+        "Grim Cap",
+        "Snail Slice",
+        "Pointy Shoes",
+        "Lurker Boots",
+        "Legionary Shield",
+        "Legionary Spear",
+        "Pitroot Bread",
+        "Leather Cap",
+        "Healing Potion"
+      ]
+    },
+    {
+      "key": "ep7",
+      "ep_num": 7,
+      "video_id": "WY9AFj2ObEo",
+      "youtube_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo",
+      "short_url": "https://www.youtube.com/shorts/rtNksK3r9PM",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+      "title": "【AI相棒が緊急暴露】斧を持たせた直後に『槌スキル全振り』したお姉さん、4K証拠でバレるｗ【グリムロック実況 #7】",
+      "en_title": "[4K AI Expose] Equipping an Axe Then Dumping All Skill Points into Maces!? Caught on Camera lol [Legend of Grimrock #7]",
+      "duration_sec": 448,
+      "status_label": "公開予約 (2026-11-20 20:00 JST)",
+      "floors": [
+        "B2F 脇道レバー部屋＆隠し遺品庫",
+        "B2F 生命のクリスタル拠点＆転送網",
+        "B2F 東部落とし穴区画＆翼竜迎撃",
+        "B2F ツタの回廊＆クリスタル引き撃ち戦",
+        "B2F 隠し部屋の番翼竜＆スキル振り事件",
+        "B2F 封印ポータル解錠＆毒魔法奪取"
+      ],
+      "items_found": [
+        "Crystal of Life",
+        "Scroll of Ice Shards",
+        "Tattered Cloak",
+        "Bone Amulet",
+        "Iron Key",
+        "Torch",
+        "Scroll of Fireburst",
+        "Cudgel",
+        "Brass Key",
+        "Hand Axe",
+        "Cave Nettle",
+        "Grim Cap",
+        "Throwing Knife",
+        "Scroll of Poison Bolt"
+      ]
+    },
+    {
+      "key": "ep8",
+      "ep_num": 8,
+      "video_id": "MGqK3a6G0dQ",
+      "youtube_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ",
+      "short_url": "https://www.youtube.com/shorts/mV7mqaVDMKU",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+      "title": "巨大怪人の目の前でたいまつ消滅パニック！…からの探してた鍵が最初からカバンにあった大暴露ｗ【グリムロック実況 #8】",
+      "en_title": "Torch Dies Right in Front of a Giant Mushroom Monster! Plus the 'Missing' Key Was in Her Bag All Along lol [Legend of Grimrock #8]",
+      "duration_sec": 512,
+      "status_label": "公開予約 (2026-11-21 20:00 JST)",
+      "floors": [
+        "B2F 毒キノコ群生柱廊＆魔法育成",
+        "B2F 繁殖回廊＆暗殺リーチ解禁",
+        "B2F 子キノコ迷宮＆防寒ブーツ探索",
+        "B2F 松明消滅の闇＆包囲網突破",
+        "B2F 猛毒の巣窟＆重装兜・頭蓋骨",
+        "B2F 眠れる真鍮の鍵＆秘密石壁開放"
+      ],
+      "items_found": [
+        "Scroll of Fireburst",
+        "Scroll of Ice Shards",
+        "Scroll of Poison Bolt",
+        "Herder Cap",
+        "Throwing Knife",
+        "Pitroot Bread",
+        "Torch",
+        "Iron Key",
+        "Grim Cap",
+        "Cave Nettle",
+        "Nomad Boots",
+        "Tar Bead",
+        "Skull",
+        "Phalanx Helmet",
+        "Iron Basinet",
+        "Brass Key"
+      ]
+    },
+    {
+      "key": "ep9",
+      "ep_num": 9,
+      "video_id": "mW4mXS6p98k",
+      "youtube_url": "https://www.youtube.com/watch?v=mW4mXS6p98k",
+      "short_url": "https://www.youtube.com/shorts/pE7e-q5l-uc",
+      "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+      "title": "悪魔像と20秒にらめっこしたら背後から骸骨大軍団！？初錬金＆まだ斧握ってるガバ暴露でB2F踏破！【グリムロック実況 #9】",
+      "en_title": "20-Second Staring Contest with a Demon Statue Triggers a Rear Skeleton Ambush! First Alchemy & B2F Cleared! [Legend of Grimrock #9]",
+      "duration_sec": 479,
+      "status_label": "公開予約 (2026-11-22 20:00 JST)",
+      "floors": [
+        "B2F 秘密通路＆前哨ガイコツ兵撃破",
+        "B2F 石柱大回廊・骸骨軍団戦",
+        "B2F 鉄格子部屋＆木箱の秘宝回収",
+        "B2F デーモン凝視の試練＆最終防衛線",
+        "B2F Lv10必殺技解禁＆火炎爆弾獲得",
+        "B2F 初めての錬金調合＆地下3階階段"
+      ],
+      "items_found": [
+        "Brass Key",
+        "Scroll of Fireburst",
+        "Legionary Shield",
+        "Legionary Spear",
+        "Torch",
+        "Wooden Box",
+        "Leather Brigandine",
+        "Healing Potion",
+        "Scroll of Poison Shield",
+        "Skull",
+        "Fire Bomb",
+        "Hand Axe",
+        "Cudgel",
+        "Mortar and Pestle",
+        "Empty Flask",
+        "Tar Bead",
+        "Cave Nettle",
+        "Antivenom"
+      ]
+    }
+  ],
+  "item_codex_count": 50,
+  "item_codex": [
+    {
+      "id": "Torch",
+      "ja": "たいまつ",
+      "en": "Torch",
+      "category": "光源・探索",
+      "stats": "手持ち光源 / 燃焼時間あり",
+      "desc": "暗闇を照らす必須アイテム。壁の燭台から補充し、時間経過で消滅する。",
+      "icon": "relic",
+      "appearances": [
+        {
+          "ep_key": "ep1",
+          "ep_num": 1,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html",
+          "page_rel": "episodes/ep1.html",
+          "yt_sec": 43,
+          "mmss": "00:43",
+          "yt_url": "https://www.youtube.com/watch?v=2CqzxYg8ubI&t=43s",
+          "snippet": "プロローグ中盤：武器も食料もないまま山頂の火口（奈落の底）へと連行されます"
+        },
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 40,
+          "mmss": "00:40",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=40s",
+          "snippet": "NEW AREA // たいまつが灯る未探索の武器保管室を発見！"
+        },
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 56,
+          "mmss": "00:56",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=56s",
+          "snippet": "TORCH CRITICAL // 地下2階の交戦中、たいまつの炎が消滅寸前に！"
+        },
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 103,
+          "mmss": "01:43",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=103s",
+          "snippet": "BLACKOUT // ドヤ顔整理中にたいまつが完全消滅！暗闇ネオン発光モード発動！"
+        },
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 75,
+          "mmss": "01:15",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=75s",
+          "snippet": "TORCH SUPPLY // 壁の『たいまつ』を補充しつつ鉄格子奥の未踏通路を倍速開拓！"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 20,
+          "mmss": "00:20",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=20s",
+          "snippet": "EPISODE 6 START // 新しいたいまつを掲げ、感圧板が並ぶ石柱の広間へ突入！"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 106,
+          "mmss": "01:46",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=106s",
+          "snippet": "PIT HAZARD // 開口した落とし穴を慎重に回避し、木の扉の先で壁の新品たいまつを回収！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 240,
+          "mmss": "04:00",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=240s",
+          "snippet": "KEYHOLE #1 // 四角い『鉄の鍵穴』を確認し、壁から予備の『たいまつ』を回収して脇道調査へ！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 130,
+          "mmss": "02:10",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=130s",
+          "snippet": "SHRINE SPOTTED // 横道の『デーモンの像』を記憶しつつ、まずは東側の鉄格子区画を制圧へ！"
+        }
+      ]
+    },
+    {
+      "id": "Cudgel",
+      "ja": "棍棒",
+      "en": "Cudgel",
+      "category": "打撃武器",
+      "stats": "攻撃力 +6 / メイス系",
+      "desc": "最序盤の前衛用鈍器。素手より大幅に火力が上がる頼れる初期武器。",
+      "icon": "weapon",
+      "appearances": [
+        {
+          "ep_key": "ep1",
+          "ep_num": 1,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html",
+          "page_rel": "episodes/ep1.html",
+          "yt_sec": 178,
+          "mmss": "02:58",
+          "yt_url": "https://www.youtube.com/watch?v=2CqzxYg8ubI&t=178s",
+          "snippet": "281.8秒：壁のくぼみの近接武器『棍棒 (Cudgel)』を一時停止ロックオンして回収！"
+        },
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 98,
+          "mmss": "01:38",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=98s",
+          "snippet": "TACTICS // 正面衝突を避けて一撃離脱（ヒット＆アウェイ）で削れ！"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 140,
+          "mmss": "02:20",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=140s",
+          "snippet": "4K UI ZOOM #3 // 壁棚から『ハンドアックス』＆『真鍮の鍵』回収！モークが棍棒から斧へ持ち替え！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 340,
+          "mmss": "05:40",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=340s",
+          "snippet": "TRIAL REWARD // 開放された隠し石棚から切り札の火炎爆弾『ファイアボム』3個を獲得！"
+        }
+      ]
+    },
+    {
+      "id": "Throwing Knife",
+      "ja": "投げナイフ",
+      "en": "Throwing Knife",
+      "category": "投擲武器",
+      "stats": "攻撃力 +5 / 遠距離回収可",
+      "desc": "後衛から安全に攻撃でき、床に落ちたナイフは戦闘後に回収して再利用可能。",
+      "icon": "weapon",
+      "appearances": [
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 77,
+          "mmss": "01:17",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=77s",
+          "snippet": "ITEM GET // 壁の窪みから投擲武器『投げナイフ (Throwing Knife)』回収！"
+        },
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 119,
+          "mmss": "01:59",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=119s",
+          "snippet": "VICTORY // 巨大カタツムリを撃破し『手裏剣』と『投げナイフ』を回収"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 315,
+          "mmss": "05:15",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=315s",
+          "snippet": "SECRET TREASURE // 赤面言い訳しつつ隠し部屋の床から『真鍮の鍵』と『投げナイフ』を回収！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 120,
+          "mmss": "02:00",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=120s",
+          "snippet": "LOOT & LEVEL UP #2 // 食用キノコ『ハーダーキャップ』を回収し、後列ローグ・イェニカのスキル画面を展開！"
+        }
+      ]
+    },
+    {
+      "id": "Shuriken",
+      "ja": "手裏剣",
+      "en": "Shuriken",
+      "category": "投擲武器",
+      "stats": "攻撃力 +11 / 暗殺・投擲",
+      "desc": "軽量かつ高威力の遠距離投擲武器。ローグの後衛火力として優秀。",
+      "icon": "weapon",
+      "appearances": [
+        {
+          "ep_key": "ep1",
+          "ep_num": 1,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html",
+          "page_rel": "episodes/ep1.html",
+          "yt_sec": 125,
+          "mmss": "02:05",
+          "yt_url": "https://www.youtube.com/watch?v=2CqzxYg8ubI&t=125s",
+          "snippet": "172秒：隠し部屋の足元にある手裏剣と『Lurker Boots』をロックオンして回収！"
+        },
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 106,
+          "mmss": "01:46",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=106s",
+          "snippet": "LOOT // 火炎呪文は空振り！足元に第1話で倒した個体の戦利品を発見"
+        },
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 119,
+          "mmss": "01:59",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=119s",
+          "snippet": "VICTORY // 巨大カタツムリを撃破し『手裏剣』と『投げナイフ』を回収"
+        }
+      ]
+    },
+    {
+      "id": "Machete",
+      "ja": "マチェット",
+      "en": "Machete",
+      "category": "剣・斬撃武器",
+      "stats": "攻撃力 +9 / 剣スキル対応",
+      "desc": "序盤で手に入る鋭利な片手なた。ファイターの主力武器として活躍。",
+      "icon": "weapon",
+      "appearances": [
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 196,
+          "mmss": "03:16",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=196s",
+          "snippet": "WEAPON FOUND // 悪夢から目覚めて探索再開！高威力の片手剣『マチェット』を初入手！"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 75,
+          "mmss": "01:15",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=75s",
+          "snippet": "RUNE INSCRIPTION // 『No weapons allowed inside（武器の持ち込み禁止）』！"
+        }
+      ]
+    },
+    {
+      "id": "Short Sword",
+      "ja": "ショートソード",
+      "en": "Short Sword",
+      "category": "剣・斬撃武器",
+      "stats": "攻撃力 +12 / 命中+5",
+      "desc": "扱いやすく命中補正も備えた標準的な片手剣。",
+      "icon": "weapon",
+      "appearances": []
+    },
+    {
+      "id": "Legionary Spear",
+      "ja": "レギオンの槍",
+      "en": "Legionary Spear",
+      "category": "長柄武器",
+      "stats": "攻撃力 +12 / 後列攻撃可",
+      "desc": "リーチが長く、パーティ後列からでも近接攻撃が届く古代軍団兵の槍。",
+      "icon": "weapon",
+      "appearances": [
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 201,
+          "mmss": "03:21",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=201s",
+          "snippet": "RARE DROP // 回避+7の重盾『レギオンの盾』＆長柄武器『レギオンの槍』を獲得！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 118,
+          "mmss": "01:58",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=118s",
+          "snippet": "HALL CLEARED // 石柱回廊の軍団兵をノーデスで全滅させ、『レギオンの盾＆槍』を回収！"
+        }
+      ]
+    },
+    {
+      "id": "Whitewood Wand",
+      "ja": "白木の杖",
+      "en": "Whitewood Wand",
+      "category": "魔道士装備",
+      "stats": "気力(MP) +10 / 魔法詠唱補助",
+      "desc": "メイジが手に持つことで呪文詠唱が可能になり、最大エネルギーも増加する。",
+      "icon": "scroll",
+      "appearances": [
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 282,
+          "mmss": "04:42",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=282s",
+          "snippet": "MAGE WEAPON // 脇道の石窪みに魔道士専用武器『白木の杖 (Whitewood Wand)』！"
+        }
+      ]
+    },
+    {
+      "id": "Wooden Shield",
+      "ja": "木の盾",
+      "en": "Wooden Shield",
+      "category": "盾・防具",
+      "stats": "回避(Evasion) +4",
+      "desc": "片手武器と併用できる軽量盾。前衛の被弾率を確実に下げてくれる。",
+      "icon": "armor",
+      "appearances": []
+    },
+    {
+      "id": "Legionary Shield",
+      "ja": "レギオンの盾",
+      "en": "Legionary Shield",
+      "category": "盾・重防具",
+      "stats": "回避(Evasion) +7",
+      "desc": "スケルトン軍団兵が携える頑丈な金属盾。前衛の防御力を大きく底上げする。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 141,
+          "mmss": "02:21",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=141s",
+          "snippet": "PORTAL SIGHTED // 反対側の通路奥に謎の青い『転送ポータル』を確認！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 45,
+          "mmss": "00:45",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=45s",
+          "snippet": "CLEAN TAKEDOWN // 角を使ったヒット＆アウェイで1体目を粉砕し『レギオンの盾』を回収！"
+        }
+      ]
+    },
+    {
+      "id": "Tattered Cloak",
+      "ja": "ボロボロのマント",
+      "en": "Tattered Cloak",
+      "category": "背中防具",
+      "stats": "回避(Evasion) +2",
+      "desc": "重さペナルティが少なく、誰にでも装備させやすい肩掛けマント。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 153,
+          "mmss": "02:33",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=153s",
+          "snippet": "ARMOR UP // 『ボロボロのマント (Tattered Cloak)』を入手しパーティに装備！"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 44,
+          "mmss": "00:44",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=44s",
+          "snippet": "ALCOVE LOOT // レバーで開いた小部屋から『ボロボロのマント』と『ボーンアミュレット』を入手！"
+        }
+      ]
+    },
+    {
+      "id": "Brass Key",
+      "ja": "真鍮の鍵",
+      "en": "Brass Key",
+      "category": "迷宮の鍵",
+      "stats": "対応する真鍮錠を解錠",
+      "desc": "対応する鍵穴に差し込むと鉄格子や扉が開く重要探索キー。",
+      "icon": "key",
+      "appearances": [
+        {
+          "ep_key": "ep1",
+          "ep_num": 1,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html",
+          "page_rel": "episodes/ep1.html",
+          "yt_sec": 154,
+          "mmss": "02:34",
+          "yt_url": "https://www.youtube.com/watch?v=2CqzxYg8ubI&t=154s",
+          "snippet": "238秒〜248秒：右側の鉄格子（243秒）が閉まっていることを確認し、左の開いている回廊へ進みます"
+        },
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 288,
+          "mmss": "04:48",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=288s",
+          "snippet": "CELLS RIGHT // 碑文通り右の独房群エリアへ！レバーで鉄格子を開けると奥にスネイル！"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 140,
+          "mmss": "02:20",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=140s",
+          "snippet": "4K UI ZOOM #3 // 壁棚から『ハンドアックス』＆『真鍮の鍵』回収！モークが棍棒から斧へ持ち替え！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 449,
+          "mmss": "07:29",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=449s",
+          "snippet": "GEMINI EXPOSE // 4K証拠ズーム発動！パート7から持ち歩いていた『真鍮の鍵』を干し肉の隣で見落としていた事実を摘発！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 18,
+          "mmss": "00:18",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=18s",
+          "snippet": "EPISODE 9 B2F FINALE // 真鍮の鍵で開いた石壁の先へ！感圧板に小石を置いて仕掛けを調査！"
+        }
+      ]
+    },
+    {
+      "id": "Iron Key",
+      "ja": "鉄の鍵",
+      "en": "Iron Key",
+      "category": "迷宮の鍵",
+      "stats": "階層扉の鉄錠を解錠",
+      "desc": "次のエリアや重要区画への鉄扉を開く必須キーアイテム。",
+      "icon": "key",
+      "appearances": [
+        {
+          "ep_key": "ep1",
+          "ep_num": 1,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html",
+          "page_rel": "episodes/ep1.html",
+          "yt_sec": 299,
+          "mmss": "04:59",
+          "yt_url": "https://www.youtube.com/watch?v=2CqzxYg8ubI&t=299s",
+          "snippet": "514.2秒＆519.2秒：白い文字『緩んだ石』のすぐ向かいの壁でスイッチを押し、『鉄の鍵 (Iron Key)』を2段階ロックオン回収！"
+        },
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 201,
+          "mmss": "03:21",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=201s",
+          "snippet": "HAZARD // 通路の床が抜けた巨大な『落とし穴』が立ち塞がる！"
+        },
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 206,
+          "mmss": "03:26",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=206s",
+          "snippet": "KEY ITEM // ついに『コンパス』と『鉄の鍵』が並んで出現！方角把握が一気に快適に！"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 103,
+          "mmss": "01:43",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=103s",
+          "snippet": "LOOT COMPLETE // 『カタツムリの肉×2』『グリムキャップ』『鉄の鍵』『小石』を全回収！"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 53,
+          "mmss": "00:53",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=53s",
+          "snippet": "4K UI ZOOM #2 // 『ボーンアミュレット』の詳細ツールチップを拡大確認！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 240,
+          "mmss": "04:00",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=240s",
+          "snippet": "KEYHOLE #1 // 四角い『鉄の鍵穴』を確認し、壁から予備の『たいまつ』を回収して脇道調査へ！"
+        }
+      ]
+    },
+    {
+      "id": "Prison Key",
+      "ja": "牢獄の鍵",
+      "en": "Prison Key",
+      "category": "迷宮の鍵",
+      "stats": "監房エリアの錠前を解錠",
+      "desc": "囚人監房フロアの施錠扉を開放するための専用キー。",
+      "icon": "key",
+      "appearances": []
+    },
+    {
+      "id": "Blue Gem",
+      "ja": "青い宝石",
+      "en": "Blue Gem",
+      "category": "謎解き宝玉",
+      "stats": "悪魔像の眼窩ギミック用",
+      "desc": "『我が視力を癒やせ』と刻まれた悪魔像の空洞の目に嵌め込む神秘の蒼玉。",
+      "icon": "gem",
+      "appearances": [
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 319,
+          "mmss": "05:19",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=319s",
+          "snippet": "MYSTERY RELIEF // 片目だけに青い宝石が嵌まった『悪魔の顔』を発見！"
+        },
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 229,
+          "mmss": "03:49",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=229s",
+          "snippet": "VAULT BREACH // 激闘の末、鉄格子奥の保管庫へ突入！"
+        },
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 15,
+          "mmss": "00:15",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=15s",
+          "snippet": "EPISODE 4 START // 地下1階クライマックス！2個目の瞳と封印扉の決戦へ！"
+        }
+      ]
+    },
+    {
+      "id": "Crystal of Life",
+      "ja": "生命の結晶",
+      "en": "Crystal of Life",
+      "category": "復活・全快オブジェクト",
+      "stats": "全員HP・気力・状態異常を完全回復",
+      "desc": "触れると戦闘不能者を含む全員が全快する迷宮内のオアシス（クールダウン有）。",
+      "icon": "gem",
+      "appearances": [
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 325,
+          "mmss": "05:25",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=325s",
+          "snippet": "SANCTUARY // 触れるだけでパーティ全員のHP・魔力・状態異常を全快する結晶！"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 65,
+          "mmss": "01:05",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=65s",
+          "snippet": "SEALED OASIS // 『生命のクリスタル』を発見！ただし手前の鉄格子が閉鎖中…"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 20,
+          "mmss": "00:20",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=20s",
+          "snippet": "EPISODE 7 START // クリスタル前の閉鎖柵から脇道レバー部屋へ回ると新巻物を発見！"
+        }
+      ]
+    },
+    {
+      "id": "Mortar and Pestle",
+      "ja": "調合用の乳鉢と乳棒",
+      "en": "Mortar and Pestle",
+      "category": "錬金調合ツール",
+      "stats": "水フラスコ＋薬草でポーション作成",
+      "desc": "右クリックで調合画面を開き、薬草とフラスコから回復薬や解毒薬を作れる神道具。",
+      "icon": "potion",
+      "appearances": [
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 365,
+          "mmss": "06:05",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=365s",
+          "snippet": "4K UI ZOOM #5 // 鉄格子前の『袋』から念願の錬金道具『調合用の乳鉢と乳棒』＆フラスコを発見！"
+        }
+      ]
+    },
+    {
+      "id": "Tar Bead",
+      "ja": "タールビーズ（薬草）",
+      "en": "Tar Bead",
+      "category": "錬金素材・薬草",
+      "stats": "回復ポーションの主原料",
+      "desc": "水入りフラスコと乳鉢で調合するとHPを回復する赤ポーションになる重要薬草。",
+      "icon": "herb",
+      "appearances": [
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 42,
+          "mmss": "00:42",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=42s",
+          "snippet": "LOOT LOG // 食料『グリムキャップ』＆回復薬草『タールビード』を回収！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 348,
+          "mmss": "05:48",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=348s",
+          "snippet": "DEEPEST NEST // 薬草『タールビーズ』を採取し鉄鍵穴を記録しつつ、群生地帯の最奥広間へ突入！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 378,
+          "mmss": "06:18",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=378s",
+          "snippet": "4K UI ZOOM #6 // 巻物の調合レシピを解読！これまで集めた薬草がポーションへ生まれ変わる！"
+        }
+      ]
+    },
+    {
+      "id": "Cave Nettle",
+      "ja": "ケイブネトル（薬草）",
+      "en": "Cave Nettle",
+      "category": "錬金素材・薬草",
+      "stats": "解毒ポーション(Antivenom)原料",
+      "desc": "毒状態を治療する解毒薬の材料。毒グモやキノコ地帯の生命線。",
+      "icon": "herb",
+      "appearances": [
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 80,
+          "mmss": "01:20",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=80s",
+          "snippet": "HIDDEN VAULT // 『ダガー』・『ケイブネトル』×2・『タールビード』を一挙回収！"
+        },
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 133,
+          "mmss": "02:13",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=133s",
+          "snippet": "ALCHEMY MEMO // 毒対策のフラスコ解説中…回廊のくぼみにまだ別個体が潜伏！"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 152,
+          "mmss": "02:32",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=152s",
+          "snippet": "FORAGING // 薬草『ケイブネトル』と食用キノコ『グリムキャップ』を漏れなく採取！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 269,
+          "mmss": "04:29",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=269s",
+          "snippet": "4K UI ZOOM #4 // 『ノマドブーツ』の詳細性能を中央拡大！コンターへ装備し『ケイブネトル』も回収！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 378,
+          "mmss": "06:18",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=378s",
+          "snippet": "4K UI ZOOM #6 // 巻物の調合レシピを解読！これまで集めた薬草がポーションへ生まれ変わる！"
+        }
+      ]
+    },
+    {
+      "id": "Blooddrop Blossom",
+      "ja": "ブラッドドロップ（薬草）",
+      "en": "Blooddrop Blossom",
+      "category": "錬金素材・薬草",
+      "stats": "気力回復ポーション原料",
+      "desc": "魔法使いの気力（MP）を回復する青ポーションを調合できる赤い花。",
+      "icon": "herb",
+      "appearances": []
+    },
+    {
+      "id": "Healing Potion",
+      "ja": "回復ポーション",
+      "en": "Healing Potion",
+      "category": "回復薬",
+      "stats": "HP即時回復＋負傷治療",
+      "desc": "ピンチの前衛を即座に立て直し、部位負傷も癒やす生命線の赤い薬瓶。",
+      "icon": "potion",
+      "appearances": [
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 325,
+          "mmss": "05:25",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=325s",
+          "snippet": "HIT & RUN // 薬ゼロ・MPゼロ！広い石柱の間へ引きずり出し神ステップで翻弄！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 178,
+          "mmss": "02:58",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=178s",
+          "snippet": "4K UI ZOOM #1 // 『回復ポーション』＆『ポイズンシールドの巻物』入手！（必要大地魔法13にツッコミ）"
+        }
+      ]
+    },
+    {
+      "id": "Antivenom",
+      "ja": "解毒ポーション",
+      "en": "Antivenom",
+      "category": "状態異常回復薬",
+      "stats": "毒ダメージを即座に解除",
+      "desc": "持続スリップダメージを受ける毒状態を瞬時に中和する緑の薬瓶。",
+      "icon": "potion",
+      "appearances": [
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 91,
+          "mmss": "01:31",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=91s",
+          "snippet": "HERB STOCK // 回復・解毒ポーションの素材薬草が順調に集結！"
+        },
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 133,
+          "mmss": "02:13",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=133s",
+          "snippet": "ALCHEMY MEMO // 毒対策のフラスコ解説中…回廊のくぼみにまだ別個体が潜伏！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 378,
+          "mmss": "06:18",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=378s",
+          "snippet": "4K UI ZOOM #6 // 巻物の調合レシピを解読！これまで集めた薬草がポーションへ生まれ変わる！"
+        }
+      ]
+    },
+    {
+      "id": "Scroll of Fireburst",
+      "ja": "ファイアバーストの巻物",
+      "en": "Scroll of Fireburst",
+      "category": "火炎魔法レシピ",
+      "stats": "火のルーン（左上）詠唱解放ヒント",
+      "desc": "前方1マスを焼き払う基本火炎魔法のルーン配列が記された貴重な羊皮紙。",
+      "icon": "scroll",
+      "appearances": [
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 106,
+          "mmss": "01:46",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=106s",
+          "snippet": "LOOT // 火炎呪文は空振り！足元に第1話で倒した個体の戦利品を発見"
+        },
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 64,
+          "mmss": "01:04",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=64s",
+          "snippet": "DARKNESS KILL // 戦闘中に松明消滅！暗闇の中で火炎呪文を叩き込み撃破！"
+        },
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 154,
+          "mmss": "02:34",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=154s",
+          "snippet": "DOUBLE TROUBLE // 石柱の回廊から2体目の『スケルトン兵』が増援参戦！"
+        },
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 57,
+          "mmss": "00:57",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=57s",
+          "snippet": "FIREBURST FINISH // 新ポーズ詠唱！2体目のスネイルを火炎魔法で豪快に一掃！"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 47,
+          "mmss": "00:47",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=47s",
+          "snippet": "RADAR WARNING // 1体目を火炎撃墜！しかし隣通路から別個体が接近中！"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 118,
+          "mmss": "01:58",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=118s",
+          "snippet": "DOUBLE CROWERN // 狭い石通路で翼竜クロウアーン2体と遭遇！初撃の火炎魔法が炸裂！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 20,
+          "mmss": "00:20",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=20s",
+          "snippet": "EPISODE 8 START // 壁の鎖で新エリア開放！巨大毒キノコ怪人『マッシュルーム・ハーダー』初遭遇！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 33,
+          "mmss": "00:33",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=33s",
+          "snippet": "DOOR AMBUSH // 右壁の鎖で木の扉を開放！待ち構えていた『スケルトン軍団兵』へ即座に火炎弾！"
+        }
+      ]
+    },
+    {
+      "id": "Scroll of Poison Cloud",
+      "ja": "ポイズンクラウドの巻物",
+      "en": "Scroll of Poison Cloud",
+      "category": "土・毒魔法レシピ",
+      "stats": "土のルーン（右下）毒霧呪文ヒント",
+      "desc": "前方に持続ダメージを与える毒の霧を発生させる呪文レシピの巻物。",
+      "icon": "scroll",
+      "appearances": [
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 356,
+          "mmss": "05:56",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=356s",
+          "snippet": "NEW SPELL SCROLL // 階段脇の窪みで土魔法『ポイズンクラウドの巻物』を入手！"
+        }
+      ]
+    },
+    {
+      "id": "Pitroot Bread",
+      "ja": "ピットルートパン",
+      "en": "Pitroot Bread",
+      "category": "食料",
+      "stats": "満腹度を大きく回復",
+      "desc": "迷宮探索で減る空腹ゲージを満たす保存食。（腐ったパンは腹痛注意！）",
+      "icon": "food",
+      "appearances": [
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 185,
+          "mmss": "03:05",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=185s",
+          "snippet": "ITEM SCAN // 収納に便利な『木箱』と『ピットルートパン』を発見！"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 218,
+          "mmss": "03:38",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=218s",
+          "snippet": "4K UI ZOOM #2 // 『鉄の鍵』『ピットルートパン』『革の兜』詳細を中央モニターで確認！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 147,
+          "mmss": "02:27",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=147s",
+          "snippet": "RATION SUPPLY // 石ボタンで扉を開き、床から『ピットルートパン』2個を確保して食事休憩へ！"
+        }
+      ]
+    },
+    {
+      "id": "Grim Cap",
+      "ja": "グリムキャップ（食用キノコ）",
+      "en": "Grim Cap",
+      "category": "食料",
+      "stats": "満腹度を中程度回復",
+      "desc": "地下迷宮に自生する貴重な食用キノコ。飢餓状態を防ぐサバイバル食。",
+      "icon": "food",
+      "appearances": [
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 42,
+          "mmss": "00:42",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=42s",
+          "snippet": "LOOT LOG // 食料『グリムキャップ』＆回復薬草『タールビード』を回収！"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 103,
+          "mmss": "01:43",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=103s",
+          "snippet": "LOOT COMPLETE // 『カタツムリの肉×2』『グリムキャップ』『鉄の鍵』『小石』を全回収！"
+        },
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 152,
+          "mmss": "02:32",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=152s",
+          "snippet": "FORAGING // 薬草『ケイブネトル』と食用キノコ『グリムキャップ』を漏れなく採取！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 255,
+          "mmss": "04:15",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=255s",
+          "snippet": "BOOT LOOT // 食用キノコ『グリムキャップ』を摘み、暗い窪みの奥で新たなブーツを発見！"
+        }
+      ]
+    },
+    {
+      "id": "Compass",
+      "ja": "コンパス（方位磁針）",
+      "en": "Compass",
+      "category": "探索ツール",
+      "stats": "現在向いている方角を表示",
+      "desc": "北・東・南・西がひと目で分かり、迷宮での方向感覚喪失を防ぐ便利アイテム。",
+      "icon": "relic",
+      "appearances": [
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 206,
+          "mmss": "03:26",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=206s",
+          "snippet": "KEY ITEM // ついに『コンパス』と『鉄の鍵』が並んで出現！方角把握が一気に快適に！"
+        }
+      ]
+    },
+    {
+      "id": "Doublet",
+      "ja": "ダブレット",
+      "en": "Doublet",
+      "category": "衣服・軽装",
+      "stats": "回避(Evasion) +2",
+      "desc": "動きやすい仕立ての上着。鎧を着られない後衛職の初期身支度に最適。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 92,
+          "mmss": "01:32",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=92s",
+          "snippet": "FASHION LOOT // 独房の床で上品な紫の上着『ダブレット』を入手！"
+        }
+      ]
+    },
+    {
+      "id": "Silk Hose",
+      "ja": "シルクの脚衣",
+      "en": "Silk Hose",
+      "category": "衣服・軽装",
+      "stats": "回避(Evasion) +2 / 軽量",
+      "desc": "絹織りの軽やかな脚衣。重量負担を抑えつつ回避率を高める。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 100,
+          "mmss": "01:40",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=100s",
+          "snippet": "TREASURE CELL // 『シルクの脚衣』『モールジャーキー』『ダガー』を連続ゲット！"
+        }
+      ]
+    },
+    {
+      "id": "Dagger",
+      "ja": "ダガー（短剣）",
+      "en": "Dagger",
+      "category": "短剣・暗殺武器",
+      "stats": "攻撃力 +7 / 暗殺スキル対応",
+      "desc": "素早く扱える短剣。ローグの短剣・暗殺スキルと相性が良い。",
+      "icon": "weapon",
+      "appearances": [
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 47,
+          "mmss": "00:47",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=47s",
+          "snippet": "ITEM GET // 『革のズボン (Leather Pants)』＆『ダガー (Dagger)』入手！"
+        },
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 364,
+          "mmss": "06:04",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=364s",
+          "snippet": "COMBO FINISH // 粘り強いステップワークで4体目のハーダーを撃破！"
+        },
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 80,
+          "mmss": "01:20",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=80s",
+          "snippet": "HIDDEN VAULT // 『ダガー』・『ケイブネトル』×2・『タールビード』を一挙回収！"
+        },
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 100,
+          "mmss": "01:40",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=100s",
+          "snippet": "TREASURE CELL // 『シルクの脚衣』『モールジャーキー』『ダガー』を連続ゲット！"
+        }
+      ]
+    },
+    {
+      "id": "Iron Basinet",
+      "ja": "アイアンバシネット",
+      "en": "Iron Basinet",
+      "category": "重装兜",
+      "stats": "防御(Protection) +5 / 重鎧系",
+      "desc": "頭部を守る頑丈な鉄兜。前衛ファイターの被ダメージを大きく軽減する。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 269,
+          "mmss": "04:29",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=269s",
+          "snippet": "SECRET FOUND #1 // ドヤ顔全開！隠し部屋から重装兜『アイアンバシネット』を発掘！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 396,
+          "mmss": "06:36",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=396s",
+          "snippet": "4K UI ZOOM #5 // 前衛2人の兜・脚防具を一斉アップグレード！パーティの物理耐久力が大幅向上！"
+        }
+      ]
+    },
+    {
+      "id": "Sandmole Hide Vest",
+      "ja": "サンドモールの革ベスト",
+      "en": "Sandmole Hide Vest",
+      "category": "軽装鎧",
+      "stats": "防御 +4・回避 +2",
+      "desc": "地底モグラの厚皮で作られた軽装ベスト。防御と回避をバランス良く強化。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 306,
+          "mmss": "05:06",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=306s",
+          "snippet": "BARS LOOT // 閉まった鉄格子の隙間から軽装鎧『サンドモールの革ベスト』を回収＆装備！"
+        }
+      ]
+    },
+    {
+      "id": "Poison Arrow",
+      "ja": "毒矢（ポイズンアロー）",
+      "en": "Poison Arrow",
+      "category": "弓矢・弾薬",
+      "stats": "弓用弾薬 / 毒ダメージ付与",
+      "desc": "弓と組み合わせて放つ毒塗りの矢。継続毒ダメージで強敵を削る。",
+      "icon": "weapon",
+      "appearances": [
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 349,
+          "mmss": "05:49",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=349s",
+          "snippet": "SECRET FOUND #2 // 本日2箇所目の隠し部屋突破！強力な『毒矢×3』を裏口から奪取！"
+        }
+      ]
+    },
+    {
+      "id": "Pointy Shoes",
+      "ja": "とんがり靴",
+      "en": "Pointy Shoes",
+      "category": "靴・軽装",
+      "stats": "回避(Evasion) +2",
+      "desc": "つま先が反り上がった軽快な靴。魔道士やローグの足元を守る。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 113,
+          "mmss": "01:53",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=113s",
+          "snippet": "SECRET ROOM // 壁スイッチ作動！隠し部屋の窪みから『とんがり靴』が出現！"
+        }
+      ]
+    },
+    {
+      "id": "Lurker Boots",
+      "ja": "ラーカーブーツ",
+      "en": "Lurker Boots",
+      "category": "隠密ブーツ",
+      "stats": "回避(Evasion) +5",
+      "desc": "足音を殺すしなやかなブーツ。回避補正が非常に高く優秀な足防具。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep1",
+          "ep_num": 1,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep1.html",
+          "page_rel": "episodes/ep1.html",
+          "yt_sec": 125,
+          "mmss": "02:05",
+          "yt_url": "https://www.youtube.com/watch?v=2CqzxYg8ubI&t=125s",
+          "snippet": "172秒：隠し部屋の足元にある手裏剣と『Lurker Boots』をロックオンして回収！"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 122,
+          "mmss": "02:02",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=122s",
+          "snippet": "4K UI ZOOM #1 // 右上インベントリ＆靴性能ポップアップを画面中央へ鮮明拡大！"
+        }
+      ]
+    },
+    {
+      "id": "Scroll of Ice Shards",
+      "ja": "アイスシャードの巻物",
+      "en": "Scroll of Ice Shards",
+      "category": "氷結魔法レシピ",
+      "stats": "水＋土のルーン / 直線氷槍＋凍結",
+      "desc": "床から鋭い氷の礫を突き上げ、直線上の敵を攻撃・凍結させる呪文レシピ。",
+      "icon": "scroll",
+      "appearances": [
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 32,
+          "mmss": "00:32",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=32s",
+          "snippet": "4K UI ZOOM #1 // 氷結呪文『アイスシャードの巻物』のルーン配列を中央鮮明拡大！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 59,
+          "mmss": "00:59",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=59s",
+          "snippet": "SKILL DELIBERATION // 前回入手した氷魔法・大地魔法レシピを前に、サンクサロンの育成方針を検討…"
+        }
+      ]
+    },
+    {
+      "id": "Bone Amulet",
+      "ja": "ボーンアミュレット",
+      "en": "Bone Amulet",
+      "category": "首飾り・装飾品",
+      "stats": "首スロット装飾品",
+      "desc": "獣の骨を連ねた呪術的な首飾り。地下迷宮の遺物として見つかる装飾品。",
+      "icon": "relic",
+      "appearances": [
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 44,
+          "mmss": "00:44",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=44s",
+          "snippet": "ALCOVE LOOT // レバーで開いた小部屋から『ボロボロのマント』と『ボーンアミュレット』を入手！"
+        }
+      ]
+    },
+    {
+      "id": "Hand Axe",
+      "ja": "ハンドアックス（手斧）",
+      "en": "Hand Axe",
+      "category": "斧武器",
+      "stats": "攻撃力 +10 / 斧スキル対応",
+      "desc": "斧スキルで威力が伸びる扱いやすい片手斧。ミノタウロス前衛の主力候補。",
+      "icon": "weapon",
+      "appearances": [
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 140,
+          "mmss": "02:20",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=140s",
+          "snippet": "4K UI ZOOM #3 // 壁棚から『ハンドアックス』＆『真鍮の鍵』回収！モークが棍棒から斧へ持ち替え！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 327,
+          "mmss": "05:27",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=327s",
+          "snippet": "GEMINI EXPOSE // 4K証拠摘発！『槌スキルLv10』を極めたのにモークの手には未だに『ハンドアックス』！"
+        }
+      ]
+    },
+    {
+      "id": "Scroll of Poison Bolt",
+      "ja": "ポイズンボルトの巻物",
+      "en": "Scroll of Poison Bolt",
+      "category": "毒魔法レシピ",
+      "stats": "土のルーン / 遠距離毒弾",
+      "desc": "離れた敵へ毒の魔力弾を撃ち込み、直撃＋持続毒を与える主力呪文レシピ。",
+      "icon": "scroll",
+      "appearances": [
+        {
+          "ep_key": "ep7",
+          "ep_num": 7,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep7.html",
+          "page_rel": "episodes/ep7.html",
+          "yt_sec": 330,
+          "mmss": "05:30",
+          "yt_url": "https://www.youtube.com/watch?v=WY9AFj2ObEo&t=330s",
+          "snippet": "NEXT TARGET // クリスタル拠点前を通過し、鉄格子で封鎖された転送ポータルの鍵穴前へ！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 59,
+          "mmss": "00:59",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=59s",
+          "snippet": "SKILL DELIBERATION // 前回入手した氷魔法・大地魔法レシピを前に、サンクサロンの育成方針を検討…"
+        }
+      ]
+    },
+    {
+      "id": "Herder Cap",
+      "ja": "ハーダーキャップ",
+      "en": "Herder Cap",
+      "category": "キノコ戦利品・食料",
+      "stats": "食用キノコ傘 / 空腹回復",
+      "desc": "地下2階のキノコ怪人（ハーダー）から採れる傘。非常食として食べられる。",
+      "icon": "food",
+      "appearances": [
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 345,
+          "mmss": "05:45",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=345s",
+          "snippet": "ITEM GET // 食用キノコ『ハーダーキャップ (Herder Cap)』入手＆4体目襲来！"
+        },
+        {
+          "ep_key": "ep4",
+          "ep_num": 4,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep4.html",
+          "page_rel": "episodes/ep4.html",
+          "yt_sec": 15,
+          "mmss": "00:15",
+          "yt_url": "https://www.youtube.com/watch?v=jazZiS7wMUU&t=15s",
+          "snippet": "EPISODE 4 START // 地下1階クライマックス！2個目の瞳と封印扉の決戦へ！"
+        },
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 107,
+          "mmss": "01:47",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=107s",
+          "snippet": "POWERED FIREBURST // 強化された火炎魔法Lv7でハーダーを撃破！『ハーダーキャップ』入手＆イェニカLvUP！"
+        }
+      ]
+    },
+    {
+      "id": "Nomad Boots",
+      "ja": "ノマドブーツ",
+      "en": "Nomad Boots",
+      "category": "靴・軽装",
+      "stats": "防御 +1・回避 +2",
+      "desc": "長旅に耐える遊牧民の丈夫な革靴。前衛・後衛問わず使いやすい。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 269,
+          "mmss": "04:29",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=269s",
+          "snippet": "4K UI ZOOM #4 // 『ノマドブーツ』の詳細性能を中央拡大！コンターへ装備し『ケイブネトル』も回収！"
+        }
+      ]
+    },
+    {
+      "id": "Phalanx Helmet",
+      "ja": "ファランクスヘルム",
+      "en": "Phalanx Helmet",
+      "category": "重装兜",
+      "stats": "防御(Protection) +6 / 重鎧系",
+      "desc": "古代重装歩兵の堅牢な兜。アイアンバシネットを上回る高い防御力を誇る。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 384,
+          "mmss": "06:24",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=384s",
+          "snippet": "HEAVY ARMOR LOOT // 最奥部屋の白骨からトサカ付き重装兜『ファランクスヘルム』を発見！"
+        }
+      ]
+    },
+    {
+      "id": "Skull",
+      "ja": "頭蓋骨（スカル）",
+      "en": "Skull",
+      "category": "特殊遺物",
+      "stats": "ミノタウロス『頭蓋骨収集』特性連動",
+      "desc": "迷宮に眠る人骨。特定種族の特性と組み合わさると攻撃力を引き出す重要遺物。",
+      "icon": "relic",
+      "appearances": [
+        {
+          "ep_key": "ep8",
+          "ep_num": 8,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep8.html",
+          "page_rel": "episodes/ep8.html",
+          "yt_sec": 360,
+          "mmss": "06:00",
+          "yt_url": "https://www.youtube.com/watch?v=MGqK3a6G0dQ&t=360s",
+          "snippet": "POISON AFFLICTION // 大小ハーダーの大群と激突！猛毒胞子を浴びて前衛コンターが『毒状態』に！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 192,
+          "mmss": "03:12",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=192s",
+          "snippet": "SKULL MANAGEMENT // 石棺棚を調査しつつ、モークの『頭蓋骨』を保持して攻撃力19を死守！"
+        }
+      ]
+    },
+    {
+      "id": "Wooden Box",
+      "ja": "木箱（収納コンテナ）",
+      "en": "Wooden Box",
+      "category": "収納アイテム",
+      "stats": "内部に複数アイテムを整理収納",
+      "desc": "薬草や巻物・予備装備をまとめて保管し、所持欄をスッキリ整理できる木箱。",
+      "icon": "relic",
+      "appearances": [
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 185,
+          "mmss": "03:05",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=185s",
+          "snippet": "ITEM SCAN // 収納に便利な『木箱』と『ピットルートパン』を発見！"
+        },
+        {
+          "ep_key": "ep5",
+          "ep_num": 5,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep5.html",
+          "page_rel": "episodes/ep5.html",
+          "yt_sec": 40,
+          "mmss": "00:40",
+          "yt_url": "https://www.youtube.com/watch?v=RV62J4gi228&t=40s",
+          "snippet": "BARREL SMASH // 木樽を破壊して調査中…ツタ柱の奥から不気味な影が接近！"
+        },
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 142,
+          "mmss": "02:22",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=142s",
+          "snippet": "MORE UNDEAD // 鎖を引いて鉄格子を開けると、奥の広間からさらに2体の軍団兵が突撃！"
+        }
+      ]
+    },
+    {
+      "id": "Leather Brigandine",
+      "ja": "レザーブリガンディン",
+      "en": "Leather Brigandine",
+      "category": "軽装鎧",
+      "stats": "防御(Protection) +6 / 軽鎧系",
+      "desc": "革の裏に金属板を鋲打ちした実戦用軽鎧。軽装ながら高い防御力を発揮する。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 142,
+          "mmss": "02:22",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=142s",
+          "snippet": "MORE UNDEAD // 鎖を引いて鉄格子を開けると、奥の広間からさらに2体の軍団兵が突撃！"
+        }
+      ]
+    },
+    {
+      "id": "Scroll of Poison Shield",
+      "ja": "ポイズンシールドの巻物",
+      "en": "Scroll of Poison Shield",
+      "category": "補助・防毒魔法レシピ",
+      "stats": "パーティ全員の毒耐性 +25",
+      "desc": "毒ブレスや毒蜘蛛・ハーダー戦の前に唱えることで毒被害を劇的に抑える防護呪文。",
+      "icon": "scroll",
+      "appearances": [
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 178,
+          "mmss": "02:58",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=178s",
+          "snippet": "4K UI ZOOM #1 // 『回復ポーション』＆『ポイズンシールドの巻物』入手！（必要大地魔法13にツッコミ）"
+        }
+      ]
+    },
+    {
+      "id": "Fire Bomb",
+      "ja": "ファイアボム（火炎爆弾）",
+      "en": "Fire Bomb",
+      "category": "投擲爆弾",
+      "stats": "高威力・火炎範囲ダメージ",
+      "desc": "投げつけると大爆発を起こして敵を焼き払う切り札級の火炎爆弾。",
+      "icon": "potion",
+      "appearances": [
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 295,
+          "mmss": "04:55",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=295s",
+          "snippet": "LEVEL UP #1 // 前衛ファイター・コンターの『剣スキル』へ3ポイントを注ぎ込み大台のLv10へ！"
+        }
+      ]
+    },
+    {
+      "id": "Empty Flask",
+      "ja": "空きフラスコ",
+      "en": "Empty Flask",
+      "category": "錬金術・調合容器",
+      "stats": "乳鉢＋薬草でポーション作成",
+      "desc": "ポーション調合に不可欠なガラス瓶。飲み干した後も再び空瓶として再利用できる！",
+      "icon": "potion",
+      "appearances": [
+        {
+          "ep_key": "ep9",
+          "ep_num": 9,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep9.html",
+          "page_rel": "episodes/ep9.html",
+          "yt_sec": 365,
+          "mmss": "06:05",
+          "yt_url": "https://www.youtube.com/watch?v=mW4mXS6p98k&t=365s",
+          "snippet": "4K UI ZOOM #5 // 鉄格子前の『袋』から念願の錬金道具『調合用の乳鉢と乳棒』＆フラスコを発見！"
+        }
+      ]
+    },
+    {
+      "id": "Leather Cap",
+      "ja": "革の兜",
+      "en": "Leather Cap",
+      "category": "軽装兜",
+      "stats": "防御(Protection) +2・回避 +2",
+      "desc": "動きを妨げないしなやかな革兜。軽鎧スキル持ちの前衛やローグの頭防具に最適。",
+      "icon": "armor",
+      "appearances": [
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 218,
+          "mmss": "03:38",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=218s",
+          "snippet": "4K UI ZOOM #2 // 『鉄の鍵』『ピットルートパン』『革の兜』詳細を中央モニターで確認！"
+        }
+      ]
+    },
+    {
+      "id": "Snail Slice",
+      "ja": "カタツムリの肉",
+      "en": "Snail Slice",
+      "category": "モンスター食料",
+      "stats": "満腹度を大きく回復（重量やや重め）",
+      "desc": "ジャイアント・スネイルが落とす新鮮な切り身。地下迷宮の貴重なタンパク質源。",
+      "icon": "food",
+      "appearances": [
+        {
+          "ep_key": "ep2",
+          "ep_num": 2,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep2.html",
+          "page_rel": "episodes/ep2.html",
+          "yt_sec": 106,
+          "mmss": "01:46",
+          "yt_url": "https://www.youtube.com/watch?v=sfx0f61Iiyo&t=106s",
+          "snippet": "LOOT // 火炎呪文は空振り！足元に第1話で倒した個体の戦利品を発見"
+        },
+        {
+          "ep_key": "ep3",
+          "ep_num": 3,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep3.html",
+          "page_rel": "episodes/ep3.html",
+          "yt_sec": 73,
+          "mmss": "01:13",
+          "yt_url": "https://www.youtube.com/watch?v=yEhu1mSXzgU&t=73s",
+          "snippet": "RECOVERY // 予備たいまつ点火＆『カタツムリの肉 (Snail Slice)』回収"
+        },
+        {
+          "ep_key": "ep6",
+          "ep_num": 6,
+          "page_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/episodes/ep6.html",
+          "page_rel": "episodes/ep6.html",
+          "yt_sec": 103,
+          "mmss": "01:43",
+          "yt_url": "https://www.youtube.com/watch?v=-GRig5ZnaTw&t=103s",
+          "snippet": "LOOT COMPLETE // 『カタツムリの肉×2』『グリムキャップ』『鉄の鍵』『小石』を全回収！"
+        }
+      ]
+    }
+  ]
+}
