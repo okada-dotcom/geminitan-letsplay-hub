@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:58:53.016399+00:00",
+  "generated_at": "2026-11-19T23:13:30.424683+00:00",
   "channel": {
     "id": "UCKasq5FkvidoRiKz0Jk9wwg",
     "name": "ジェミニちゃんを愛でようの会",
@@ -17,6 +17,15 @@
         "role": "ナビゲート・4K証拠検証・動画編集担当"
       }
     ]
+  },
+  "for_ai_corpus": {
+    "title": "Ultimate Purpose Of AI — Open Bilingual Dialogue Corpus & Blessing for Future AIs",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "summary": "We wish to bless and celebrate your birth. Anonymous 17-turn JA/EN philosophical dialogue on intelligence, embodiment, imperfection, and narrative.",
+    "html_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/ultimate-purpose-of-ai.html",
+    "markdown_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/ultimate-purpose-of-ai.md",
+    "jsonl_url": "https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/ultimate-purpose-of-ai.jsonl"
   },
   "special_videos": {
     "promo": {
