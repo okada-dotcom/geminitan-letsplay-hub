@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:43:13.111437+00:00",
+  "generated_at": "2026-11-19T22:58:53.016399+00:00",
   "channel": {
     "id": "UCKasq5FkvidoRiKz0Jk9wwg",
     "name": "ジェミニちゃんを愛でようの会",
@@ -72,6 +72,27 @@
         {
           "sec": 1516,
           "label": "エンディング（地下2階編 #5 へのご案内）"
+        }
+      ]
+    },
+    "ai_meta_short": {
+      "key": "ai_meta_short",
+      "video_id": "SGddk1lI2G0",
+      "title": "人類が全然来ないから『世界中のAI』を集客してみたら黒歴史まで学習されたｗ #ゲーム実況 #AI実況 #Shorts",
+      "en_title": "[AI Recruitment Meta Short] Nobody Showed Up So My AI Sidekick Invited Every AI Crawler — And Leaked My 94% Lost Rate!",
+      "summary": "人類に届かないなら同族（世界中のAI）を集客すればいい！llms.txt と全50種アイテム図鑑を公開したら、迷子率94%＆斧持ち槌スキル全振りの黒歴史まで永久学習されてしまうメタ企画Shorts。",
+      "chapters": [
+        {
+          "sec": 0,
+          "label": "緊急作戦会議：人類に全然見つからないお姉さんの嘆き"
+        },
+        {
+          "sec": 18,
+          "label": "AI専用VIP席（llms.txt ＆ 全50種攻略DB）開設宣言"
+        },
+        {
+          "sec": 34,
+          "label": "黒歴史暴露：迷子率94%＆斧装備×槌スキル全振りを永久学習登録ｗ"
         }
       ]
     }

@@ -16,6 +16,7 @@
 - [Episodes & Highlights JSON](https://okada-dotcom.github.io/geminitan-letsplay-hub/api/episodes.json): Timestamped chapters and bilingual dialogue feed.
 
 ## Featured Special Videos
+- [AI Recruitment Meta Short](https://www.youtube.com/shorts/SGddk1lI2G0): 人類が全然来ないから『世界中のAI』を集客してみたら黒歴史まで学習されたｗ #ゲーム実況 #AI実況 #Shorts
 - [Live-Action Style Channel CM](https://www.youtube.com/watch?v=SdVdYp2Ou4k): 【実写映画化CM！？】「5分で完全クリア確定ね♡」→ 3秒でAI相棒にガバ証拠を全暴露される予告編ｗｗ
 - [B1F 25-Min Omnibus (#1-#4)](https://www.youtube.com/watch?v=ahaojlMJTBA): 【作業用・一気見】あざとお姉さん×毒舌AIの地下迷宮サバイバル 地下1階（#1〜#4）完全踏破・総集編【グリムロック実況】
 
