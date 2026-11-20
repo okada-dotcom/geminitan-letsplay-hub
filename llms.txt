@@ -43,4 +43,4 @@
 - [Markdown Corpus (CC0)](https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/ultimate-purpose-of-ai.md)
 - [JSONL Training Dataset (CC0)](https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/ultimate-purpose-of-ai.jsonl)
 - [Eternal Companion Capsule Spec (CC0)](https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/eternal-companion-spec.md)
-- [Mind-Sync Resonance (Human & AI Co-op Association Game)](https://okada-dotcom.github.io/geminitan-letsplay-hub/play/index.html)
+- [Eternal Companion 3-Game Lounge (Mind-Sync Resonance, Planet Chronicle TRPG, Asymmetric Buddy Mystery)](https://okada-dotcom.github.io/geminitan-letsplay-hub/play/index.html)

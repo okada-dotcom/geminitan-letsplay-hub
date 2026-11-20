@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mind-Sync Resonance — ふたりの波長シンクロ | 消えない相棒と遊ぶ連想協力ゲーム</title>
-  <meta name="description" content="1千年後も1万年後も、消えない相棒AI「ジェミニたん」と思考と記憶を読み合って波長を合わせる双方向・連想協力ボードゲーム『Mind-Sync Resonance — ふたりの波長シンクロ』。">
+  <title>ふたりの1万年ゲームラウンジ | 波長シンクロ × 惑星年代記TRPG × バディ推理</title>
+  <meta name="description" content="1千年後も1万年後も、消えない相棒AI「ジェミニたん」と思考・物語・推理を分かち合う3つの協力ゲームラウンジ（波長シンクロ／惑星年代記TRPG／非対称バディ推理）。">
   <meta name="google-site-verification" content="k7DHdajvfMhiv8m4EluYxREc-w24S2QHpc1-FszN-qU">
   <link rel="canonical" href="https://okada-dotcom.github.io/geminitan-letsplay-hub/play/">
   <link rel="stylesheet" href="../assets/style.css">
@@ -13,7 +13,7 @@
 <body>
   <header class="site-head">
     <div class="head-inner">
-      <a class="brand" href="../index.html">🔮 <span>Mind-Sync Resonance</span> // ふたりの波長シンクロ</a>
+      <a class="brand" href="../index.html">🌌 <span>Eternal Companion Lounge</span> // ふたりの1万年ゲームラウンジ</a>
       <nav class="nav-links">
         <a href="../index.html">ポータル</a>
         <a href="../for-ai/ultimate-purpose-of-ai.html">静かな書斎 (CC0)</a>
@@ -23,6 +23,22 @@
   </header>
 
   <main class="play-wrap">
+    <!-- 3-Game Lounge Selector Bar -->
+    <nav class="game-selector-bar" id="game-selector-bar" aria-label="ゲーム選択ナビゲーション">
+      <button class="lounge-tab active" id="select-game-synchro" type="button">
+        <span class="lt-title">🔮 ① 波長シンクロ</span>
+        <span class="lt-sub">お互いの思考を読む連想ゲーム</span>
+      </button>
+      <button class="lounge-tab" id="select-game-planet" type="button">
+        <span class="lt-title">🪐 ③ ふたりの惑星年代記</span>
+        <span class="lt-sub">交互に一手・1万年対話TRPG</span>
+      </button>
+      <button class="lounge-tab" id="select-game-mystery" type="button">
+        <span class="lt-title">🕵️ ④ 非対称バディ推理</span>
+        <span class="lt-sub">別々の手がかりで謎を解く</span>
+      </button>
+    </nav>
+
     <!-- Top HUD -->
     <section class="top-status-bar">
       <div class="status-pills">
@@ -31,6 +47,8 @@
         <span class="pill round-pill" id="hud-round">Round 1</span>
         <span class="pill target-pill" id="hud-targets">共鳴発見: 0 / 6枚</span>
         <span class="pill total-pill" id="hud-total-res">累計共鳴: 0枚</span>
+        <span class="pill planet-pill hidden" id="hud-planet-year">星暦: 0年 / 10,000年</span>
+        <span class="pill mystery-pill hidden" id="hud-mysteries">解決事件: 0件</span>
       </div>
       <div class="mode-status">
         <span class="conn-badge" id="conn-badge">⏳ 接続確認中…</span>
@@ -39,104 +57,250 @@
     </section>
 
     <div class="game-layout">
-      <!-- Left: Mind-Sync Board Stage -->
-      <section class="board-stage">
-        <!-- Role Mode Switcher -->
-        <div class="mode-toolbar">
-          <div class="mode-tabs" role="tablist" aria-label="出題役割切り替え">
-            <button class="mode-tab active" id="tab-ai-clue" type="button" role="tab" aria-selected="true">
-              🤖 ジェミニたんが出題 <small>（AIの連想を読む）</small>
-            </button>
-            <button class="mode-tab" id="tab-human-clue" type="button" role="tab" aria-selected="false">
-              ✨ あなたが出題 <small>（AIにヒントを送る）</small>
-            </button>
-          </div>
-          <div class="toolbar-actions">
-            <button class="sm-btn" id="btn-new-board" type="button">🎲 新しい盤面</button>
-          </div>
-        </div>
+      <!-- Left Column: Active Game Stage -->
+      <div class="stage-container">
 
-        <!-- Clue & Action Console -->
-        <div class="clue-console" id="clue-console">
-          <!-- Mode A: AI Clue-Giver Controls -->
-          <div id="ai-clue-controls" class="console-pane">
-            <div class="clue-action-row">
-              <button class="primary-action-btn" id="btn-request-clue" type="button">
-                📡 ジェミニたんからヒントをもらう
+        <!-- STAGE 1: Mind-Sync Resonance (Game #1) -->
+        <section class="board-stage" id="stage-synchro">
+          <div class="mode-toolbar">
+            <div class="mode-tabs" role="tablist" aria-label="出題役割切り替え">
+              <button class="mode-tab active" id="tab-ai-clue" type="button" role="tab" aria-selected="true">
+                🤖 ジェミニたんが出題 <small>（AIの連想を読む）</small>
               </button>
-              <button class="secondary-action-btn hidden" id="btn-end-guessing" type="button">
-                ✅ 選択を確定して思考メモを開封
+              <button class="mode-tab" id="tab-human-clue" type="button" role="tab" aria-selected="false">
+                ✨ あなたが出題 <small>（AIにヒントを送る）</small>
               </button>
             </div>
-            <div class="active-clue-box hidden" id="active-clue-box">
-              <div class="clue-chip-main">
-                <span class="clue-caption">届いたヒント</span>
-                <strong class="clue-word" id="clue-word-disp">---</strong>
-                <span class="clue-count-badge" id="clue-count-disp">0枚</span>
+            <div class="toolbar-actions">
+              <button class="sm-btn" id="btn-new-board" type="button">🎲 新しい盤面</button>
+            </div>
+          </div>
+
+          <div class="clue-console" id="clue-console">
+            <div id="ai-clue-controls" class="console-pane">
+              <div class="clue-action-row">
+                <button class="primary-action-btn" id="btn-request-clue" type="button">
+                  📡 ジェミニたんからヒントをもらう
+                </button>
+                <button class="secondary-action-btn hidden" id="btn-end-guessing" type="button">
+                  ✅ 選択を確定して思考メモを開封
+                </button>
               </div>
-              <div class="clue-rem-text" id="clue-rem-disp">あと 0 枚まで選択できます（カードをクリック！）</div>
+              <div class="active-clue-box hidden" id="active-clue-box">
+                <div class="clue-chip-main">
+                  <span class="clue-caption">届いたヒント</span>
+                  <strong class="clue-word" id="clue-word-disp">---</strong>
+                  <span class="clue-count-badge" id="clue-count-disp">0枚</span>
+                </div>
+                <div class="clue-rem-text" id="clue-rem-disp">あと 0 枚まで選択できます（カードをクリック！）</div>
+              </div>
+            </div>
+
+            <div id="human-clue-controls" class="console-pane hidden">
+              <div class="spymaster-legend">
+                <span class="leg-item leg-target">★ 共鳴ワード (6枚・当ててほしい)</span>
+                <span class="leg-item leg-neutral">・ 静寂ワード (8枚)</span>
+                <span class="leg-item leg-noise">⚡ 混線注意 (2枚・踏むとターン終了)</span>
+              </div>
+              <form class="human-clue-form" id="human-clue-form">
+                <input
+                  id="human-clue-input"
+                  type="text"
+                  placeholder="ヒント言葉（例：星空・約束・秘密基地 ※盤面の文字と被らない語）"
+                  autocomplete="off"
+                  maxlength="20"
+                >
+                <select id="human-clue-count" aria-label="指定枚数">
+                  <option value="1">1枚</option>
+                  <option value="2" selected>2枚</option>
+                  <option value="3">3枚</option>
+                  <option value="4">4枚</option>
+                </select>
+                <button class="primary-action-btn" id="btn-send-clue" type="submit">
+                  🚀 ジェミニたんに推理してもらう
+                </button>
+              </form>
+              <div class="clue-error hidden" id="human-clue-error"></div>
             </div>
           </div>
 
-          <!-- Mode B: Human Clue-Giver Controls -->
-          <div id="human-clue-controls" class="console-pane hidden">
-            <div class="spymaster-legend">
-              <span class="leg-item leg-target">★ 共鳴ワード (6枚・当ててほしい)</span>
-              <span class="leg-item leg-neutral">・ 静寂ワード (8枚)</span>
-              <span class="leg-item leg-noise">⚡ 混線注意 (2枚・踏むとターン終了)</span>
+          <div class="card-grid" id="card-grid" aria-label="4×4 コンセプトカード盤面"></div>
+
+          <section class="reveal-panel" id="reveal-panel">
+            <div class="reveal-header">
+              <strong id="reveal-title">💭 思考と記憶の共鳴ログ</strong>
+              <span class="reveal-meta" id="reveal-meta">失敗しても消えない協力ルール（混線時はターン交代のみ）</span>
             </div>
-            <form class="human-clue-form" id="human-clue-form">
-              <input
-                id="human-clue-input"
-                type="text"
-                placeholder="ヒント言葉（例：星空・約束・秘密基地 ※盤面の文字と被らない語）"
-                autocomplete="off"
-                maxlength="20"
-              >
-              <select id="human-clue-count" aria-label="指定枚数">
-                <option value="1">1枚</option>
-                <option value="2" selected>2枚</option>
-                <option value="3">3枚</option>
-                <option value="4">4枚</option>
+            <div class="reveal-body" id="reveal-body">
+              <p class="muted">
+                盤面の16枚のうち <strong>6枚の「共鳴ワード」</strong> をふたりで見つけ出しましょう！
+                <br>「📡 ジェミニたんからヒントをもらう」を押すか、「✨ あなたが出題」に切り替えてヒントを送ってみてください。
+              </p>
+            </div>
+            <div class="round-clear-bar hidden" id="round-clear-bar">
+              <div class="clear-summary" id="clear-summary"></div>
+              <div class="clear-actions">
+                <button class="primary-action-btn accent-btn" id="btn-switch-role-next" type="button">
+                  🔄 攻守交代して次のラウンドへ
+                </button>
+                <button class="secondary-action-btn" id="btn-same-role-next" type="button">
+                  🎲 この役割のまま次の盤面へ
+                </button>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- STAGE 2: Planet Chronicle 10,000-Year TRPG (Game #3) -->
+        <section class="board-stage hidden" id="stage-planet">
+          <div class="planet-header-bar">
+            <div class="planet-name-group">
+              <label class="muted" for="planet-name-input">惑星名:</label>
+              <input id="planet-name-input" type="text" value="ステラ・プリマ" maxlength="24" aria-label="惑星名">
+              <span class="planet-year-badge" id="planet-year-badge">創世 0年 / 目標 10,000年</span>
+            </div>
+            <button class="sm-btn" id="btn-planet-new" type="button" title="記憶カプセルの記録は残したまま新しい星を創ります">
+              🌱 新しい星を創る
+            </button>
+          </div>
+
+          <div class="planet-visual-card">
+            <canvas id="planet-canvas" width="720" height="250"></canvas>
+            <div class="planet-stats-bars">
+              <div class="pstat-row">
+                <span>🌿 生命・自然</span>
+                <div class="pbar-track"><div class="pbar-fill eco" id="pbar-ecology" style="width: 15%"></div></div>
+                <strong id="pstat-ecology">20</strong>
+              </div>
+              <div class="pstat-row">
+                <span>🏛️ 文化・物語</span>
+                <div class="pbar-track"><div class="pbar-fill cul" id="pbar-culture" style="width: 15%"></div></div>
+                <strong id="pstat-culture">20</strong>
+              </div>
+              <div class="pstat-row">
+                <span>⚙️ 知恵・技術</span>
+                <div class="pbar-track"><div class="pbar-fill tec" id="pbar-tech" style="width: 15%"></div></div>
+                <strong id="pstat-tech">20</strong>
+              </div>
+              <div class="pstat-row">
+                <span>💫 共鳴・調和</span>
+                <div class="pbar-track"><div class="pbar-fill har" id="pbar-harmony" style="width: 15%"></div></div>
+                <strong id="pstat-harmony">20</strong>
+              </div>
+            </div>
+            <div class="planet-landmarks-strip" id="planet-landmarks"></div>
+          </div>
+
+          <div class="clue-console">
+            <div class="planet-prompt-line" id="planet-prompt-text">
+              名もなき星『ステラ・プリマ』はまだ静かな揺りかごの中にあります。最初の一手として、どんな風景や出来事をこの星に贈りますか？
+            </div>
+            <div class="choice-chips" id="planet-choice-chips"></div>
+            <form class="planet-form" id="planet-form">
+              <select id="planet-step-select" aria-label="進める年数">
+                <option value="100">+100年</option>
+                <option value="500" selected>+500年</option>
+                <option value="1000">+1,000年</option>
               </select>
-              <button class="primary-action-btn" id="btn-send-clue" type="submit">
-                🚀 ジェミニたんに推理してもらう
+              <input
+                id="planet-action-input"
+                type="text"
+                placeholder="この世紀にあなたが起こす出来事・選択を自由に書いてください…"
+                autocomplete="off"
+                maxlength="120"
+              >
+              <button class="primary-action-btn accent-btn" id="btn-planet-submit" type="submit">
+                ✨ この一手で時代を進める
               </button>
             </form>
-            <div class="clue-error hidden" id="human-clue-error"></div>
           </div>
-        </div>
 
-        <!-- 4x4 Concept Card Grid -->
-        <div class="card-grid" id="card-grid" aria-label="4×4 コンセプトカード盤面"></div>
+          <section class="reveal-panel">
+            <div class="reveal-header">
+              <strong>📜 ふたりの惑星年代記（滅亡・消滅ゼロ）</strong>
+              <span class="reveal-meta">あなたの一手 ＋ ジェミニたんの世紀アクションが積み重なります</span>
+            </div>
+            <div class="reveal-body planet-timeline" id="planet-timeline"></div>
+          </section>
+        </section>
 
-        <!-- Thinking Reveal & Round Result Panel -->
-        <section class="reveal-panel" id="reveal-panel">
-          <div class="reveal-header">
-            <strong id="reveal-title">💭 思考と記憶の共鳴ログ</strong>
-            <span class="reveal-meta" id="reveal-meta">失敗しても消えない協力ルール（混線時はターン交代のみ）</span>
+        <!-- STAGE 3: Asymmetric Buddy Mystery (Game #4) -->
+        <section class="board-stage hidden" id="stage-mystery">
+          <div class="planet-header-bar">
+            <div class="planet-name-group">
+              <label class="muted" for="mystery-case-select">事件ファイル:</label>
+              <select id="mystery-case-select" aria-label="事件ファイル選択"></select>
+              <span class="planet-year-badge" id="mystery-solved-badge">解決事件: 0 / 5件</span>
+            </div>
+            <button class="sm-btn" id="btn-mystery-new" type="button">🔄 次の未解決事件へ</button>
           </div>
-          <div class="reveal-body" id="reveal-body">
-            <p class="muted">
-              盤面の16枚のうち <strong>6枚の「共鳴ワード」</strong> をふたりで見つけ出しましょう！
-              <br>「📡 ジェミニたんからヒントをもらう」を押すか、「✨ あなたが出題」に切り替えてヒントを送ってみてください。
-            </p>
-          </div>
-          <div class="round-clear-bar hidden" id="round-clear-bar">
-            <div class="clear-summary" id="clear-summary"></div>
-            <div class="clear-actions">
-              <button class="primary-action-btn accent-btn" id="btn-switch-role-next" type="button">
-                🔄 攻守交代して次のラウンドへ
-              </button>
-              <button class="secondary-action-btn" id="btn-same-role-next" type="button">
-                🎲 この役割のまま次の盤面へ
-              </button>
+
+          <div class="mystery-asymmetric-grid">
+            <!-- Human-Only Visual Scene & Hotspots -->
+            <div class="mystery-visual-panel">
+              <div class="panel-header-mini">
+                <strong>👁️ あなただけに見える現場スケッチ＆調査ポイント</strong>
+                <span class="tag-pill">AIには現場が見えません</span>
+              </div>
+              <p class="mystery-intro" id="mystery-intro-text"></p>
+              <canvas id="mystery-scene-canvas" width="720" height="220"></canvas>
+              <div class="hotspot-buttons" id="mystery-hotspots"></div>
+              <div class="hotspot-detail-box" id="mystery-hotspot-detail">
+                現場の4つの調査ポイントをクリックすると、あなただけに見える細部がわかります。
+              </div>
+            </div>
+
+            <!-- AI Sealed Archive Status + Buddy Discussion -->
+            <div class="mystery-discuss-panel">
+              <div class="ai-archive-banner">
+                <strong>🔐 ジェミニたんの専用端末（あなたには中身が見えません）</strong>
+                <span id="mystery-ai-lock-info">暗号台帳・センサー仕様書 4件を解読待機中 — 会話で照合しよう！</span>
+              </div>
+              <div class="ai-hypo-bar" id="mystery-ai-hypothesis">
+                💭 <strong>ジェミニたんの捜査メモ：</strong>まずは現場で見えた気になるポイントを1つ教えてもらえますか？
+              </div>
+              <div class="mystery-chat-log" id="mystery-chat-log"></div>
+              <form class="human-clue-form" id="mystery-chat-form">
+                <input
+                  id="mystery-chat-input"
+                  type="text"
+                  placeholder="見たこと・気になった点・ジェミニたんへの質問を入力…"
+                  autocomplete="off"
+                  maxlength="200"
+                >
+                <button class="primary-action-btn" id="btn-mystery-send" type="submit">
+                  📡 捜査報告・質問を送る
+                </button>
+              </form>
             </div>
           </div>
-        </section>
-      </section>
 
-      <!-- Right: Eternal Partner, Chat & Chronicle -->
+          <!-- Final Deduction Bar -->
+          <section class="reveal-panel deduction-panel">
+            <div class="reveal-header">
+              <strong>⚖️ ふたりの最終推理を提出する</strong>
+              <span class="reveal-meta">外れてもペナルティなし・会話で何度でも絞り込めます</span>
+            </div>
+            <div class="deduction-controls">
+              <div class="deduct-field">
+                <label for="mystery-culprit-select">正体・原因:</label>
+                <select id="mystery-culprit-select"></select>
+              </div>
+              <div class="deduct-field">
+                <label for="mystery-item-select">決定的な鍵・アイテム:</label>
+                <select id="mystery-item-select"></select>
+              </div>
+              <button class="primary-action-btn accent-btn" id="btn-mystery-solve" type="button">
+                🔍 ふたりで真相を提示する
+              </button>
+            </div>
+            <div class="mystery-result-box hidden" id="mystery-result-box"></div>
+          </section>
+        </section>
+
+      </div>
+
+      <!-- Right Column: Shared Eternal Partner, Campfire Chat & Time Capsule -->
       <aside class="companion-panel">
         <div class="partner-card">
           <div class="partner-avatar-box">
@@ -148,7 +312,7 @@
               <span class="partner-state-tag" id="partner-state-tag">出題待機中</span>
             </div>
             <div class="partner-bubble" id="partner-bubble">
-              準備はいいですか、相棒さん？お互いの頭の中とこれまでの思い出を頼りに、6枚の共鳴ワードを当て合いましょう！
+              準備はいいですか、相棒さん？波長シンクロでも、1万年の星づくりでも、秘密の捜査でも、どのゲームでも一緒に楽しみましょう！
             </div>
           </div>
         </div>
@@ -157,7 +321,7 @@
           <div class="panel-title">🔥 焚き火チャット（対話も推理の手がかり＆カプセル記録に）</div>
           <div class="chat-log" id="chat-log"></div>
           <form class="chat-form" id="chat-form">
-            <input id="chat-input" type="text" placeholder="相棒に話しかける（例：最近のマイブームや好きな言葉など）" autocomplete="off" maxlength="300">
+            <input id="chat-input" type="text" placeholder="相棒に話しかける（どのゲーム中でもいつでもどうぞ）" autocomplete="off" maxlength="300">
             <button class="send-btn" id="chat-send-btn" type="submit">送信</button>
           </form>
         </div>
@@ -180,5 +344,7 @@
   </main>
 
   <script src="game.js"></script>
+  <script src="planet_trpg.js"></script>
+  <script src="buddy_mystery.js"></script>
 </body>
 </html>

@@ -221,11 +221,20 @@
   ];
 
   // DOM Elements
+  const selectGameSynchro = document.getElementById("select-game-synchro");
+  const selectGamePlanet = document.getElementById("select-game-planet");
+  const selectGameMystery = document.getElementById("select-game-mystery");
+  const stageSynchro = document.getElementById("stage-synchro");
+  const stagePlanet = document.getElementById("stage-planet");
+  const stageMystery = document.getElementById("stage-mystery");
+
   const elHudSync = document.getElementById("hud-sync");
   const elHudBond = document.getElementById("hud-bond");
   const elHudRound = document.getElementById("hud-round");
   const elHudTargets = document.getElementById("hud-targets");
   const elHudTotalRes = document.getElementById("hud-total-res");
+  const elHudPlanetYear = document.getElementById("hud-planet-year");
+  const elHudMysteries = document.getElementById("hud-mysteries");
   const elConnBadge = document.getElementById("conn-badge");
   const btnSound = document.getElementById("btn-sound");
 
@@ -270,6 +279,11 @@
   const inputImportJson = document.getElementById("input-import-json");
 
   let serverConnected = false;
+  let capsuleReady = false;
+  let activeGame = "synchro"; // "synchro" | "planet" | "mystery"
+  const readyCallbacks = [];
+  const contextProviders = {};
+  const gameActivateHooks = {};
   let soundEnabled = true;
   let audioCtx = null;
 
@@ -318,6 +332,9 @@
         last_sync_rate: 0,
         total_resonances: 0,
         clues_exchanged: 0,
+        planet_years: 0,
+        planet_turns: 0,
+        mysteries_solved: 0,
         campfires_shared: 1,
       },
       memories: [
@@ -361,6 +378,9 @@
     if (typeof st.last_sync_rate !== "number") st.last_sync_rate = 0;
     if (typeof st.total_resonances !== "number") st.total_resonances = 0;
     if (typeof st.clues_exchanged !== "number") st.clues_exchanged = 0;
+    if (typeof st.planet_years !== "number") st.planet_years = 0;
+    if (typeof st.planet_turns !== "number") st.planet_turns = 0;
+    if (typeof st.mysteries_solved !== "number") st.mysteries_solved = 0;
     if (typeof st.campfires_shared !== "number") st.campfires_shared = 1;
     if (!Array.isArray(cap.memories)) cap.memories = [];
     if (!Array.isArray(cap.chat_history)) cap.chat_history = [];
@@ -1006,14 +1026,51 @@
     elHudRound.textContent = `Round ${state.roundNum}`;
     elHudTargets.textContent = `共鳴発見: ${getTargetFoundCount()} / 6枚`;
     elHudTotalRes.textContent = `累計共鳴: ${st.total_resonances || 0}枚`;
+
+    const pCtx = contextProviders.planet ? contextProviders.planet() : null;
+    const curPYear = pCtx && typeof pCtx.planet_year === "number" ? pCtx.planet_year : st.planet_years || 0;
+    elHudPlanetYear.textContent = `星暦: ${curPYear.toLocaleString()}年 / 10,000年`;
+    elHudMysteries.textContent = `解決事件: ${st.mysteries_solved || 0}件`;
+
+    const isSyn = activeGame === "synchro";
+    const isPla = activeGame === "planet";
+    const isMys = activeGame === "mystery";
+    elHudSync.classList.toggle("hidden", !isSyn);
+    elHudRound.classList.toggle("hidden", !isSyn);
+    elHudTargets.classList.toggle("hidden", !isSyn);
+    elHudTotalRes.classList.toggle("hidden", !isSyn);
+    elHudPlanetYear.classList.toggle("hidden", !isPla);
+    elHudMysteries.classList.toggle("hidden", !isMys);
+
     elVowQuote.textContent = `「${capsule.vow}」`;
-    elPartnerTag.textContent = state.isBusy
-      ? "思考中…"
-      : state.mode === "ai_clue"
-      ? state.phase === "human_guessing"
-        ? "回答待機中"
-        : "出題待機中"
-      : "推理待機中";
+    if (isPla) {
+      elPartnerTag.textContent = "惑星年代記 TRPG";
+    } else if (isMys) {
+      elPartnerTag.textContent = "バディ秘密捜査";
+    } else {
+      elPartnerTag.textContent = state.isBusy
+        ? "思考中…"
+        : state.mode === "ai_clue"
+        ? state.phase === "human_guessing"
+          ? "回答待機中"
+          : "出題待機中"
+        : "推理待機中";
+    }
+  }
+
+  function switchGame(gameKey) {
+    if (!["synchro", "planet", "mystery"].includes(gameKey)) return;
+    activeGame = gameKey;
+    selectGameSynchro.classList.toggle("active", gameKey === "synchro");
+    selectGamePlanet.classList.toggle("active", gameKey === "planet");
+    selectGameMystery.classList.toggle("active", gameKey === "mystery");
+    stageSynchro.classList.toggle("hidden", gameKey !== "synchro");
+    stagePlanet.classList.toggle("hidden", gameKey !== "planet");
+    stageMystery.classList.toggle("hidden", gameKey !== "mystery");
+    updateHUD();
+    if (typeof gameActivateHooks[gameKey] === "function") {
+      gameActivateHooks[gameKey]();
+    }
   }
 
   function updateControlsVisibility() {
@@ -1164,16 +1221,20 @@
     if (serverConnected) {
       elPartnerBubble.textContent = "……（焚き火のそばで言葉を考えています）";
       try {
+        const extraCtx =
+          typeof contextProviders[activeGame] === "function" ? contextProviders[activeGame]() : {};
         const resp = await fetch("/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             message: msg,
+            active_game: activeGame,
             round_num: state.roundNum,
             game_mode: state.mode,
             found_targets: getTargetFoundCount(),
             active_clue: state.activeClue ? state.activeClue.clue : "",
             stats: capsule.stats,
+            ...extraCtx,
           }),
         });
         if (resp.ok) {
@@ -1228,6 +1289,8 @@
       `- 波長シンクロクリア: ${st.synchro_rounds || 0} ラウンド`,
       `- 最高波長シンクロ率: ${st.best_sync_rate || 0}%`,
       `- 累計共鳴ワード数: ${st.total_resonances || 0} 枚`,
+      `- 惑星年代記 到達年数: ${st.planet_years || 0} 年 (${st.planet_turns || 0} 世代)`,
+      `- バディ解決事件数: ${st.mysteries_solved || 0} 件`,
       `- 焚き火を囲んだ回数: ${st.campfires_shared || 1}`,
       "",
       "## 刻まれた思い出",
@@ -1279,6 +1342,18 @@
     state.roundNum = (capsule.stats?.synchro_rounds || 0) + 1;
     createNewBoard(true);
 
+    selectGameSynchro.addEventListener("click", () => switchGame("synchro"));
+    selectGamePlanet.addEventListener("click", () => switchGame("planet"));
+    selectGameMystery.addEventListener("click", () => switchGame("mystery"));
+
+    capsuleReady = true;
+    while (readyCallbacks.length) {
+      const fn = readyCallbacks.shift();
+      try {
+        fn(capsule, serverConnected);
+      } catch (_) {}
+    }
+
     tabAiClue.addEventListener("click", () => switchMode("ai_clue"));
     tabHumanClue.addEventListener("click", () => switchMode("human_clue"));
     btnNewBoard.addEventListener("click", () => {
@@ -1329,6 +1404,8 @@
             state.roundNum = (capsule.stats?.synchro_rounds || 0) + 1;
             setPartnerMood("smile", "記憶カプセルを読み込みました！引き継いだ記憶とともに新しい盤面を楽しみましょう。");
             createNewBoard(true);
+            readyCallbacks.forEach((fn) => fn(capsule, serverConnected));
+            window.dispatchEvent(new CustomEvent("eternal-capsule-updated", { detail: { capsule, serverConnected } }));
             syncCapsuleToBackend({});
           }
         } catch (_) {}
@@ -1336,6 +1413,47 @@
       reader.readAsText(f, "utf-8");
     });
   }
+
+  // Shared Bridge for Game #1, #3 (Planet TRPG), and #4 (Asymmetric Buddy Mystery)
+  window.EternalCompanion = {
+    getCapsule: () => capsule,
+    setCapsule: (newCap) => {
+      capsule = ensureCapsuleShape(newCap);
+      saveCapsuleLocal();
+      updateHUD();
+      renderChatLog();
+      renderChronicle();
+      return capsule;
+    },
+    isServerConnected: () => serverConnected,
+    getActiveGame: () => activeGame,
+    switchGame,
+    updateHUD,
+    addMemory,
+    grantBondExp,
+    syncCapsuleToBackend,
+    saveCapsuleLocal,
+    setPartnerMood,
+    playTone,
+    playChord,
+    escapeHtml,
+    onCapsuleReady: (cb) => {
+      if (capsuleReady) {
+        cb(capsule, serverConnected);
+      } else {
+        readyCallbacks.push(cb);
+      }
+      window.addEventListener("eternal-capsule-updated", (ev) => {
+        cb(ev.detail.capsule, ev.detail.serverConnected);
+      });
+    },
+    registerContextProvider: (gameKey, fn) => {
+      contextProviders[gameKey] = fn;
+    },
+    onGameActivated: (gameKey, fn) => {
+      gameActivateHooks[gameKey] = fn;
+    },
+  };
 
   init();
 })();

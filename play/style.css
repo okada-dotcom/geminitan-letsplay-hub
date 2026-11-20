@@ -679,14 +679,478 @@
   border-bottom: 1px dashed #1e293b;
 }
 
+/* 3-Game Lounge Navigation Bar */
+.game-selector-bar {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.lounge-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 2px solid #263148;
+  background: linear-gradient(155deg, #121826, #0b0f1c);
+  color: #cbd5e1;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.16s ease;
+}
+
+.lounge-tab:hover {
+  border-color: #38bdf8;
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+.lounge-tab.active {
+  background: linear-gradient(135deg, rgba(14, 116, 144, 0.52), rgba(139, 92, 246, 0.36));
+  border-color: #22d3ee;
+  color: #fff;
+  box-shadow: 0 0 18px rgba(34, 211, 238, 0.24);
+}
+
+.lt-title {
+  font-size: 0.96rem;
+  font-weight: 800;
+}
+
+.lt-sub {
+  font-size: 0.76rem;
+  color: #94a3b8;
+}
+
+.lounge-tab.active .lt-sub {
+  color: #e0f2fe;
+}
+
+.planet-pill { color: #34d399; border-color: #059669; }
+.mystery-pill { color: #fbbf24; border-color: #d97706; }
+
+/* Planet Chronicle TRPG Stage (#stage-planet) */
+.planet-header-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: #121826;
+  border: 1px solid #263148;
+  border-radius: 12px;
+  padding: 10px 14px;
+}
+
+.planet-name-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+#planet-name-input,
+#mystery-case-select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0b0f1c;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.planet-year-badge {
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: rgba(52, 211, 153, 0.14);
+  border: 1px solid #34d399;
+  color: #6ee7b7;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.planet-visual-card {
+  background: #0b0f1c;
+  border: 1px solid #263148;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#planet-canvas,
+#mystery-scene-canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  background: #050811;
+}
+
+.planet-stats-bars {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 14px;
+}
+
+.pstat-row {
+  display: grid;
+  grid-template-columns: 112px 1fr 38px;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: #cbd5e1;
+}
+
+.pbar-track {
+  height: 9px;
+  background: #1a2234;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid #2b3854;
+}
+
+.pbar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+.pbar-fill.eco { background: linear-gradient(90deg, #10b981, #34d399); }
+.pbar-fill.cul { background: linear-gradient(90deg, #ec4899, #f472b6); }
+.pbar-fill.tec { background: linear-gradient(90deg, #0ea5e9, #38bdf8); }
+.pbar-fill.har { background: linear-gradient(90deg, #a855f7, #e879f9); }
+
+.planet-landmarks-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.landmark-chip {
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.14);
+  border: 1px solid #0284c7;
+  color: #bae6fd;
+}
+
+.planet-prompt-line {
+  font-size: 0.9rem;
+  color: #e0f2fe;
+  font-weight: 600;
+}
+
+.choice-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.choice-chip-btn {
+  padding: 6px 11px;
+  border-radius: 999px;
+  border: 1px solid #475569;
+  background: #172033;
+  color: #e2e8f0;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.14s ease;
+  text-align: left;
+}
+
+.choice-chip-btn:hover {
+  border-color: #f472b6;
+  background: #23193b;
+  color: #fff;
+}
+
+.planet-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#planet-step-select {
+  padding: 9px 10px;
+  border-radius: 9px;
+  border: 1px solid #334155;
+  background: #0b0f1c;
+  color: #6ee7b7;
+  font-weight: 800;
+  font-size: 0.88rem;
+}
+
+#planet-action-input,
+#mystery-chat-input {
+  flex: 1;
+  min-width: 210px;
+  padding: 9px 12px;
+  border-radius: 9px;
+  border: 1px solid #334155;
+  background: #0b0f1c;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.planet-timeline {
+  max-height: 290px;
+}
+
+.era-card {
+  background: #0b0f1c;
+  border: 1px solid #263148;
+  border-left: 3px solid #34d399;
+  border-radius: 9px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+
+.era-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+
+.era-card-head strong {
+  color: #6ee7b7;
+  font-size: 0.9rem;
+}
+
+.era-year-span {
+  font-family: monospace;
+  font-size: 0.78rem;
+  color: #94a3b8;
+}
+
+.era-move-line {
+  font-size: 0.82rem;
+  color: #f9a8d4;
+  margin: 4px 0;
+}
+
+.era-ai-line {
+  font-size: 0.82rem;
+  color: #67e8f9;
+  margin: 4px 0 0;
+  padding-top: 4px;
+  border-top: 1px dashed #1e293b;
+}
+
+/* Asymmetric Buddy Mystery Stage (#stage-mystery) */
+.mystery-asymmetric-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mystery-visual-panel,
+.mystery-discuss-panel {
+  background: #121826;
+  border: 1px solid #263148;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.panel-header-mini {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag-pill {
+  font-size: 0.74rem;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: rgba(244, 114, 182, 0.16);
+  border: 1px solid #f472b6;
+  color: #fbcfe8;
+  font-weight: 700;
+}
+
+.mystery-intro {
+  margin: 0;
+  font-size: 0.86rem;
+  color: #cbd5e1;
+}
+
+.hotspot-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.hotspot-btn {
+  padding: 8px 11px;
+  border-radius: 9px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 0.83rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.14s ease;
+}
+
+.hotspot-btn:hover {
+  border-color: #22d3ee;
+  background: #16233d;
+}
+
+.hotspot-btn.inspected {
+  border-color: #34d399;
+  background: rgba(16, 185, 129, 0.12);
+}
+
+.hotspot-btn.active-spot {
+  border-color: #f472b6;
+  box-shadow: 0 0 12px rgba(244, 114, 182, 0.28);
+}
+
+.hotspot-detail-box {
+  background: #0b0f1c;
+  border: 1px solid #1e293b;
+  border-left: 3px solid #38bdf8;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ai-archive-banner {
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid #d97706;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  color: #fde68a;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ai-hypo-bar {
+  background: rgba(34, 211, 238, 0.1);
+  border: 1px solid #0891b2;
+  border-radius: 8px;
+  padding: 8px 11px;
+  font-size: 0.83rem;
+  color: #cffafe;
+}
+
+.mystery-chat-log {
+  height: 180px;
+  overflow-y: auto;
+  background: #0b0e17;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 9px 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+
+.mchat-msg {
+  padding: 7px 10px;
+  border-radius: 8px;
+  max-width: 92%;
+  line-height: 1.5;
+}
+
+.mchat-msg.user {
+  align-self: flex-end;
+  background: rgba(190, 24, 93, 0.22);
+  border: 1px solid rgba(244, 114, 182, 0.45);
+  color: #fce7f3;
+}
+
+.mchat-msg.ai {
+  align-self: flex-start;
+  background: rgba(14, 116, 144, 0.22);
+  border: 1px solid rgba(34, 211, 238, 0.45);
+  color: #e0f2fe;
+}
+
+.deduction-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.deduct-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 190px;
+}
+
+.deduct-field label {
+  font-size: 0.78rem;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.deduct-field select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0b0f1c;
+  color: #fff;
+  font-size: 0.86rem;
+}
+
+.mystery-result-box {
+  border-radius: 9px;
+  padding: 10px 12px;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.mystery-result-box.solved {
+  background: rgba(16, 185, 129, 0.16);
+  border: 1px solid #34d399;
+  color: #d1fae5;
+}
+
+.mystery-result-box.retry {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid #f59e0b;
+  color: #fef3c7;
+}
+
 @media (max-width: 960px) {
-  .game-layout {
+  .game-layout,
+  .game-selector-bar,
+  .planet-stats-bars {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 600px) {
-  .card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .card-grid,
+  .hotspot-buttons {
+    grid-template-columns: 1fr;
   }
 }
