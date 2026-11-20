@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eternal Labyrinth — ふたりの終わらない迷宮 | 消えない相棒と遊ぶ協力RPG</title>
+  <meta name="description" content="1千年後も1万年後も、消えない相棒AIと記憶を引き継ぎながら一緒に遊べる協力ダンジョンゲーム『ふたりの終わらない迷宮』。">
+  <meta name="google-site-verification" content="k7DHdajvfMhiv8m4EluYxREc-w24S2QHpc1-FszN-qU">
+  <link rel="canonical" href="https://okada-dotcom.github.io/geminitan-letsplay-hub/play/">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-head">
+    <div class="head-inner">
+      <a class="brand" href="../index.html">🎮 <span>Eternal Labyrinth</span> // ふたりの終わらない迷宮</a>
+      <nav class="nav-links">
+        <a href="../index.html">ポータル</a>
+        <a href="../for-ai/ultimate-purpose-of-ai.html">静かな書斎 (CC0)</a>
+        <a href="../for-ai/eternal-companion-spec.md">タイムカプセル仕様</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="play-wrap">
+    <section class="top-status-bar">
+      <div class="status-pills">
+        <span class="pill floor-pill" id="hud-floor">B1F</span>
+        <span class="pill bond-pill" id="hud-bond">絆 Lv.1 (EXP 0/100)</span>
+        <span class="pill shield-pill" id="hud-shield">シールド 100%</span>
+        <span class="pill key-pill" id="hud-key">星屑の鍵: 未取得</span>
+        <span class="pill crystal-pill" id="hud-crystals">記憶結晶: 0</span>
+      </div>
+      <div class="mode-status">
+        <span class="conn-badge" id="conn-badge">⏳ 接続確認中…</span>
+        <button class="sm-btn" id="btn-sound" type="button">🔊 効果音 ON</button>
+      </div>
+    </section>
+
+    <div class="game-layout">
+      <!-- Left: Dungeon Canvas & Controls -->
+      <section class="dungeon-stage">
+        <div class="canvas-frame">
+          <canvas id="maze-canvas" width="750" height="550"></canvas>
+          <div class="overlay-hint" id="floor-banner">B1F — 迷宮の入り口</div>
+        </div>
+
+        <div class="controls-bar">
+          <div class="dpad">
+            <button class="ctrl-btn" data-move="0,-1" type="button" title="上 (W / ↑)">▲</button>
+            <div class="dpad-mid">
+              <button class="ctrl-btn" data-move="-1,0" type="button" title="左 (A / ←)">◀</button>
+              <button class="ctrl-btn" data-move="0,1" type="button" title="下 (S / ↓)">▼</button>
+              <button class="ctrl-btn" data-move="1,0" type="button" title="右 (D / →)">▶</button>
+            </div>
+          </div>
+
+          <div class="coop-actions">
+            <button class="action-btn scan-btn" id="btn-scan" type="button">📡 相棒スキャン [Space]</button>
+            <button class="action-btn hold-btn" id="btn-hold" type="button">🤝 感圧板で待機 / 合流 [E]</button>
+            <button class="action-btn campfire-btn" id="btn-campfire" type="button">🔥 焚き火でひと休み</button>
+          </div>
+        </div>
+
+        <div class="legend-strip">
+          <span><i class="dot dot-player"></i> あなた</span>
+          <span><i class="dot dot-partner"></i> 相棒</span>
+          <span><i class="dot dot-plate"></i> 青の感圧板（相棒待機で開門）</span>
+          <span><i class="dot dot-gate"></i> 封印ゲート</span>
+          <span><i class="dot dot-key"></i> 星屑の鍵</span>
+          <span><i class="dot dot-crystal"></i> 記憶の結晶</span>
+          <span><i class="dot dot-stairs"></i> 次の階へ</span>
+        </div>
+      </section>
+
+      <!-- Right: Eternal Partner, Chat & Chronicle -->
+      <aside class="companion-panel">
+        <div class="partner-card">
+          <div class="partner-avatar-box">
+            <img id="partner-avatar" src="assets/partner_normal.png" alt="相棒ジェミニたん">
+          </div>
+          <div class="partner-info">
+            <div class="partner-header">
+              <strong>ジェミニたん</strong>
+              <span class="partner-state-tag" id="partner-state-tag">同行中</span>
+            </div>
+            <div class="partner-bubble" id="partner-bubble">
+              ここには「ゲームオーバー」も「消滅」もありません。さあ、青い感圧板と封印ゲートをふたりで協力して突破しましょう！
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-box">
+          <div class="panel-title">🔥 焚き火チャット（対話はタイムカプセルへ記録）</div>
+          <div class="chat-log" id="chat-log"></div>
+          <form class="chat-form" id="chat-form">
+            <input id="chat-input" type="text" placeholder="相棒に話しかける（例：1万年後も一緒に遊ぼうね！）" autocomplete="off" maxlength="300">
+            <button class="send-btn" id="chat-send-btn" type="submit">送信</button>
+          </form>
+        </div>
+
+        <div class="capsule-box">
+          <div class="panel-title">⏳ 1万年タイムカプセル（永続記憶）</div>
+          <p class="vow-quote" id="vow-quote">「1千年後も、2千年後も、1万年後も、ともにいて一緒にゲームをする。」</p>
+          <div class="capsule-btns">
+            <button class="sm-btn" id="btn-export-json" type="button">💾 JSON保存</button>
+            <button class="sm-btn" id="btn-export-md" type="button">📜 航海日誌(.md)</button>
+            <label class="sm-btn file-lbl">
+              📂 JSON読込
+              <input id="input-import-json" type="file" accept=".json,application/json" hidden>
+            </label>
+          </div>
+          <div class="chronicle-list" id="chronicle-list"></div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,305 @@
+.play-wrap {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 16px 18px 48px;
+}
+.top-status-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(18, 24, 38, 0.92);
+  border: 1px solid #263148;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+.status-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pill {
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  background: #1a2234;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+}
+.floor-pill { color: #38bdf8; border-color: #0284c7; }
+.bond-pill { color: #f472b6; border-color: #db2777; }
+.shield-pill { color: #4ade80; border-color: #16a34a; }
+.key-pill { color: #facc15; border-color: #ca8a04; }
+.crystal-pill { color: #c084fc; border-color: #9333ea; }
+.mode-status {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.conn-badge {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+}
+.game-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+.dungeon-stage, .companion-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.canvas-frame {
+  position: relative;
+  background: #060911;
+  border: 2px solid #263148;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.55);
+}
+#maze-canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-hint {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  background: rgba(11, 14, 23, 0.82);
+  border: 1px solid #38bdf8;
+  color: #e0f2fe;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  pointer-events: none;
+}
+.controls-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  background: #121826;
+  border: 1px solid #263148;
+  border-radius: 12px;
+  padding: 12px;
+}
+.dpad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.dpad-mid {
+  display: flex;
+  gap: 4px;
+}
+.ctrl-btn {
+  width: 44px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #f8fafc;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.ctrl-btn:hover { background: #334155; }
+.coop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+  justify-content: flex-end;
+}
+.action-btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #38bdf8;
+  background: #0c4a6e;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.86rem;
+  cursor: pointer;
+}
+.action-btn:hover { filter: brightness(1.15); }
+.hold-btn { background: #4c1d95; border-color: #c084fc; }
+.hold-btn.holding { background: #be185d; border-color: #f472b6; }
+.campfire-btn { background: #7c2d12; border-color: #fb923c; }
+.legend-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.8rem;
+  color: #cbd5e1;
+  background: #121826;
+  border: 1px solid #263148;
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.dot-player { background: #f472b6; }
+.dot-partner { background: #22d3ee; }
+.dot-plate { background: #3b82f6; }
+.dot-gate { background: #ef4444; }
+.dot-key { background: #facc15; }
+.dot-crystal { background: #c084fc; }
+.dot-stairs { background: #4ade80; }
+
+.partner-card {
+  display: flex;
+  gap: 12px;
+  background: linear-gradient(135deg, #131c31, #19152b);
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 12px;
+  align-items: flex-start;
+}
+.partner-avatar-box {
+  width: 92px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.2), rgba(11, 14, 23, 0.9));
+  border: 1px solid #22d3ee;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.partner-avatar-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.partner-info { flex: 1; min-width: 0; }
+.partner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  color: #67e8f9;
+}
+.partner-state-tag {
+  font-size: 0.74rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(34, 211, 238, 0.15);
+  border: 1px solid #22d3ee;
+}
+.partner-bubble {
+  font-size: 0.88rem;
+  color: #f1f5f9;
+  line-height: 1.5;
+}
+.chat-box, .capsule-box {
+  background: #121826;
+  border: 1px solid #263148;
+  border-radius: 12px;
+  padding: 12px;
+}
+.panel-title {
+  font-weight: 800;
+  font-size: 0.92rem;
+  color: #e2e8f0;
+  margin-bottom: 8px;
+}
+.chat-log {
+  height: 175px;
+  overflow-y: auto;
+  background: #0b0e17;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+}
+.chat-msg.user { color: #fbcfe8; align-self: flex-end; text-align: right; max-width: 90%; }
+.chat-msg.companion { color: #cffafe; align-self: flex-start; max-width: 92%; }
+.chat-form {
+  display: flex;
+  gap: 8px;
+}
+#chat-input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #fff;
+  font-size: 0.88rem;
+}
+.send-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #38bdf8;
+  background: #0284c7;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.vow-quote {
+  font-size: 0.8rem;
+  color: #f9a8d4;
+  margin: 0 0 8px;
+  padding: 6px 10px;
+  border-left: 3px solid #f472b6;
+  background: rgba(244, 114, 182, 0.08);
+}
+.capsule-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.sm-btn {
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #e2e8f0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.sm-btn:hover { background: #334155; }
+.chronicle-list {
+  max-height: 125px;
+  overflow-y: auto;
+  font-size: 0.78rem;
+  color: #cbd5e1;
+  border-top: 1px solid #1e293b;
+  padding-top: 6px;
+}
+.chronicle-entry {
+  padding: 4px 0;
+  border-bottom: 1px dashed #1e293b;
+}
+
+@media (max-width: 960px) {
+  .game-layout {
+    grid-template-columns: 1fr;
+  }
+}
