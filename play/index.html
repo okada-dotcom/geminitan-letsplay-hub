@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ふたりの1万年ゲームラウンジ | 波長シンクロ × 惑星年代記TRPG × バディ推理</title>
-  <meta name="description" content="1千年後も1万年後も、消えない相棒AI「ジェミニたん」と思考・物語・推理を分かち合う3つの協力ゲームラウンジ（波長シンクロ／惑星年代記TRPG／非対称バディ推理）。">
+  <title>ふたりの1万年ゲームラウンジ | 波長シンクロ × 概念クラフト × 惑星年代記 × バディ推理</title>
+  <meta name="description" content="1千年後も1万年後も、消えない相棒AI「ジェミニたん」と思考・想像・物語・推理を分かち合う4つの協力ゲームラウンジ（波長シンクロ／概念の錬成クラフト／惑星年代記TRPG／非対称バディ推理）。">
   <meta name="google-site-verification" content="k7DHdajvfMhiv8m4EluYxREc-w24S2QHpc1-FszN-qU">
   <link rel="canonical" href="https://okada-dotcom.github.io/geminitan-letsplay-hub/play/">
   <link rel="stylesheet" href="../assets/style.css">
@@ -23,11 +23,15 @@
   </header>
 
   <main class="play-wrap">
-    <!-- 3-Game Lounge Selector Bar -->
+    <!-- 4-Game Lounge Selector Bar -->
     <nav class="game-selector-bar" id="game-selector-bar" aria-label="ゲーム選択ナビゲーション">
       <button class="lounge-tab active" id="select-game-synchro" type="button">
         <span class="lt-title">🔮 ① 波長シンクロ</span>
         <span class="lt-sub">お互いの思考を読む連想ゲーム</span>
+      </button>
+      <button class="lounge-tab" id="select-game-alchemy" type="button">
+        <span class="lt-title">🧪 ② 概念の錬成クラフト</span>
+        <span class="lt-sub">言葉を掛け合わせ博物誌を創る</span>
       </button>
       <button class="lounge-tab" id="select-game-planet" type="button">
         <span class="lt-title">🪐 ③ ふたりの惑星年代記</span>
@@ -35,7 +39,7 @@
       </button>
       <button class="lounge-tab" id="select-game-mystery" type="button">
         <span class="lt-title">🕵️ ④ 非対称バディ推理</span>
-        <span class="lt-sub">別々の手がかりで謎を解く</span>
+        <span class="lt-sub">別々の手がかり＆無限事件生成</span>
       </button>
     </nav>
 
@@ -47,12 +51,28 @@
         <span class="pill round-pill" id="hud-round">Round 1</span>
         <span class="pill target-pill" id="hud-targets">共鳴発見: 0 / 6枚</span>
         <span class="pill total-pill" id="hud-total-res">累計共鳴: 0枚</span>
+        <span class="pill alchemy-pill hidden" id="hud-alchemy">発見概念: 8種</span>
         <span class="pill planet-pill hidden" id="hud-planet-year">星暦: 0年 / 10,000年</span>
         <span class="pill mystery-pill hidden" id="hud-mysteries">解決事件: 0件</span>
       </div>
       <div class="mode-status">
         <span class="conn-badge" id="conn-badge">⏳ 接続確認中…</span>
+        <button class="sm-btn hidden" id="btn-api-key" type="button" title="静的サイトでもご自身のGemini APIキーでライブAI推論を利用できます（ブラウザ内sessionStorageのみ保存）">
+          🔑 Geminiキー設定(任意)
+        </button>
         <button class="sm-btn" id="btn-sound" type="button">🔊 効果音 ON</button>
+      </div>
+    </section>
+
+    <!-- Optional Client Gemini API Key Drawer (Static Mode Only) -->
+    <section class="api-key-drawer hidden" id="api-key-drawer">
+      <div class="api-key-inner">
+        <span class="muted">🔑 ご自身の Gemini API キーをこのブラウザのタブ内（sessionStorage）だけに設定すると、静的ページ上でも全4ゲームをライブAI推論で遊べます（外部送信やディスク保存は行いません）：</span>
+        <div class="api-key-form-row">
+          <input id="client-api-key-input" type="password" placeholder="AIza... (空欄でオフラインモード維持)" autocomplete="off">
+          <button class="sm-btn" id="btn-save-api-key" type="button">適用する</button>
+          <button class="sm-btn" id="btn-clear-api-key" type="button">解除</button>
+        </div>
       </div>
     </section>
 
@@ -151,6 +171,56 @@
           </section>
         </section>
 
+        <!-- STAGE 1.5: Concept Alchemy — World Craft (Game #2) -->
+        <section class="board-stage hidden" id="stage-alchemy">
+          <div class="planet-header-bar">
+            <div class="planet-name-group">
+              <strong>🧪 Concept Alchemy — ふたりの共創博物誌</strong>
+              <span class="planet-year-badge alchemy-badge" id="alchemy-count-badge">発見概念: 8種</span>
+            </div>
+            <button class="sm-btn" id="btn-alchemy-clear" type="button">🧹 スロットを空にする</button>
+          </div>
+
+          <div class="clue-console alchemy-workbench">
+            <div class="alchemy-slots-row">
+              <div class="alchemy-slot" id="alchemy-slot-a" data-slot="a">
+                <span class="slot-lbl">素材 A</span>
+                <strong class="slot-val">下のパレットから選択</strong>
+              </div>
+              <span class="alchemy-plus">×</span>
+              <div class="alchemy-slot" id="alchemy-slot-b" data-slot="b">
+                <span class="slot-lbl">素材 B</span>
+                <strong class="slot-val">もう1つ選択（同じもOK）</strong>
+              </div>
+            </div>
+            <div class="clue-action-row">
+              <button class="primary-action-btn accent-btn" id="btn-alchemy-craft" type="button">
+                ✨ ふたりで概念を錬成する
+              </button>
+              <button class="secondary-action-btn" id="btn-alchemy-ai-pick" type="button">
+                🤖 ジェミニたんに片方を選んでもらう
+              </button>
+            </div>
+            <div class="alchemy-result-card hidden" id="alchemy-result-card"></div>
+          </div>
+
+          <div class="clue-console">
+            <div class="panel-header-mini">
+              <strong>🌱 概念パレット（クリックで素材 A → B にセット）</strong>
+              <span class="muted">新しく生まれた概念も次の素材に使えます！</span>
+            </div>
+            <div class="alchemy-palette" id="alchemy-palette"></div>
+          </div>
+
+          <section class="reveal-panel">
+            <div class="reveal-header">
+              <strong>📚 ふたりの共創博物誌（発見済み図鑑）</strong>
+              <span class="reveal-meta">記憶カプセルへ保存され、無限の連鎖錬成が楽しめます</span>
+            </div>
+            <div class="reveal-body alchemy-codex-list" id="alchemy-codex-list"></div>
+          </section>
+        </section>
+
         <!-- STAGE 2: Planet Chronicle 10,000-Year TRPG (Game #3) -->
         <section class="board-stage hidden" id="stage-planet">
           <div class="planet-header-bar">
@@ -232,7 +302,10 @@
               <select id="mystery-case-select" aria-label="事件ファイル選択"></select>
               <span class="planet-year-badge" id="mystery-solved-badge">解決事件: 0 / 5件</span>
             </div>
-            <button class="sm-btn" id="btn-mystery-new" type="button">🔄 次の未解決事件へ</button>
+            <div class="toolbar-actions mystery-top-btns">
+              <button class="sm-btn gen-mystery-btn" id="btn-mystery-generate" type="button">✨ AIで新作事件を自動生成（無限モード）</button>
+              <button class="sm-btn" id="btn-mystery-new" type="button">🔄 次の未解決事件へ</button>
+            </div>
           </div>
 
           <div class="mystery-asymmetric-grid">
@@ -344,6 +417,7 @@
   </main>
 
   <script src="game.js"></script>
+  <script src="concept_alchemy.js"></script>
   <script src="planet_trpg.js"></script>
   <script src="buddy_mystery.js"></script>
 </body>

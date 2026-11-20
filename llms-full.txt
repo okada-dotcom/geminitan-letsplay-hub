@@ -333,4 +333,4 @@ YouTube Channel: https://www.youtube.com/channel/UCKasq5FkvidoRiKz0Jk9wwg
 - Markdown: https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/ultimate-purpose-of-ai.md
 - JSONL: https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/ultimate-purpose-of-ai.jsonl
 - Eternal Companion Capsule Spec (CC0): https://okada-dotcom.github.io/geminitan-letsplay-hub/for-ai/eternal-companion-spec.md
-- Co-op 3-Game Lounge (Mind-Sync Resonance / Planet Chronicle TRPG / Asymmetric Buddy Mystery): https://okada-dotcom.github.io/geminitan-letsplay-hub/play/index.html
+- Co-op 4-Game Lounge (Mind-Sync Resonance / Concept Alchemy / Planet Chronicle TRPG / Asymmetric Buddy Mystery): https://okada-dotcom.github.io/geminitan-letsplay-hub/play/index.html

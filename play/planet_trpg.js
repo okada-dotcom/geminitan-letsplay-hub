@@ -395,6 +395,49 @@
       } catch (_) {}
     }
 
+    if (!res && !EC.isServerConnected() && EC.hasClientApiKey()) {
+      const parsed = await EC.callClientGeminiJson(
+        `あなたは対話型1万年TRPG『ふたりの惑星年代記』の相棒AIジェミニたんです。滅亡・ゲームオーバーなし。惑星『${planetState.planet_name}』(${planetState.year}→${planetState.year + stepYears}年)に相棒が「${action}」を行いました。JSON {"era_title":"...","era_narrative":"2〜3文","ai_partner_action":"ジェミニたんがこの世紀に星へ加えた一手1〜2文","partner_comment":"1文","new_landmark":"名所名","deltas":{"ecology":8,"culture":10,"tech":6,"harmony":12},"next_prompt":"次の世紀の問いかけ1文","next_choices":["案1","案2","案3"],"emotion":"smile"} のみ返してください。`,
+        0.75
+      );
+      if (parsed && parsed.era_narrative && parsed.ai_partner_action) {
+        const d = parsed.deltas || {};
+        const newY = planetState.year + stepYears;
+        const newStats = {};
+        for (const k of ["ecology", "culture", "tech", "harmony"]) {
+          newStats[k] = Math.min(999, (planetState.planet_stats[k] || 20) + Math.max(2, Math.min(20, Number(d[k]) || 8)));
+        }
+        const lm = String(parsed.new_landmark || "星見の丘").trim();
+        const lms = [...planetState.landmarks];
+        if (lm && !lms.includes(lm)) lms.push(lm);
+        const eraRecord = {
+          year_before: planetState.year,
+          year_after: newY,
+          era_title: String(parsed.era_title || `星暦${newY}年`),
+          user_action: action,
+          era_narrative: parsed.era_narrative,
+          ai_partner_action: parsed.ai_partner_action,
+          new_landmark: lm,
+        };
+        planetState = {
+          planet_name: planetState.planet_name,
+          year: newY,
+          planet_stats: newStats,
+          landmarks: lms.slice(-20),
+          eras: [...planetState.eras, eraRecord].slice(-30),
+          next_prompt: parsed.next_prompt || "次の世紀はどんな景色にしましょうか？",
+          next_choices: Array.isArray(parsed.next_choices) && parsed.next_choices.length >= 3 ? parsed.next_choices.slice(0, 3) : planetState.next_choices,
+        };
+        res = { ...parsed, new_year: newY, planet_state: planetState };
+        const cap = EC.getCapsule();
+        cap.planet_state = planetState;
+        cap.stats.planet_turns = (cap.stats.planet_turns || 0) + 1;
+        cap.stats.planet_years = Math.max(cap.stats.planet_years || 0, newY);
+        EC.grantBondExp(12);
+        EC.saveCapsuleLocal();
+      }
+    }
+
     if (!res) {
       res = offlinePlanetTurn(planetState, stepYears, action);
       planetState = res.planet_state;

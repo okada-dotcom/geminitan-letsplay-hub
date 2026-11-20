@@ -679,10 +679,10 @@
   border-bottom: 1px dashed #1e293b;
 }
 
-/* 3-Game Lounge Navigation Bar */
+/* 4-Game Lounge Navigation Bar */
 .game-selector-bar {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
   margin-bottom: 12px;
 }
@@ -729,8 +729,192 @@
   color: #e0f2fe;
 }
 
+.alchemy-pill { color: #e879f9; border-color: #c026d3; }
 .planet-pill { color: #34d399; border-color: #059669; }
 .mystery-pill { color: #fbbf24; border-color: #d97706; }
+
+/* Optional Client API Key Drawer */
+.api-key-drawer {
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid #38bdf8;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+}
+
+.api-key-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.api-key-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+#client-api-key-input {
+  flex: 1;
+  min-width: 240px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #060911;
+  color: #fff;
+  font-size: 0.86rem;
+}
+
+/* Concept Alchemy Stage (#stage-alchemy) */
+.alchemy-badge {
+  background: rgba(232, 121, 249, 0.14);
+  border-color: #e879f9;
+  color: #f5d0fe;
+}
+
+.alchemy-workbench {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.alchemy-slots-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.alchemy-slot {
+  flex: 1;
+  min-width: 190px;
+  padding: 12px 14px;
+  border-radius: 11px;
+  border: 2px dashed #475569;
+  background: #0b0f1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+  transition: all 0.16s ease;
+}
+
+.alchemy-slot.filled {
+  border-style: solid;
+  border-color: #e879f9;
+  background: linear-gradient(155deg, rgba(162, 28, 175, 0.22), #0e1424);
+  box-shadow: 0 0 14px rgba(232, 121, 249, 0.2);
+}
+
+.slot-lbl {
+  font-size: 0.74rem;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.slot-val {
+  font-size: 1rem;
+  color: #f8fafc;
+}
+
+.alchemy-plus {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #38bdf8;
+}
+
+.alchemy-result-card {
+  background: linear-gradient(135deg, rgba(162, 28, 175, 0.24), rgba(14, 116, 144, 0.26));
+  border: 1px solid #e879f9;
+  border-radius: 10px;
+  padding: 11px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  animation: cardPop 0.34s ease;
+}
+
+.alchemy-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 8px;
+}
+
+.alchemy-chip {
+  padding: 6px 11px;
+  border-radius: 999px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 0.83rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.14s ease;
+}
+
+.alchemy-chip:hover {
+  border-color: #e879f9;
+  background: #1e1633;
+  transform: translateY(-1px);
+}
+
+.alchemy-chip.selected-chip {
+  border-color: #f472b6;
+  background: #4c1d95;
+  color: #fff;
+}
+
+.alchemy-codex-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  max-height: 260px;
+}
+
+.codex-entry {
+  background: #0b0f1c;
+  border: 1px solid #263148;
+  border-left: 3px solid #e879f9;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.8rem;
+}
+
+.codex-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 3px;
+}
+
+.rarity-badge {
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 999px;
+}
+
+.rarity-N { background: #334155; color: #e2e8f0; }
+.rarity-R { background: #0369a1; color: #e0f2fe; }
+.rarity-SR { background: #9333ea; color: #f3e8ff; }
+.rarity-SSR { background: linear-gradient(90deg, #db2777, #eab308); color: #fff; }
+
+.mystery-top-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.gen-mystery-btn {
+  background: linear-gradient(135deg, #6d28d9, #0e7490);
+  border-color: #c084fc;
+  color: #fff;
+}
 
 /* Planet Chronicle TRPG Stage (#stage-planet) */
 .planet-header-bar {
@@ -1142,15 +1326,19 @@
 
 @media (max-width: 960px) {
   .game-layout,
-  .game-selector-bar,
-  .planet-stats-bars {
+  .planet-stats-bars,
+  .alchemy-codex-list {
     grid-template-columns: 1fr;
+  }
+  .game-selector-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 600px) {
   .card-grid,
-  .hotspot-buttons {
+  .hotspot-buttons,
+  .game-selector-bar {
     grid-template-columns: 1fr;
   }
 }

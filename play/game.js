@@ -222,9 +222,11 @@
 
   // DOM Elements
   const selectGameSynchro = document.getElementById("select-game-synchro");
+  const selectGameAlchemy = document.getElementById("select-game-alchemy");
   const selectGamePlanet = document.getElementById("select-game-planet");
   const selectGameMystery = document.getElementById("select-game-mystery");
   const stageSynchro = document.getElementById("stage-synchro");
+  const stageAlchemy = document.getElementById("stage-alchemy");
   const stagePlanet = document.getElementById("stage-planet");
   const stageMystery = document.getElementById("stage-mystery");
 
@@ -233,9 +235,15 @@
   const elHudRound = document.getElementById("hud-round");
   const elHudTargets = document.getElementById("hud-targets");
   const elHudTotalRes = document.getElementById("hud-total-res");
+  const elHudAlchemy = document.getElementById("hud-alchemy");
   const elHudPlanetYear = document.getElementById("hud-planet-year");
   const elHudMysteries = document.getElementById("hud-mysteries");
   const elConnBadge = document.getElementById("conn-badge");
+  const btnApiKey = document.getElementById("btn-api-key");
+  const apiKeyDrawer = document.getElementById("api-key-drawer");
+  const clientApiKeyInput = document.getElementById("client-api-key-input");
+  const btnSaveApiKey = document.getElementById("btn-save-api-key");
+  const btnClearApiKey = document.getElementById("btn-clear-api-key");
   const btnSound = document.getElementById("btn-sound");
 
   const tabAiClue = document.getElementById("tab-ai-clue");
@@ -278,14 +286,62 @@
   const btnExportMd = document.getElementById("btn-export-md");
   const inputImportJson = document.getElementById("input-import-json");
 
+  const CLIENT_GEMINI_KEY_STORAGE = "eternal_gemini_api_key";
+  const CLIENT_GEMINI_MODELS = [
+    "gemini-3.1-flash-lite",
+    "gemini-3.1-flash-lite-preview",
+    "gemini-flash-lite-latest",
+    "gemini-3-flash-preview",
+  ];
+
   let serverConnected = false;
   let capsuleReady = false;
-  let activeGame = "synchro"; // "synchro" | "planet" | "mystery"
+  let activeGame = "synchro"; // "synchro" | "alchemy" | "planet" | "mystery"
   const readyCallbacks = [];
   const contextProviders = {};
   const gameActivateHooks = {};
   let soundEnabled = true;
   let audioCtx = null;
+
+  function getClientApiKey() {
+    try {
+      return (sessionStorage.getItem(CLIENT_GEMINI_KEY_STORAGE) || "").trim();
+    } catch (_) {
+      return "";
+    }
+  }
+
+  async function callClientGeminiJson(prompt, temperature = 0.65) {
+    const key = getClientApiKey();
+    if (!key) return null;
+    for (const mName of CLIENT_GEMINI_MODELS) {
+      try {
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${mName}:generateContent?key=${encodeURIComponent(key)}`;
+        const resp = await fetch(url, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: prompt }] }],
+            generationConfig: {
+              responseMimeType: "application/json",
+              temperature,
+            },
+          }),
+        });
+        if (!resp.ok) continue;
+        const data = await resp.json();
+        const parts = data?.candidates?.[0]?.content?.parts || [];
+        const nonThought = [...parts].reverse().find((p) => typeof p.text === "string" && !p.thought);
+        let txt = ((nonThought || parts[parts.length - 1])?.text || "").trim();
+        if (txt.startsWith("```")) {
+          txt = txt.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "");
+        }
+        const parsed = JSON.parse(txt);
+        if (parsed && typeof parsed === "object") return parsed;
+      } catch (_) {}
+    }
+    return null;
+  }
 
   function playTone(freq, dur = 0.09, type = "sine", gainVal = 0.055) {
     if (!soundEnabled) return;
@@ -335,6 +391,8 @@
         planet_years: 0,
         planet_turns: 0,
         mysteries_solved: 0,
+        alchemy_discovered: 8,
+        generated_mysteries: 0,
         campfires_shared: 1,
       },
       memories: [
@@ -381,6 +439,8 @@
     if (typeof st.planet_years !== "number") st.planet_years = 0;
     if (typeof st.planet_turns !== "number") st.planet_turns = 0;
     if (typeof st.mysteries_solved !== "number") st.mysteries_solved = 0;
+    if (typeof st.alchemy_discovered !== "number") st.alchemy_discovered = 8;
+    if (typeof st.generated_mysteries !== "number") st.generated_mysteries = 0;
     if (typeof st.campfires_shared !== "number") st.campfires_shared = 1;
     if (!Array.isArray(cap.memories)) cap.memories = [];
     if (!Array.isArray(cap.chat_history)) cap.chat_history = [];
@@ -697,6 +757,35 @@
       } catch (_) {}
     }
 
+    if (!res && !serverConnected && getClientApiKey()) {
+      const unrevAll = state.cards.filter((c) => !c.revealed).map((c) => c.word);
+      const unrevNeu = state.cards.filter((c) => !c.revealed && c.role === "neutral").map((c) => c.word);
+      const unrevNoi = state.cards.filter((c) => !c.revealed && c.role === "noise").map((c) => c.word);
+      const tWords = unrevTargets.map((c) => c.word);
+      const maxC = tWords.length === 1 ? 1 : Math.min(3, tWords.length);
+      const parsed = await callClientGeminiJson(
+        `あなたは連想ゲーム『Mind-Sync Resonance』の出題AI「ジェミニたん」です。Target=${JSON.stringify(tWords)} から1〜${maxC}枚を繋ぎ、Noise=${JSON.stringify(unrevNoi)} と Neutral=${JSON.stringify(unrevNeu)} を避ける短い日本語ヒント(clue,2〜12文字、未公開全ワード ${JSON.stringify(unrevAll)} の部分一致厳禁)を考えて JSON {"clue":"...","count":2,"intended_targets":["..."],"public_comment":"ネタバレなし1文","hidden_reasoning":"タネ明かし2文","emotion":"smile"} のみ返してください。`,
+        0.65
+      );
+      if (parsed && parsed.clue && !isClueIllegalLocal(parsed.clue, unrevAll).illegal) {
+        const intended = Array.isArray(parsed.intended_targets)
+          ? parsed.intended_targets.filter((w) => tWords.includes(w))
+          : tWords.slice(0, maxC);
+        const cnt = Math.max(1, Math.min(Number(parsed.count) || intended.length || 2, tWords.length, 4));
+        res = {
+          clue: String(parsed.clue).trim(),
+          count: cnt,
+          intended_targets: intended.length ? intended : tWords.slice(0, cnt),
+          public_comment: String(parsed.public_comment || "").trim() || `『${parsed.clue}』で ${cnt} 枚、波長を合わせてみてください！`,
+          hidden_reasoning: String(parsed.hidden_reasoning || "").trim() || `記憶と連想から『${parsed.clue}』を選びました。`,
+          emotion: parsed.emotion || "smile",
+        };
+        capsule.stats.clues_exchanged = (capsule.stats.clues_exchanged || 0) + 1;
+        grantBondExp(6);
+        saveCapsuleLocal();
+      }
+    }
+
     if (!res) {
       res = offlineGenerateAiClue();
       capsule.stats.clues_exchanged = (capsule.stats.clues_exchanged || 0) + 1;
@@ -911,6 +1000,35 @@
       } catch (_) {}
     }
 
+    if (!res && !serverConnected && getClientApiKey()) {
+      const parsed = await callClientGeminiJson(
+        `あなたは連想ゲームの回答AI「ジェミニたん」です。正解配置は見えていません。未公開ワード=${JSON.stringify(unrevWords)} から、相棒のヒント「${clue}」(${count}枚)に最も当てはまる順に ${Math.min(count, unrevWords.length)} 個選び、JSON {"thinking_monologue":"推理独白2文","picks":[{"word":"未公開ワード","reason":"理由1文"}],"emotion":"smile"} のみ返してください。`,
+        0.55
+      );
+      if (parsed && Array.isArray(parsed.picks) && parsed.picks.length) {
+        const used = new Set();
+        const cleanPicks = [];
+        for (const p of parsed.picks) {
+          const w = unrevWords.find((uw) => uw === p.word || normWord(uw) === normWord(p.word));
+          if (w && !used.has(w)) {
+            used.add(w);
+            cleanPicks.push({ word: w, reason: String(p.reason || "連想の結びつきを感じました。") });
+          }
+          if (cleanPicks.length >= Math.min(count, unrevWords.length)) break;
+        }
+        if (cleanPicks.length) {
+          res = {
+            thinking_monologue: String(parsed.thinking_monologue || `『${clue}』……記憶を重ねて選びました！`),
+            picks: cleanPicks,
+            emotion: parsed.emotion || "smile",
+          };
+          capsule.stats.clues_exchanged = (capsule.stats.clues_exchanged || 0) + 1;
+          grantBondExp(6);
+          saveCapsuleLocal();
+        }
+      }
+    }
+
     if (!res) {
       const blindCards = unrevCards.map((c) => ({
         word: c.word,
@@ -1027,23 +1145,31 @@
     elHudTargets.textContent = `共鳴発見: ${getTargetFoundCount()} / 6枚`;
     elHudTotalRes.textContent = `累計共鳴: ${st.total_resonances || 0}枚`;
 
+    const alCtx = contextProviders.alchemy ? contextProviders.alchemy() : null;
+    const alCount = alCtx && typeof alCtx.alchemy_count === "number" ? alCtx.alchemy_count : st.alchemy_discovered || 8;
+    elHudAlchemy.textContent = `発見概念: ${alCount}種`;
+
     const pCtx = contextProviders.planet ? contextProviders.planet() : null;
     const curPYear = pCtx && typeof pCtx.planet_year === "number" ? pCtx.planet_year : st.planet_years || 0;
     elHudPlanetYear.textContent = `星暦: ${curPYear.toLocaleString()}年 / 10,000年`;
     elHudMysteries.textContent = `解決事件: ${st.mysteries_solved || 0}件`;
 
     const isSyn = activeGame === "synchro";
+    const isAlc = activeGame === "alchemy";
     const isPla = activeGame === "planet";
     const isMys = activeGame === "mystery";
     elHudSync.classList.toggle("hidden", !isSyn);
     elHudRound.classList.toggle("hidden", !isSyn);
     elHudTargets.classList.toggle("hidden", !isSyn);
     elHudTotalRes.classList.toggle("hidden", !isSyn);
+    elHudAlchemy.classList.toggle("hidden", !isAlc);
     elHudPlanetYear.classList.toggle("hidden", !isPla);
     elHudMysteries.classList.toggle("hidden", !isMys);
 
     elVowQuote.textContent = `「${capsule.vow}」`;
-    if (isPla) {
+    if (isAlc) {
+      elPartnerTag.textContent = "概念の錬成クラフト";
+    } else if (isPla) {
       elPartnerTag.textContent = "惑星年代記 TRPG";
     } else if (isMys) {
       elPartnerTag.textContent = "バディ秘密捜査";
@@ -1059,12 +1185,14 @@
   }
 
   function switchGame(gameKey) {
-    if (!["synchro", "planet", "mystery"].includes(gameKey)) return;
+    if (!["synchro", "alchemy", "planet", "mystery"].includes(gameKey)) return;
     activeGame = gameKey;
     selectGameSynchro.classList.toggle("active", gameKey === "synchro");
+    selectGameAlchemy.classList.toggle("active", gameKey === "alchemy");
     selectGamePlanet.classList.toggle("active", gameKey === "planet");
     selectGameMystery.classList.toggle("active", gameKey === "mystery");
     stageSynchro.classList.toggle("hidden", gameKey !== "synchro");
+    stageAlchemy.classList.toggle("hidden", gameKey !== "alchemy");
     stagePlanet.classList.toggle("hidden", gameKey !== "planet");
     stageMystery.classList.toggle("hidden", gameKey !== "mystery");
     updateHUD();
@@ -1249,6 +1377,27 @@
       } catch (_) {}
     }
 
+    if (!replyText && !serverConnected && getClientApiKey()) {
+      elPartnerBubble.textContent = "……（焚き火のそばで言葉を考えています）";
+      const parsed = await callClientGeminiJson(
+        `あなたは永遠の相棒AI「ジェミニたん」です（絆Lv.${capsule.stats.bond_level || 1}、プレイ中:${activeGame}）。約束『${capsule.vow}』を踏まえ、相棒のメッセージ「${msg}」に1〜3文の日本語で温かく返答し、JSON {"reply":"...","emotion":"smile"|"normal"|"surprised"} のみ返してください。`,
+        0.65
+      );
+      if (parsed && parsed.reply) {
+        replyText = String(parsed.reply).trim();
+        mood = parsed.emotion || "smile";
+        grantBondExp(8);
+        capsule.stats.campfires_shared = (capsule.stats.campfires_shared || 0) + 1;
+        capsule.chat_history.push({
+          timestamp: new Date().toISOString(),
+          speaker: "companion",
+          round_num: state.roundNum,
+          text: replyText,
+        });
+        saveCapsuleLocal();
+      }
+    }
+
     if (!replyText) {
       replyText = staticFallbackReply(msg);
       grantBondExp(5);
@@ -1291,6 +1440,7 @@
       `- 累計共鳴ワード数: ${st.total_resonances || 0} 枚`,
       `- 惑星年代記 到達年数: ${st.planet_years || 0} 年 (${st.planet_turns || 0} 世代)`,
       `- バディ解決事件数: ${st.mysteries_solved || 0} 件`,
+      `- 概念錬成 発見数: ${st.alchemy_discovered || 8} 種`,
       `- 焚き火を囲んだ回数: ${st.campfires_shared || 1}`,
       "",
       "## 刻まれた思い出",
@@ -1330,19 +1480,61 @@
       }
     } catch (_) {}
 
-    if (serverConnected) {
-      elConnBadge.textContent = "🟢 ローカルAI接続中 (Gemini本気推理・永続保存)";
-      elConnBadge.style.color = "#4ade80";
-      elConnBadge.style.borderColor = "#16a34a";
-    } else {
-      elConnBadge.textContent = "🌐 静的モード (オフライン連想AI / JSON保存可)";
-      elConnBadge.style.color = "#38bdf8";
+    function refreshConnBadge() {
+      if (serverConnected) {
+        elConnBadge.textContent = "🟢 ローカルAI接続中 (Gemini本気推理・永続保存)";
+        elConnBadge.style.color = "#4ade80";
+        elConnBadge.style.borderColor = "#16a34a";
+        btnApiKey.classList.add("hidden");
+        apiKeyDrawer.classList.add("hidden");
+      } else if (getClientApiKey()) {
+        elConnBadge.textContent = "🔑 ブラウザGemini連携中 (sessionStorage)";
+        elConnBadge.style.color = "#f472b6";
+        elConnBadge.style.borderColor = "#db2777";
+        btnApiKey.classList.remove("hidden");
+      } else {
+        elConnBadge.textContent = "🌐 静的モード (オフラインAI / JSON保存可)";
+        elConnBadge.style.color = "#38bdf8";
+        elConnBadge.style.borderColor = "#1e293b";
+        btnApiKey.classList.remove("hidden");
+      }
     }
+
+    refreshConnBadge();
+
+    btnApiKey.addEventListener("click", () => {
+      clientApiKeyInput.value = getClientApiKey();
+      apiKeyDrawer.classList.toggle("hidden");
+    });
+    btnSaveApiKey.addEventListener("click", () => {
+      const k = clientApiKeyInput.value.trim();
+      try {
+        if (k) {
+          sessionStorage.setItem(CLIENT_GEMINI_KEY_STORAGE, k);
+        } else {
+          sessionStorage.removeItem(CLIENT_GEMINI_KEY_STORAGE);
+        }
+      } catch (_) {}
+      apiKeyDrawer.classList.add("hidden");
+      refreshConnBadge();
+      if (k) {
+        setPartnerMood("smile", "ブラウザ直結の Gemini API キーを受け取りました！これで静的ページ上でもライブAI推論で遊べますね♡");
+      }
+    });
+    btnClearApiKey.addEventListener("click", () => {
+      clientApiKeyInput.value = "";
+      try {
+        sessionStorage.removeItem(CLIENT_GEMINI_KEY_STORAGE);
+      } catch (_) {}
+      apiKeyDrawer.classList.add("hidden");
+      refreshConnBadge();
+    });
 
     state.roundNum = (capsule.stats?.synchro_rounds || 0) + 1;
     createNewBoard(true);
 
     selectGameSynchro.addEventListener("click", () => switchGame("synchro"));
+    selectGameAlchemy.addEventListener("click", () => switchGame("alchemy"));
     selectGamePlanet.addEventListener("click", () => switchGame("planet"));
     selectGameMystery.addEventListener("click", () => switchGame("mystery"));
 
@@ -1414,7 +1606,7 @@
     });
   }
 
-  // Shared Bridge for Game #1, #3 (Planet TRPG), and #4 (Asymmetric Buddy Mystery)
+  // Shared Bridge for All 4 Co-op Games (#1, #2, #3, #4)
   window.EternalCompanion = {
     getCapsule: () => capsule,
     setCapsule: (newCap) => {
@@ -1426,6 +1618,8 @@
       return capsule;
     },
     isServerConnected: () => serverConnected,
+    hasClientApiKey: () => Boolean(getClientApiKey()),
+    callClientGeminiJson,
     getActiveGame: () => activeGame,
     switchGame,
     updateHUD,

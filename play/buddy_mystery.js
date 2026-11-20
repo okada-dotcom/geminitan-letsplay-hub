@@ -5,6 +5,7 @@
   if (!EC) return;
 
   const elCaseSelect = document.getElementById("mystery-case-select");
+  const btnGenerateCase = document.getElementById("btn-mystery-generate");
   const btnNewCase = document.getElementById("btn-mystery-new");
   const elSolvedBadge = document.getElementById("mystery-solved-badge");
   const elIntroText = document.getElementById("mystery-intro-text");
@@ -452,7 +453,19 @@
       { x: 610, y: 125, tag: "④" },
     ];
 
-    if (c.id === "case_clocktower") {
+    const style =
+      c.scene_style ||
+      (c.id === "case_clocktower"
+        ? "clock"
+        : c.id === "case_library"
+        ? "library"
+        : c.id === "case_cafe"
+        ? "cafe"
+        : c.id === "case_greenhouse"
+        ? "greenhouse"
+        : "monument");
+
+    if (style === "clock") {
       // Clock face
       ctx.strokeStyle = "#facc15";
       ctx.lineWidth = 3;
@@ -492,7 +505,7 @@
         ctx.lineTo(fx, 152);
         ctx.stroke();
       });
-    } else if (c.id === "case_library") {
+    } else if (style === "library") {
       // Open book + purple glow
       ctx.fillStyle = "#e2e8f0";
       ctx.fillRect(88, 86, 94, 58);
@@ -512,7 +525,7 @@
       // Bookmark
       ctx.fillStyle = "#facc15";
       ctx.fillRect(598, 92, 22, 56);
-    } else if (c.id === "case_cafe") {
+    } else if (style === "cafe") {
       // Cup + amber star
       ctx.strokeStyle = "#e2e8f0";
       ctx.lineWidth = 2.5;
@@ -536,7 +549,7 @@
         ctx.fillStyle = col;
         ctx.fillRect(574 + i * 22, 95, 16, 42);
       });
-    } else if (c.id === "case_greenhouse") {
+    } else if (style === "greenhouse") {
       // Silver bud
       ctx.fillStyle = "#e2e8f0";
       ctx.beginPath();
@@ -771,6 +784,22 @@
       } catch (_) {}
     }
 
+    if (!res && !EC.isServerConnected() && EC.hasClientApiKey()) {
+      const parsed = await EC.callClientGeminiJson(
+        `あなたは非対称探偵バディ「ジェミニたん」です。あなたには現場の視覚は見えず、次のAI専用ログだけが読めます：${JSON.stringify(c.aiOnlyLogs)}。事件=${c.title}。相棒の最新報告「${msg}」を受け取り、ログを引用して推論を進め、必要なら現場の確認質問を返すJSON {"reply":"2〜4文","hypothesis":"現在メモ1文","emotion":"smile"} のみ返してください。`,
+        0.45
+      );
+      if (parsed && parsed.reply) {
+        res = {
+          reply: String(parsed.reply).trim(),
+          hypothesis: String(parsed.hypothesis || "").trim() || "手掛かりが繋がり始めています…！",
+          emotion: parsed.emotion || "smile",
+        };
+        EC.grantBondExp(8);
+        EC.saveCapsuleLocal();
+      }
+    }
+
     if (!res) {
       res = offlineMysteryDiscuss(c, msg);
       EC.grantBondExp(6);
@@ -837,12 +866,109 @@
     }
   }
 
+  function rebuildCaseSelect() {
+    elCaseSelect.innerHTML = MYSTERY_CASES.map((c) => `<option value="${c.id}">${EC.escapeHtml(c.title)}</option>`).join("");
+  }
+
+  function offlineGenerateMystery() {
+    const num = MYSTERY_CASES.length + 1;
+    const caseObj = {
+      id: `case_gen_${Date.now()}`,
+      title: `生成事件${num}：星空音楽堂の消えない残響`,
+      public_intro: "星空音楽堂のパイプオルガンが夜更けにひとりでに美しい和音を奏で、客席の灯りがピンク色に輝いています。",
+      scene_style: "monument",
+      humanHotspots: [
+        { id: "hs1", label: "① 鍵盤の銀の羽根", detail: "ドとソの鍵の上に、小さなロボット鳥の銀色の羽根が1枚落ちています。", shareText: "オルガンの『ド』と『ソ』の上に銀色の羽根が落ちてたよ。", keywords: ["羽根", "ド", "ソ"] },
+        { id: "hs2", label: "② 天井ミラーの方角", detail: "天井の鏡が『第2星雲』ではなく『第4星雲』の方へ向いています。", shareText: "天井のミラーが第4星雲を向いてるみたい。", keywords: ["ミラー", "第4", "星雲"] },
+        { id: "hs3", label: "③ 客席4列目の手帳", detail: "調律師ミナの『音譜手帳・第4番：深夜の感謝演奏』が置かれています。", shareText: "客席に調律師ミナの『第4番』手帳があったよ。", keywords: ["手帳", "4番", "ミナ"] },
+        { id: "hs4", label: "④ 制御盤のランプ", detail: "スイッチは『No.2』で、『No.7（オートチューン停止）』が点滅中です。", shareText: "制御盤はNo.2で、No.7が点滅してるね。", keywords: ["No.2", "No.7", "制御"] },
+      ],
+      aiOnlyLogs: [
+        { code: "SND-01", title: "自動演奏ログ", detail: "調律師ミナの『銀翼小鳥ドローン』が第4星雲を祝って和音『ド＋ソ』を弾いた記録あり。" },
+        { code: "SYS-02", title: "オルガン停止仕様", detail: "夜間演奏を穏やかに閉じて休ませる正規手順は、制御盤『No.7』を押すこと。" },
+        { code: "DOC-03", title: "調律師の置き手紙", detail: "第4番はお祝いの音楽だから、壊さずNo.7で礼を返して閉じてね。" },
+        { code: "LIT-04", title: "星雲ライト対照", detail: "第2星雲＝昼公演 ／ 第4星雲＝真夜中のお祝いモード。" },
+      ],
+      culprit_options: [
+        "強風による窓からの誤動作",
+        "調律師ミナの銀翼小鳥ドローンによる祝福演奏",
+        "電力サージのショート",
+        "迷い猫が鍵盤を踏んだ",
+      ],
+      key_item_options: [
+        "制御盤のNo.2を最大にする",
+        "主電源ブレーカーを切る",
+        "制御盤のNo.7（オートチューン停止）を押して閉じる",
+        "ミラーを第2星雲に戻す",
+      ],
+      solution: {
+        culprit: "調律師ミナの銀翼小鳥ドローンによる祝福演奏",
+        keyItem: "制御盤のNo.7（オートチューン停止）を押して閉じる",
+        explanation: "銀の羽根と第4星雲の演出から『銀翼小鳥ドローン』のお祝い演奏だと分かりました！正規手順の『No.7』で優しく締めくくりましょう。",
+      },
+    };
+    return caseObj;
+  }
+
+  async function handleGenerateNewMystery() {
+    if (isBusy) return;
+    isBusy = true;
+    btnGenerateCase.disabled = true;
+    EC.setPartnerMood("normal", "……（新しい街や星から届いたミステリー事件を組み立てています！）");
+
+    let newCase = null;
+    if (EC.isServerConnected()) {
+      try {
+        const resp = await fetch("/api/mystery/generate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            past_titles: MYSTERY_CASES.map((c) => c.title),
+            theme_hint: "宇宙カフェ、時計塔、深海書庫、魔法温室、時計仕掛けの街など温かい非対称ミステリー",
+          }),
+        });
+        if (resp.ok) {
+          const data = await resp.json();
+          if (data.ok && data.case_data) {
+            newCase = data.case_data;
+            if (data.capsule) EC.setCapsule(data.capsule);
+          }
+        }
+      } catch (_) {}
+    }
+
+    if (!newCase && !EC.isServerConnected() && EC.hasClientApiKey()) {
+      const parsed = await EC.callClientGeminiJson(
+        `非対称探偵ミステリー事件を1つ生成してください。人間の観察4つ(humanHotspots:[{label,detail,shareText,keywords}])とAI専用ログ4つ(aiOnlyLogs:[{code,title,detail}])が揃って初めて1つの真相に絞れる論理パズルにしてください。JSON {"title":"生成事件：...","public_intro":"...","scene_style":"clock|library|cafe|greenhouse|monument","humanHotspots":[...],"aiOnlyLogs":[...],"culprit_options":["候補1","候補2","候補3","候補4"],"key_item_options":["鍵1","鍵2","鍵3","鍵4"],"solution":{"culprit":"culprit_optionsの1つと一致","keyItem":"key_item_optionsの1つと一致","explanation":"2文"}} のみ返すこと。`,
+        0.8
+      );
+      if (parsed && parsed.title && Array.isArray(parsed.humanHotspots) && parsed.humanHotspots.length >= 4 && parsed.solution?.culprit) {
+        parsed.id = `case_client_${Date.now()}`;
+        newCase = parsed;
+      }
+    }
+
+    if (!newCase) {
+      newCase = offlineGenerateMystery();
+    }
+
+    isBusy = false;
+    btnGenerateCase.disabled = false;
+    MYSTERY_CASES.push(newCase);
+    rebuildCaseSelect();
+    loadCase(MYSTERY_CASES.length - 1);
+    EC.playChord([523, 659, 880]);
+    EC.setPartnerMood("smile", `新作事件『${newCase.title}』が到着しました！私にも暗号ログが届いたばかりで、答えはまだ知りません。一緒に挑みましょう！`);
+  }
+
   // Populate case select dropdown
-  elCaseSelect.innerHTML = MYSTERY_CASES.map((c) => `<option value="${c.id}">${EC.escapeHtml(c.title)}</option>`).join("");
+  rebuildCaseSelect();
   elCaseSelect.addEventListener("change", () => {
     const idx = MYSTERY_CASES.findIndex((c) => c.id === elCaseSelect.value);
     if (idx !== -1) loadCase(idx);
   });
+
+  btnGenerateCase.addEventListener("click", handleGenerateNewMystery);
 
   btnNewCase.addEventListener("click", () => {
     const nextUnsolved = MYSTERY_CASES.findIndex((c, i) => i !== curCaseIdx && !solvedCaseIds.has(c.id));
